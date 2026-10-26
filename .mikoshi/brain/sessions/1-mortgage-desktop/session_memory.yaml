@@ -4,7 +4,7 @@ identity:
   flow_id: design-project-1
   head_id: orchestrator
   role: orchestrator
-revision: 2
+revision: 3
 task: Start Project 1 with Mikoshi Design.
 authority:
 - documents/1001/r1-human-request.md
@@ -20,6 +20,13 @@ findings:
   project artifacts. Bounded graph/body context was partial.
 - Syncer created personal public repository https://github.com/paulo-vitor-cs/ceseb;
   commit and push remain pending at this checkpoint.
+- Syncer verified first documentary commit 98f044aae37df7dffb304bdb62cac7ec96c3525c
+  against remote main, public personal ownership and default branch main.
+- Root independently read git ls-remote after the first-push report.
+- The first push contained exactly 15 documentary files; original image and derived
+  cache remained ignored.
+- No human answer to the discovery gate or proposed material choices has arrived at
+  this checkpoint.
 decisions:
 - Use a new local session 1-mortgage-desktop and repository name ceseb from the workspace.
 - All material choices in the discovery proposal remain open.
@@ -29,21 +36,25 @@ changes:
 - Preserved original image locally outside Git.
 - Registered repository-bootstrap syncer head with separate owner and memory.
 - Saved native check, retrieval, graph build and link-check evidence.
+- Repository created and first documentary cut published; source and discovery remain
+  drafts.
+- Completion records prepared for a separate evidence-only commit on the same authorized
+  cut.
 constraints:
 - Follow human phase gates from the explicitly invoked skill.
 - Do not implement or imply acceptance of future specs/plans.
 - No unrelated files existed at initial inventory.
 pending:
-- Receive and verify documentary commit/push evidence.
-- Receive human scope gate and material choices; do not proceed to phases2-4 before
-  applicable answer.
+- Syncer final native readback after completion-evidence commit.
+- Human scope/transition approval and material choices; no product work until the
+  applicable gate.
 continuation:
-  current_result: Discovery drafts structurally validated; public personal repository
-    created.
-  stopping_point: Phase1 human gate pending; repository bootstrap documentary push
-    in progress.
-  next_action: Receive syncer evidence; update checkpoint; return the concrete discovery
-    gate.
+  current_result: Public repository and initial discovery documentation delivered;
+    first push independently verified.
+  stopping_point: Phase1 discovery; concrete proposal1003 r1 awaits human gate. Specs,
+    requirements, plans and product are not authored yet.
+  next_action: Receive final syncer return, present proposal and scope/transition
+    question, then await human response.
 reading:
 - Original user request
 - Attached image Project 1 and shared lifecycle

@@ -4,7 +4,7 @@ identity:
   flow_id: design-project-1
   head_id: repository-bootstrap
   role: syncer
-revision: 1
+revision: 2
 task: Create public personal repository and publish the frozen initial documentary
   cut.
 authority:
@@ -18,6 +18,13 @@ findings:
 - Repository did not exist before this operation.
 - Initialized Git main and created public paulo-vitor-cs/ceseb with origin remote.
 - Project tools/workflow knowledge tags have no members; retrieval reports tag_unavailable.
+- First documentary commit 98f044aae37df7dffb304bdb62cac7ec96c3525c pushed successfully
+  to origin main.
+- git ls-remote confirmed the same exact SHA.
+- GitHub API confirmed personal User owner, PUBLIC visibility and default branch main
+  after push.
+- 15 approved paths only were staged and committed; image and graph cache excluded;
+  working tree clean immediately after push.
 decisions:
 - Use existing GitHub identity as repository-local author with account noreply; no
   global identity changed.
@@ -25,18 +32,19 @@ changes:
 - Initialized local Git main.
 - Configured repository-local Git author from personal GitHub metadata.
 - Created public remote repository and origin association.
+- Committed and pushed the first frozen documentary cut.
 constraints:
 - Initial documentary cut only.
 - No product edits, PR, merge, release, license or DVC setup.
 - Do not write root session_state.yaml or session_memory.yaml.
 - Ignored image and derived graph must remain outside Git.
 pending:
-- Await root explicit freeze before stage/commit/push.
-- Confirm exact remote main SHA after authorized push.
+- Await root FINALIZE_FREEZE before publishing completion evidence.
 continuation:
-  current_result: Public repository created; no commit or push yet.
-  stopping_point: Ready for documentary freeze.
-  next_action: Receive final go and named paths from root.
+  current_result: Initial documentary cut published and remotely verified.
+  stopping_point: Completion records prepared after first push.
+  next_action: Receive root final freeze, commit/push named completion files, verify
+    final HEAD.
 reading:
 - agents/syncer.md r8
 - skills/mikoshi-sync/SKILL.md r6
@@ -48,6 +56,9 @@ reading:
 - documents1002 r1
 - documents1003 r1
 - decision1004 r1
+- rule3976 r4
+- rule3977 r4
+- session card2523 r17
 native:
   provider: codex
   handle: /root/repository_bootstrap

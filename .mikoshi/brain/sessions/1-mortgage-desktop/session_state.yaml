@@ -1,5 +1,5 @@
 schema_version: 1
-revision: 3
+revision: 4
 record_format: logical-head-memory-v1
 session:
   id: 1
@@ -33,14 +33,14 @@ flows:
     memory_ref: session_memory.yaml
     owner: codex-root
     assignment_ref: documents/1001/r1-human-request.md
-    instance_state: active
+    instance_state: waiting_for_human
   - head_id: repository-bootstrap
     role: syncer
     task_ref: documents/1001/r1-human-request.md
     memory_ref: session_memory/design/repository-bootstrap.yaml
     owner: syncer-bootstrap
     assignment_ref: documents/1001/r1-human-request.md
-    instance_state: assigned
+    instance_state: finalizing_publication
 artifacts:
 - documents/1001/r1-human-request.md
 - documents/1002/r1-image-evidence.md
@@ -53,7 +53,11 @@ deliveries:
   owner: paulo-vitor-cs
   visibility: PUBLIC
   evidence_ref: evidence/repository-bootstrap.md
-  status: created; initial documentary commit/push pending
+  status: initial documentary cut pushed and remotely verified
+  commit: 98f044aae37df7dffb304bdb62cac7ec96c3525c
+  default_branch: main
+  evidence_finalization: Separate completion-evidence commit follows this checkpoint;
+    exact final HEAD is native Git evidence.
 decision_refs:
 - decisions/1004/r1-initial-project-choices.md
 gaps:
@@ -95,6 +99,6 @@ checkpoints:
     target_refs: []
     report_refs: []
     gaps: []
-next_action: Push and verify the authorized documentary cut; await human discovery
-  gate.
+next_action: Human reviews discovery1003 r1 and answers the scope/transition and material-choice
+  questions. No dependent phase has begun.
 extensions: []
