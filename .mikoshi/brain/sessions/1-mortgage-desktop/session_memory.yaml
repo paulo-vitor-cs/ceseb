@@ -1,0 +1,75 @@
+format: logical-head-memory-v1
+identity:
+  session_ref: /home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop
+  flow_id: design-project-1
+  head_id: orchestrator
+  role: orchestrator
+revision: 2
+task: Start Project 1 with Mikoshi Design.
+authority:
+- documents/1001/r1-human-request.md
+findings:
+- Workspace was empty and not a Git repository.
+- Image was read successfully through its WSL path.
+- Project 1 explicitly calls for C++, Google Test and GitHub.
+- gh api user observed personal account paulo-vitor-cs.
+- Installed mikoshi --version returned 3.0.0.
+- Four artifacts passed mikoshi check and explicit session validate returned ok.
+- Ten project-relative Markdown links exist.
+- Explicit graph build returned ok generation1; retry with the full session name retrieved
+  project artifacts. Bounded graph/body context was partial.
+- Syncer created personal public repository https://github.com/paulo-vitor-cs/ceseb;
+  commit and push remain pending at this checkpoint.
+decisions:
+- Use a new local session 1-mortgage-desktop and repository name ceseb from the workspace.
+- All material choices in the discovery proposal remain open.
+changes:
+- Created three draft source/discovery documents and an open decision.
+- Prepared README and Git ignore rules.
+- Preserved original image locally outside Git.
+- Registered repository-bootstrap syncer head with separate owner and memory.
+- Saved native check, retrieval, graph build and link-check evidence.
+constraints:
+- Follow human phase gates from the explicitly invoked skill.
+- Do not implement or imply acceptance of future specs/plans.
+- No unrelated files existed at initial inventory.
+pending:
+- Receive and verify documentary commit/push evidence.
+- Receive human scope gate and material choices; do not proceed to phases2-4 before
+  applicable answer.
+continuation:
+  current_result: Discovery drafts structurally validated; public personal repository
+    created.
+  stopping_point: Phase1 human gate pending; repository bootstrap documentary push
+    in progress.
+  next_action: Receive syncer evidence; update checkpoint; return the concrete discovery
+    gate.
+reading:
+- Original user request
+- Attached image Project 1 and shared lifecycle
+- mikoshi-design r12
+- mikoshi-memory-boot r13
+- mikoshi-design/references/phases.md
+- authority-and-revisions
+- controlled-metadata
+- review-boundaries
+- versioned-artifacts
+- logical-head-memory
+- session card 2523 r17
+- retrieval card 4191 r2
+- human transitions 2254 r7
+- implementation entry 2255 r9
+- Qt Widgets official documentation
+- Qt supported platforms official documentation
+- Google Test CMake quickstart
+- syncer agent r8
+- orchestrator agent r16
+- mikoshi-search r10
+- graph tool card4185 r2
+- session state/memory templates
+- repository-bootstrap initial report and memory
+native:
+  provider: codex
+  handle: null
+  native_id: null
+  instance_state: active

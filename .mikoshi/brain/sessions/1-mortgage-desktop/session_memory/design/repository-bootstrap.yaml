@@ -1,0 +1,55 @@
+format: logical-head-memory-v1
+identity:
+  session_ref: /home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop
+  flow_id: design-project-1
+  head_id: repository-bootstrap
+  role: syncer
+revision: 1
+task: Create public personal repository and publish the frozen initial documentary
+  cut.
+authority:
+- documents/1001/r1-human-request.md
+- Explicit root dispatch for repository-bootstrap
+findings:
+- Read original request, image extraction, discovery proposal and decision1004 r1.
+- Read syncer r8, mikoshi-sync r6, native operations, Git2570 r8 and GitHub2572 r8.
+- Git 2.53.0 and gh 2.94.0 observed in WSL.
+- Personal account paulo-vitor-cs User id121180559 confirmed.
+- Repository did not exist before this operation.
+- Initialized Git main and created public paulo-vitor-cs/ceseb with origin remote.
+- Project tools/workflow knowledge tags have no members; retrieval reports tag_unavailable.
+decisions:
+- Use existing GitHub identity as repository-local author with account noreply; no
+  global identity changed.
+changes:
+- Initialized local Git main.
+- Configured repository-local Git author from personal GitHub metadata.
+- Created public remote repository and origin association.
+constraints:
+- Initial documentary cut only.
+- No product edits, PR, merge, release, license or DVC setup.
+- Do not write root session_state.yaml or session_memory.yaml.
+- Ignored image and derived graph must remain outside Git.
+pending:
+- Await root explicit freeze before stage/commit/push.
+- Confirm exact remote main SHA after authorized push.
+continuation:
+  current_result: Public repository created; no commit or push yet.
+  stopping_point: Ready for documentary freeze.
+  next_action: Receive final go and named paths from root.
+reading:
+- agents/syncer.md r8
+- skills/mikoshi-sync/SKILL.md r6
+- skills/mikoshi-sync/references/native-operations.md
+- resources/brain/tools/2570/r8-git-tool.md
+- resources/brain/tools/2572/r8-gh-tool.md
+- skills/mikoshi-dispatch/references/delegated-context.md
+- documents1001 r1
+- documents1002 r1
+- documents1003 r1
+- decision1004 r1
+native:
+  provider: codex
+  handle: /root/repository_bootstrap
+  native_id: null
+  instance_state: active

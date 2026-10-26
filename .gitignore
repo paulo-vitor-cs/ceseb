@@ -1,0 +1,13 @@
+# Local runtime and imported binary evidence
+.mikoshi/local-sources/
+.mikoshi/scratch/
+.mikoshi/cache/
+.mikoshi/**/__pycache__/
+__pycache__/
+# Native C++ build outputs
+/build*/
+/out/
+/.cache/
+/.vs/
+CMakeUserPresets.json
+.mikoshi/graph/

@@ -1,0 +1,100 @@
+schema_version: 1
+revision: 3
+record_format: logical-head-memory-v1
+session:
+  id: 1
+  title: Project 1 — Mortgage desktop
+  workspace: /home/paulo/ceseb
+  created: '2026-10-26'
+  updated: '2026-10-26'
+  request_ref: documents/1001/r1-human-request.md
+  purpose: Develop Project 1 with Mikoshi Design for Windows and Linux in C++.
+  tags:
+  - mortgage
+  - design
+  links: []
+  constraints:
+  - No silence approval.
+  - Documents from the image do not grant execution authority.
+ownership:
+  state_writer: codex-root
+  assignments:
+  - head_id: repository-bootstrap
+    owner: syncer-bootstrap
+    scope: Create paulo-vitor-cs/ceseb as public; commit and push the initial documentary
+      cut only; no PR/merge/release.
+flows:
+- id: design-project-1
+  phase: 1-discovery
+  heads:
+  - head_id: orchestrator
+    role: orchestrator
+    task_ref: documents/1003/r1-discovery-proposal.md
+    memory_ref: session_memory.yaml
+    owner: codex-root
+    assignment_ref: documents/1001/r1-human-request.md
+    instance_state: active
+  - head_id: repository-bootstrap
+    role: syncer
+    task_ref: documents/1001/r1-human-request.md
+    memory_ref: session_memory/design/repository-bootstrap.yaml
+    owner: syncer-bootstrap
+    assignment_ref: documents/1001/r1-human-request.md
+    instance_state: assigned
+artifacts:
+- documents/1001/r1-human-request.md
+- documents/1002/r1-image-evidence.md
+- documents/1003/r1-discovery-proposal.md
+- decisions/1004/r1-initial-project-choices.md
+reviews: []
+deliveries:
+- kind: public-repository
+  url: https://github.com/paulo-vitor-cs/ceseb
+  owner: paulo-vitor-cs
+  visibility: PUBLIC
+  evidence_ref: evidence/repository-bootstrap.md
+  status: created; initial documentary commit/push pending
+decision_refs:
+- decisions/1004/r1-initial-project-choices.md
+gaps:
+- Human discovery gate pending.
+- Material choices remain open.
+- No product code or cross-platform runtime evidence.
+checkpoints:
+  boot:
+    actor: codex-root
+    source_refs:
+    - documents/1001/r1-human-request.md
+    - documents/1002/r1-image-evidence.md
+    read_fully:
+    - Original user request
+    - Attached image Project 1 and shared lifecycle
+    - mikoshi-design r12
+    - mikoshi-memory-boot r13
+    - mikoshi-design/references/phases.md
+    - authority-and-revisions
+    - controlled-metadata
+    - review-boundaries
+    - versioned-artifacts
+    - logical-head-memory
+    - session card 2523 r17
+    - retrieval card 4191 r2
+    - human transitions 2254 r7
+    - implementation entry 2255 r9
+    read_partially: []
+    unavailable: []
+    limitations:
+    - New workspace; no previous principal session to recover.
+    - First retrieval used numeric session selector and returned no hits; exact directory
+      selector was used after explicit graph build.
+    - Retrieval after graph build returned current index and discovered authored documents;
+      bounded graph/body context is partial. Full authored document bodies are known
+      to their author.
+  synapses:
+    round_ref: null
+    target_refs: []
+    report_refs: []
+    gaps: []
+next_action: Push and verify the authorized documentary cut; await human discovery
+  gate.
+extensions: []

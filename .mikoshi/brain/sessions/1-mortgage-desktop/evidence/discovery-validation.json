@@ -1,0 +1,148 @@
+[
+  {
+    "file": ".mikoshi/brain/sessions/1-mortgage-desktop/decisions/1004/r1-initial-project-choices.md",
+    "exit": 0,
+    "response": {
+      "command": "check",
+      "result": "ok",
+      "data": {
+        "files": [
+          {
+            "path": ".mikoshi/brain/sessions/1-mortgage-desktop/decisions/1004/r1-initial-project-choices.md",
+            "profile": "current",
+            "metadata": {
+              "id": 1004,
+              "revision": 1,
+              "type": "decision",
+              "tags": [
+                "mortgage",
+                "discovery"
+              ],
+              "status": "open",
+              "created": "2026-10-26",
+              "updated": "2026-10-26",
+              "description": "Registro atribuído das escolhas administrativas iniciais e das alternativas materiais ainda abertas na descoberta.",
+              "use_when": [
+                "Distinguir escolhas administrativas do orquestrador de decisões de design ainda dependentes do humano."
+              ]
+            }
+          }
+        ],
+        "profile": "current",
+        "references": []
+      },
+      "diagnostics": []
+    }
+  },
+  {
+    "file": ".mikoshi/brain/sessions/1-mortgage-desktop/documents/1001/r1-human-request.md",
+    "exit": 0,
+    "response": {
+      "command": "check",
+      "result": "ok",
+      "data": {
+        "files": [
+          {
+            "path": ".mikoshi/brain/sessions/1-mortgage-desktop/documents/1001/r1-human-request.md",
+            "profile": "current",
+            "metadata": {
+              "id": 1001,
+              "revision": 1,
+              "type": "document",
+              "tags": [
+                "mortgage",
+                "discovery"
+              ],
+              "status": "draft",
+              "created": "2026-10-26",
+              "updated": "2026-10-26",
+              "description": "Pedido original para desenvolver o Projeto 1 em C++ para Windows e Linux usando o fluxo Mikoshi Design.",
+              "use_when": [
+                "Recuperar o escopo e a autoridade original para o projeto de calculadora de financiamento."
+              ]
+            }
+          }
+        ],
+        "profile": "current",
+        "references": []
+      },
+      "diagnostics": []
+    }
+  },
+  {
+    "file": ".mikoshi/brain/sessions/1-mortgage-desktop/documents/1002/r1-image-evidence.md",
+    "exit": 0,
+    "response": {
+      "command": "check",
+      "result": "ok",
+      "data": {
+        "files": [
+          {
+            "path": ".mikoshi/brain/sessions/1-mortgage-desktop/documents/1002/r1-image-evidence.md",
+            "profile": "current",
+            "metadata": {
+              "id": 1002,
+              "revision": 1,
+              "type": "document",
+              "tags": [
+                "mortgage",
+                "discovery"
+              ],
+              "status": "draft",
+              "created": "2026-10-26",
+              "updated": "2026-10-26",
+              "description": "Extração atribuída do painel Project 1 da imagem fornecida, com hash do arquivo original e limites da leitura.",
+              "use_when": [
+                "Conferir tecnologias, entregáveis e exemplos que vieram da imagem do Projeto 1."
+              ]
+            }
+          }
+        ],
+        "profile": "current",
+        "references": []
+      },
+      "diagnostics": []
+    }
+  },
+  {
+    "file": ".mikoshi/brain/sessions/1-mortgage-desktop/documents/1003/r1-discovery-proposal.md",
+    "exit": 0,
+    "response": {
+      "command": "check",
+      "result": "ok",
+      "data": {
+        "files": [
+          {
+            "path": ".mikoshi/brain/sessions/1-mortgage-desktop/documents/1003/r1-discovery-proposal.md",
+            "profile": "current",
+            "metadata": {
+              "id": 1003,
+              "revision": 1,
+              "type": "document",
+              "tags": [
+                "mortgage",
+                "discovery"
+              ],
+              "status": "draft",
+              "created": "2026-10-26",
+              "updated": "2026-10-26",
+              "description": "Proposta concreta de escopo, atores, cenários, limites e escolhas abertas para o aplicativo de financiamento do Projeto 1.",
+              "use_when": [
+                "Revisar a descoberta antes de autorizar exploração, esclarecimentos e arquitetura da calculadora desktop."
+              ]
+            }
+          }
+        ],
+        "profile": "current",
+        "references": []
+      },
+      "diagnostics": []
+    }
+  },
+  {
+    "operation": "session validate",
+    "exit": 0,
+    "result": "ok",
+    "diagnostics": []
+  }
+]
