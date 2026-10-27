@@ -31,9 +31,20 @@ if(WIN32)
   set(CPACK_PACKAGE_FILE_NAME "ceseb-${PROJECT_VERSION}-windows-x86_64")
 else()
   qt_policy(SET QTP0007 NEW)
+  # Qt's INCLUDE_PLUGINS is additive. Exclude default module plugin categories
+  # so a text-only Widgets app deploys its XCB platform, not unrelated SDK modules.
+  file(GLOB _plugin_directories RELATIVE "${CESEB_QT_ROOT}/plugins" "${CESEB_QT_ROOT}/plugins/*")
+  set(_excluded_plugin_types "")
+  foreach(_type IN LISTS _plugin_directories)
+    if(IS_DIRECTORY "${CESEB_QT_ROOT}/plugins/${_type}")
+      list(APPEND _excluded_plugin_types "${_type}")
+    endif()
+  endforeach()
   qt_generate_deploy_app_script(TARGET ceseb OUTPUT_SCRIPT _deploy
-    NO_TRANSLATIONS NO_COMPILER_RUNTIME INCLUDE_PLUGINS Qt6::QXcbIntegrationPlugin
-    POST_EXCLUDE_REGEXES "^/lib/" "^/lib64/" "^/usr/lib/")
+    NO_TRANSLATIONS NO_COMPILER_RUNTIME INCLUDE_PLUGINS qxcb
+    EXCLUDE_PLUGIN_TYPES ${_excluded_plugin_types}
+    POST_INCLUDE_REGEXES "^${CESEB_QT_ROOT}/lib/"
+    POST_EXCLUDE_REGEXES ".*")
   install(SCRIPT "${_deploy}")
   install(FILES packaging/ceseb.desktop DESTINATION share/applications)
   set(CPACK_GENERATOR DEB)
