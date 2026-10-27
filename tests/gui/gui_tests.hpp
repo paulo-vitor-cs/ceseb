@@ -75,5 +75,9 @@ inline bool results_empty(MainWindow& w) {
     }
     return true;
 }
-inline void show(MainWindow& w) { w.show(); w.activateWindow(); QCoreApplication::processEvents(); }
+inline bool show(MainWindow& w) {
+    w.show();
+    w.activateWindow();
+    return QTest::qWaitForWindowActive(&w);
+}
 }

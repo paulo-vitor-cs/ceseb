@@ -4,7 +4,7 @@
 #include "gui_tests.hpp"
 using namespace ceseb;
 void GuiContractTests::req1212_rate_presentation() {
-    gui_fixture::MainWindow w; gui_fixture::show(w); gui_fixture::Form f(w); QVERIFY(f.valid());
+    gui_fixture::MainWindow w; QVERIFY2(gui_fixture::show(w),"Precondition: the window manager must activate the test window before focus assertions."); gui_fixture::Form f(w); QVERIFY(f.valid());
     struct Case { bool effective; const char* monthly; const char* nominal; const char* annual; };
     for (const auto& c:std::array<Case,2>{{{false,"1,000000","12,000000","12,682503"},{true,"0,948879","11,386552","12,000000"}}}) {
         QVERIFY(f.fill(QStringLiteral("1.000,00"),QStringLiteral("12"),c.effective,QStringLiteral("3"))); f.run();

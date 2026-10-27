@@ -24,7 +24,7 @@ void GuiContractTests::req1211_localized_input() {
     QVERIFY(std::holds_alternative<int>(term)); QCOMPARE(std::get<int>(term),360);
     for (const auto& bad:{QStringLiteral("0"),QStringLiteral("3,5"),QStringLiteral("+360"),QString{}})
         QVERIFY(std::holds_alternative<Error>(MoneyCodec::parse_term(bad)));
-    gui_fixture::MainWindow w; gui_fixture::show(w); gui_fixture::Form f(w); QVERIFY(f.valid());
+    gui_fixture::MainWindow w; QVERIFY2(gui_fixture::show(w),"Precondition: the window manager must activate the test window before focus assertions."); gui_fixture::Form f(w); QVERIFY(f.valid());
     QVERIFY(f.fill(QStringLiteral("1.000,00"),QStringLiteral("12"),false,QStringLiteral("3"))); f.run();
     QCOMPARE(gui_fixture::money_number(gui_fixture::label(w,"priceTotalValue")),QStringLiteral("1.020,07"));
     QVERIFY(f.fill(QStringLiteral("1.000,00"),QStringLiteral("12"),true,QStringLiteral("3"))); f.run();

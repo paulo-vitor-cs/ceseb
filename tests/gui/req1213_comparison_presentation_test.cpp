@@ -3,7 +3,7 @@
 
 #include "gui_tests.hpp"
 void GuiContractTests::req1213_comparison_presentation() {
-    gui_fixture::MainWindow w; gui_fixture::show(w); gui_fixture::Form f(w); QVERIFY(f.valid());
+    gui_fixture::MainWindow w; QVERIFY2(gui_fixture::show(w),"Precondition: the window manager must activate the test window before focus assertions."); gui_fixture::Form f(w); QVERIFY(f.valid());
     QVERIFY(f.fill(QStringLiteral("1.000,00"),QStringLiteral("12"),false,QStringLiteral("3"))); f.run();
     struct Field { const char* name; const char* expected; };
     for (const auto& x:std::array<Field,9>{{{"priceOrdinaryValue","340,02"},{"priceLastValue","340,03"},{"priceTotalValue","1.020,07"},{"priceInterestValue","20,07"},{"sacFirstValue","343,34"},{"sacLastValue","336,66"},{"sacTotalValue","1.020,00"},{"sacInterestValue","20,00"},{"interestDifferenceValue","0,07"}}})

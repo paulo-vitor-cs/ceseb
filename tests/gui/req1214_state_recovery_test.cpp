@@ -5,7 +5,7 @@
 #include <functional>
 using namespace ceseb;
 void GuiContractTests::req1214_state_recovery() {
-    gui_fixture::MainWindow w; gui_fixture::show(w); gui_fixture::Form f(w); QVERIFY(f.valid());
+    gui_fixture::MainWindow w; QVERIFY2(gui_fixture::show(w),"Precondition: the window manager must activate the test window before focus assertions."); gui_fixture::Form f(w); QVERIFY(f.valid());
     const auto valid=[&]() { return f.fill(QStringLiteral("1.000,00"),QStringLiteral("12"),false,QStringLiteral("3")); };
     const std::array<std::function<void()>,4> edits{{[&]{f.principal->setText(QStringLiteral("1001,00"));},[&]{f.rate->setText(QStringLiteral("11"));},[&]{f.term->setText(QStringLiteral("4"));},[&]{f.kind->setCurrentIndex(1);}}};
     for (const auto& edit:edits) {
@@ -30,7 +30,7 @@ void GuiContractTests::req1214_state_recovery() {
     QCOMPARE(f.kind->currentIndex(),0); QVERIFY(f.principal->hasFocus()); QVERIFY(gui_fixture::results_empty(w));
     w.close();
     gui_fixture::MainWindow fault([](const LoanInput&)->Result<Comparison>{return Error{ErrorCode::ArithmeticError};});
-    gui_fixture::show(fault); gui_fixture::Form ff(fault); QVERIFY(ff.valid());
+    QVERIFY2(gui_fixture::show(fault),"Precondition: the window manager must activate the error test window before focus assertions."); gui_fixture::Form ff(fault); QVERIFY(ff.valid());
     QVERIFY(ff.fill(QStringLiteral("1000,00"),QStringLiteral("12"),false,QStringLiteral("3"))); ff.run();
     QVERIFY(ff.calculate->hasFocus()); QVERIFY(gui_fixture::results_empty(fault));
     const auto arithmetic=gui_fixture::label(fault,"validationMessage");
