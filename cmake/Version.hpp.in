@@ -1,0 +1,7 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 paulo-vitor-cs
+#pragma once
+namespace ceseb::version {
+inline constexpr const char* number="@PROJECT_VERSION@";
+inline constexpr const char* revision="@CESEB_SOURCE_REVISION@";
+}
