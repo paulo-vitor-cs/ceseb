@@ -5,7 +5,8 @@
 No Windows, extraia o ZIP completo em uma pasta de sua escolha e abra
 `bin/ceseb.exe`. Conserve `plugins/`, `licenses/` e as DLLs junto do aplicativo.
 No Ubuntu 24.04, um DEB qualificado é instalado pelo gerenciador padrão e expõe
-o lançador CESEB; o executável fica em `/opt/ceseb/bin/ceseb`. A produção e a
+o lançador CESEB em `/usr/share/applications/ceseb.desktop`; seu destino é
+`/opt/ceseb/bin/ceseb`. O Qt privado permanece em `/opt/ceseb/lib`. A produção e a
 validação desses dois pacotes ainda dependem dos ambientes declarados. Não
 substitua instalações globais de Qt para executar o aplicativo.
 
@@ -60,3 +61,9 @@ uma coluna em largura menor e a rolagem vertical mantém o conteúdo acessível.
 **Sobre e modelo** abre ajuda local, versão e revisão de fonte. O link de
 licenças abre a pasta local do pacote. Não precisa de rede. Para substituir ou
 reconstruir o Qt, leia os avisos e fontes correspondentes em `licenses/`.
+
+Os documentos ficam em `docs/`; `LICENSE` e `THIRD_PARTY_NOTICES.md` também
+ficam na raiz do pacote, permitindo usar os links do índice. Os registros de
+execução histórica citados pelo relatório acompanham a árvore instalada nos
+locators ali indicados. São registros atribuídos aos snapshots históricos,
+sem transformar o pacote atual em uma execução retroativa desses testes.

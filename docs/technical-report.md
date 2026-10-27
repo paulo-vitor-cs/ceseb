@@ -2,7 +2,7 @@
 <!-- Copyright (c) 2026 paulo-vitor-cs -->
 # Modelo técnico e evidência
 
-CESEB 0.1.0 implementa as revisões aprovadas dos quatro contratos e 25 requisitos
+CESEB 0.1.0 materializa a implementação dos quatro contratos e 25 requisitos
 da sessão `1-mortgage-desktop`. Plano de implementação 2002 r1; plano de testes
 2001 r1; API e fixtures físicas 1030 r1. Essas fontes ficam sob
 `.mikoshi/brain/sessions/1-mortgage-desktop/`. Resultados de engenharia não
@@ -44,7 +44,56 @@ ordem de teclado e rolagem vertical. Não há QML, persistência, threads de
 trabalho, parsing de JSON/CBOR, rede ou conta. Sobre e modelo é recurso local.
 Ajuda, exclusões, taxa equivalente e ajustes finais estão visíveis ao usuário.
 
-## Estado observado
+## Registros entregues e identificação
+
+Este documento separa o histórico dos builds da revisão de fonte identificada
+no `installed-SHA256SUMS.txt` do pacote atual. Os resultados abaixo pertencem
+aos commits e ambientes expressos; não são reatribuídos ao novo binário.
+A seleção normativa atual usa spec 1014 r3 e requisito 1226 r2: WSL com display
+é aceito somente para a parte Linux de 1226. Os demais alvos de build,
+empacotamento, teclado e escala permanecem como especificados. Essa emenda
+não produz um resultado de teste nem herda os resultados de 1226 r1.
+
+A entrada documental externa `CESEB_DELIVERY_EVIDENCE_ROOT` contém exatamente
+os 21 registros abaixo, nos mesmos caminhos relativos à raiz do checkout.
+A receita de Packaging.cmake é uma allowlist literal. Um export de fontes Git
+compila sem esses registros, mas install/package precisa receber esse export
+documental separado, com a procedência e a revisão declaradas. No checkout
+original, a raiz pode ser o próprio checkout; em um export, conserve esses
+locators. Nenhum cache, memória de agente, transcrição ou Brain completo é
+necessário. O manifesto instalado cobre também as cópias documentais.
+
+Os dois reports completos são preservados como fontes históricas. Seus links
+contextuais para autoridades e materiais fora desta lista não fazem parte do
+bundle; os registros diretos de execução usados por este documento estão
+listados a seguir. Paths literais dentro de logs são os caminhos originais,
+não instruções para procurar arquivos no computador de quem lê o pacote.
+
+| Registro local entregue | Alvo e propósito |
+|---|---|
+|[Execução autoral 2021](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/execution.md)|Procedimento e resultados autorais, commits e comandos históricos|
+|[Comandos do núcleo](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-results.json)|Primeiro núcleo 1d87900; WSL|
+|[Configure core](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-1.log)|Registro de configuração|
+|[Build core](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-2.log)|Registro de compilação|
+|[CTest core](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-3.log)|21/21 históricos|
+|[Log offscreen autoral](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-offscreen.log)|26/26 em 6eb4c28|
+|[Comando offscreen autoral](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-offscreen.json)|Revisão, ambiente e exit|
+|[Log XCB autoral](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-xcb.log)|25/26 e falha de foco preservada|
+|[Comando XCB autoral](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-xcb.json)|Revisão, ambiente e exit|
+|[Revisão independente 2101](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev-review.md)|17 pass, 2 fail, 6 sem resultado em ce5|
+|[Matriz dos 25 requisitos](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/requirement-trace.json)|Rotas e resultados por critério no snapshot ce5|
+|[Comandos da revisão](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/execution.json)|Comandos, revisões, ambientes e exits|
+|[Auditoria de pacote](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/package-audit.json)|Manifestos, paths, dependências, F1/F2 ce5|
+|[Comandos de pacote](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/package-execution.json)|Install/CPack/extract/inspeções históricos|
+|[Log offscreen ce5](../out/review-wsl/ctest-offscreen.log)|26/26 independentes|
+|[JUnit offscreen ce5](../out/review-wsl/ctest-offscreen.xml)|Resultados por caso|
+|[Log XCB ce5](../out/review-wsl/ctest-xcb.log)|26/26 independentes|
+|[JUnit XCB ce5](../out/review-wsl/ctest-xcb.xml)|Resultados por caso|
+|[Isolamento do core ce5](../out/review-wsl/core-isolation.log)|21/21 com GUI OFF/Qt discovery desabilitada|
+|[Domínio detalhado ce5](../out/review-wsl/domain-details.log)|20/20 casos de domínio|
+|[XML de domínio ce5](../out/review-wsl/domain-details.xml)|Resultados por caso|
+
+## Estado histórico observado
 
 `build_source_commit` do primeiro núcleo testado:
 `1d87900e2d0ced86177e97b832ef1e92311f589c`.
@@ -126,18 +175,39 @@ provedor Computer Use/Sky falhou antes de executar JavaScript, com binding
 feita por esse provedor. A captura real usou X11/XGetImage no WSL como fallback,
 com método e ambiente explícitos.
 
-Windows 11/MSVC 2022 e Ubuntu 24.04/GCC 13 desktop não estão disponíveis no host
-observado. Não houve build Windows, smoke nativo desses alvos, instalação limpa
+No momento do relatório autoral histórico, Windows 11/MSVC 2022 e
+Ubuntu 24.04/GCC 13 desktop não estavam disponíveis para aquele procedimento. Não houve build Windows, smoke nativo desses alvos, instalação limpa
 de pacote, CI remoto, push, PR ou release. Nenhuma dessas lacunas é pass.
+
+O registro autoral completo das observações anteriores, inclusive comandos,
+recursos, obtenção de dependências, falhas ambientais e fonte correspondente,
+está em [2021](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/execution.md). Os nomes de assets literais acima
+são os locators históricos conservados nesse registro. Eles não são anunciados
+como todos incluídos neste bundle de 21 registros.
+
+A revisão posterior ce5db2e9d7489e0b6258b449358d620a0c390b1e executou 26/26
+offscreen, 26/26 XCB e 21/21 core-only em WSL Ubuntu 26.04/GCC 15.2; o helper
+de teste passou a esperar ativação de janela, preservando os asserts de foco.
+Os logs e JUnit acima pertencem a essa revisão posterior, não ao 25/26 original.
+O [parecer 2101](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev-review.md) atribuiu 17 requisitos pass,
+1225/1227 fail e seis sem resultado completo. F1 encontrou o launcher apenas
+em /opt/ceseb/share/applications; F2 encontrou os dois links de licença
+quebrados e evidências ausentes do pacote. Esses fatos permanecem históricos
+mesmo após a correção de composição. A nova árvore coloca a cópia de launcher
+em /usr/share/applications e entrega as licenças na raiz e os registros
+listados. A execução e o julgamento independente da correção ficam em reports
+posteriores; este documento não inventa resultados futuros nem o próprio hash.
 
 ## Rastreabilidade da implementação
 
-Todos os requisitos abaixo são r1. A tabela indica autoria e evidência, não
+Todos os requisitos da tabela histórica abaixo são r1; 1226 r2 é a seleção
+normativa posterior sem resultado herdado. A tabela indica autoria e evidência, não
 emite verdict de requisito. `E-core` designa os logs 21/21 acima; `E-gui` designa
 os resultados auxiliares offscreen 26/26 e XCB 25/26 atribuídos acima;
-`E-native` permanece indisponível. Os resultados e a revisão documental final
-estão no relatório separado `evidence/implementation-planning/execution.md`
-da sessão. Arquivos
+`E-native` permanece indisponível. Os resultados e a revisão documental autoral
+estão no [relatório completo 2021](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/execution.md).
+A [matriz independente ce5](../.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/requirement-trace.json)
+fornece cada rota de requisito aos planos/arquivos e o resultado observado. Arquivos
 auxiliares do build e licenças pertencem a I-1221/I-1228, não a requisitos de
 ferramenta inventados.
 

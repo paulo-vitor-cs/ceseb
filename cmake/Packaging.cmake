@@ -13,6 +13,46 @@ set_target_properties(ceseb PROPERTIES INSTALL_RPATH "$ORIGIN/../lib")
 install(TARGETS ceseb RUNTIME DESTINATION bin)
 install(FILES packaging/qt.conf DESTINATION bin)
 install(FILES LICENSE THIRD_PARTY_NOTICES.md DESTINATION licenses)
+# Keep the documentation index portable between the checkout and installation.
+install(FILES LICENSE THIRD_PARTY_NOTICES.md DESTINATION .)
+
+# Historical execution records are a separate, explicit distribution input.
+# A clean source checkout can build without them; install/package must receive
+# the exact exported records described by docs/technical-report.md.
+set(CESEB_DELIVERY_EVIDENCE_ROOT "" CACHE PATH "Export root of the documented historical execution records")
+set(_delivery_evidence
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/execution.md"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-results.json"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-1.log"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-2.log"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-core-3.log"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-offscreen.log"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-offscreen.json"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-xcb.log"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/implementation-planning/aux-gui-ctest-xcb.json"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev-review.md"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/requirement-trace.json"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/execution.json"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/package-audit.json"
+  ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r1/dev/package-execution.json"
+  "out/review-wsl/ctest-offscreen.log"
+  "out/review-wsl/ctest-offscreen.xml"
+  "out/review-wsl/ctest-xcb.log"
+  "out/review-wsl/ctest-xcb.xml"
+  "out/review-wsl/core-isolation.log"
+  "out/review-wsl/domain-details.log"
+  "out/review-wsl/domain-details.xml"
+)
+install(CODE "
+  if(NOT IS_DIRECTORY \"${CESEB_DELIVERY_EVIDENCE_ROOT}\")
+    message(FATAL_ERROR \"Delivery evidence unavailable. Set CESEB_DELIVERY_EVIDENCE_ROOT to the explicit historical-record export described in docs/technical-report.md. Build-only does not require this input.\")
+  endif()
+")
+foreach(_record IN LISTS _delivery_evidence)
+  get_filename_component(_record_directory "${_record}" DIRECTORY)
+  install(FILES "${CESEB_DELIVERY_EVIDENCE_ROOT}/${_record}" DESTINATION "${_record_directory}")
+endforeach()
+
 install(DIRECTORY docs/ DESTINATION docs)
 install(CODE "
   if(NOT EXISTS \"${CESEB_NOTICES_ROOT}/.complete\")
@@ -56,6 +96,9 @@ else()
     endforeach()
   ")
   install(FILES packaging/ceseb.desktop DESTINATION share/applications)
+  # DEB handles absolute destinations with DESTDIR; standard desktop discovery
+  # searches /usr/share/applications, while the private runtime stays in /opt.
+  install(FILES packaging/ceseb.desktop DESTINATION /usr/share/applications)
   set(CPACK_GENERATOR DEB)
   set(CPACK_PACKAGE_FILE_NAME "ceseb_${PROJECT_VERSION}_amd64")
   set(CPACK_PACKAGING_INSTALL_PREFIX /opt/ceseb)

@@ -57,14 +57,29 @@ substituir uso interativo no desktop. Para diagnóstico GCC, um build separado
 com `CESEB_ENABLE_COVERAGE=ON` aplica `--coverage`; não há limiar de cobertura
 inventado nem instrumentação no Release normal.
 
+Empacotamento exige o input documental externo `CESEB_DELIVERY_EVIDENCE_ROOT`,
+com os 21 registros históricos e locators listados no relatório técnico. Esse
+export não vem de `git archive`: forneça-o separadamente e conserve sua
+proveniência. No checkout original, a raiz pode ser o próprio checkout quando
+os registros estiverem presentes. Build sem instalação não exige esse input;
+install/package interrompe com diagnóstico se a raiz ou algum registro faltar.
+No Windows, passe `-DCESEB_DELIVERY_EVIDENCE_ROOT=C:/caminho/do/export` ao
+configure, antes de install/CPack.
+
 Empacotamento exige primeiro os textos e a fonte exata de Qt indicados pelo
 SBOM. Esse comando obtém o commit correspondente e não compila nem modifica Qt:
 
 ```sh
 cmake -DCESEB_DEPS_ROOT=build/dependencies -DCESEB_QT_ROOT=build/dependencies/Qt/6.12.0/gcc_64 -P cmake/ThirdPartyNotices.cmake
-cmake --install build/linux-release --prefix "$PWD/out/stage/linux"
+cmake -S . -B build/linux-release -DCESEB_DELIVERY_EVIDENCE_ROOT="$CESEB_DELIVERY_EVIDENCE_ROOT"
+DESTDIR="$PWD/out/stage/linux" cmake --install build/linux-release --prefix /opt/ceseb
 cpack --config build/linux-release/CPackConfig.cmake -G DEB -B out/packages
 ```
+
+No staging Linux, use sempre `DESTDIR`: o prefixo privado fica sob
+`out/stage/linux/opt/ceseb`, e o lançador absoluto fica sob
+`out/stage/linux/usr/share/applications`. `--prefix` sozinho não redireciona
+esse destino absoluto. Não execute install de teste sem DESTDIR.
 
 Saídas previstas: `out/packages/ceseb_0.1.0_amd64.deb` e
 `out/packages/ceseb-0.1.0-windows-x86_64.zip`, com SHA256 e manifesto de fonte e

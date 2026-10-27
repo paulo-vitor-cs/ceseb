@@ -16,3 +16,13 @@ Os alvos de entrega são Windows 11 x64/MSVC 2022 e Ubuntu 24.04 x64/GCC 13.
 O desenvolvimento local usa WSL Ubuntu 26.04/GCC 15; os resultados desse ambiente
 são auxiliares. Consulte o relatório técnico para distinguir testes executados,
 pacotes disponíveis e qualificações ainda pendentes. Não há release publicada.
+
+O DEB registra o lançador em `/usr/share/applications/ceseb.desktop` e mantém o
+runtime em `/opt/ceseb`. As duas licenças do índice estão também na raiz da
+árvore instalada; os materiais completos continuam em `licenses/`.
+
+O relatório inclui links locais para um subconjunto explícito de registros
+históricos, entregue com o pacote. Esses registros são um input documental
+separado: um checkout ou `git archive` compila sem eles, mas o empacotamento
+exige `CESEB_DELIVERY_EVIDENCE_ROOT` apontando ao export indicado no relatório.
+Sua presença no pacote não significa que foram publicados no GitHub.
