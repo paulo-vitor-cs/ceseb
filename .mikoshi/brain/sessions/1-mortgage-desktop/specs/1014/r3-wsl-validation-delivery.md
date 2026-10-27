@@ -7,7 +7,7 @@ tags:
 - build
 - delivery
 - cross-platform
-status: partial implemented
+status: implemented
 created: '2026-10-27'
 updated: 2026-10-27
 description: Contrato de entrega Qt 6.12.0 preservado, com WSL aceito como evidência

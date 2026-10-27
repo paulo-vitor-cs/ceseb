@@ -1,0 +1,212 @@
+{
+  "approved_bodies": 49,
+  "preserved": 49,
+  "rows": [
+    {
+      "path": "specs/1012/r2-amortization-comparison.md",
+      "same": true
+    },
+    {
+      "path": "specs/1008/r2-annual-rate-conversion.md",
+      "same": true
+    },
+    {
+      "path": "specs/1014/r2-reproducible-delivery.md",
+      "same": true
+    },
+    {
+      "path": "specs/1013/r2-widgets-interface.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1226/r1-native-smoke.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1205/r1-zero-and-single-period.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1213/r1-comparison-presentation.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1212/r1-rate-presentation.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1225/r1-runtime-packages.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1215/r1-keyboard-navigation.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1227/r1-technical-documentation.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1221/r1-build-contract.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1203/r1-sac-ledger.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1102/r1-nominal-monthly.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1204/r1-money-invariants.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1211/r1-localized-input.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1217/r1-model-help.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1228/r1-distribution-notices.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1207/r1-comparable-results.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1106/r1-unrounded-consumer-rate.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1214/r1-ui-state-recovery.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1206/r1-cent-precision-errors.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1103/r1-effective-monthly.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1101/r1-explicit-rate-kind.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1201/r1-loan-domain.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1105/r1-invalid-rate-input.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1202/r1-price-ledger.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1104/r1-annual-equivalents.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1216/r1-resize-access.md",
+      "same": true
+    },
+    {
+      "path": "plans/2001/r1-requirement-test-plan.md",
+      "same": true
+    },
+    {
+      "path": "plans/2002/r1-product-implementation-plan.md",
+      "same": true
+    },
+    {
+      "path": "tools/2305/r1-native-compilers.md",
+      "same": true
+    },
+    {
+      "path": "tools/2306/r2-qt-dependency-acquisition-and-deployment.md",
+      "same": true
+    },
+    {
+      "path": "tools/2304/r1-github-actions.md",
+      "same": true
+    },
+    {
+      "path": "tools/2301/r1-cmake-ctest-build.md",
+      "same": true
+    },
+    {
+      "path": "tools/2303/r1-qttest-runner.md",
+      "same": true
+    },
+    {
+      "path": "tools/2302/r1-googletest-runner.md",
+      "same": true
+    },
+    {
+      "path": "decisions/1025/r1-exact-rounding-method.md",
+      "same": true
+    },
+    {
+      "path": "decisions/1027/r1-research-design-integration.md",
+      "same": true
+    },
+    {
+      "path": "decisions/1026/r1-qt-baseline-choice.md",
+      "same": true
+    },
+    {
+      "path": "decisions/1007/r1-rate-design-basis.md",
+      "same": true
+    },
+    {
+      "path": "decisions/1032/r1-engineering-execution-arrangement.md",
+      "same": true
+    },
+    {
+      "path": "decisions/1011/r1-complete-design-basis.md",
+      "same": true
+    },
+    {
+      "path": "requirements/1226/r2-wsl-linux-and-windows-smoke.md",
+      "same": true
+    },
+    {
+      "path": "specs/1014/r3-wsl-validation-delivery.md",
+      "same": true
+    },
+    {
+      "path": "plans/2003/r1-distribution-corrections.md",
+      "same": true
+    },
+    {
+      "path": "plans/2004/r1-distribution-regression-and-validation.md",
+      "same": true
+    },
+    {
+      "path": "plans/2005/r1-f3-f4-regressions.md",
+      "same": true
+    },
+    {
+      "path": "plans/2006/r1-f3-f4-corrections.md",
+      "same": true
+    }
+  ],
+  "source_commit": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+  "changed_b5_to_product": [
+    "cmake/WindowsDeploy.cmake",
+    "src/ui/main_window.cpp",
+    "tests/CMakeLists.txt",
+    "tests/gui/gui_tests.hpp",
+    "tests/gui/req1216_inherited_palette_test.cpp",
+    "tests/system/check_windows_component_notices.cmake"
+  ],
+  "dirty_frozen_paths": []
+}

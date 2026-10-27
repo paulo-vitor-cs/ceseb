@@ -7,7 +7,7 @@ tags:
 - desktop-ui
 - level-system
 - verification-demonstration
-status: fail
+status: pass
 created: '2026-10-26'
 updated: 2026-10-27
 description: Manter controles, mensagens e resultados alcançáveis nas dimensões e escalas declaradas.

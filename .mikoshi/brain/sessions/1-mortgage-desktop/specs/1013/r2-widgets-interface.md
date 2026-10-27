@@ -6,7 +6,7 @@ tags:
 - mortgage
 - desktop-ui
 - qt-widgets
-status: partial implemented
+status: implemented
 created: '2026-10-26'
 updated: 2026-10-27
 description: Manter a janela Widgets e formatar inteiros percentuais half-up sem herdar desempate

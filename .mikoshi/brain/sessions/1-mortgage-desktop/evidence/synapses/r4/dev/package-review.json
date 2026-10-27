@@ -1,0 +1,24 @@
+{
+  "windows": {
+    "sha256": "f5071e93d3c99afd4b5fae395322897c8d074f928f66952366eb0b05ad762d20",
+    "files": 188,
+    "manifest_hashes": 187,
+    "all_license_tree_files": 132,
+    "old_materials_byte_identical": 132,
+    "historical_records_identical": 21,
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "links_exit": 0,
+    "components_exit": 0
+  },
+  "linux": {
+    "sha256": "8dd414362fc06456a7aadaf44acb5a80264514497433d0ba24f240d129628336",
+    "files": 184,
+    "manifest_hashes": 182,
+    "all_license_tree_files": 130,
+    "old_materials_byte_identical": 0,
+    "historical_records_identical": 21,
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "links_exit": 0,
+    "desktop_exit": 0
+  }
+}

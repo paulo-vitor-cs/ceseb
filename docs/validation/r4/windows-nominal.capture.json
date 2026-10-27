@@ -1,0 +1,23 @@
+{
+    "clientOrigin":  [
+                         28,
+                         51
+                     ],
+    "method":  "ActualVisibleClientScreenCopy",
+    "scale":  1,
+    "visibleRect":  [
+                        28,
+                        51,
+                        828,
+                        651
+                    ],
+    "dpi":  96,
+    "name":  "01-nominal-client-only",
+    "workingArea":  "{X=0,Y=0,Width=1920,Height=1032}",
+    "window":  19335192,
+    "clientSize":  [
+                       800,
+                       600
+                   ],
+    "timestamp":  "2026-10-27T12:10:24.8500080Z"
+}

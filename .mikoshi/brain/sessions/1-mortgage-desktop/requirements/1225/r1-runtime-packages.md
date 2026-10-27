@@ -7,7 +7,7 @@ tags:
 - delivery
 - level-system
 - verification-test
-status: fail
+status: pass
 created: '2026-10-26'
 updated: 2026-10-27
 description: Fornecer pacotes executáveis nas plataformas declaradas sem exigir ambiente de

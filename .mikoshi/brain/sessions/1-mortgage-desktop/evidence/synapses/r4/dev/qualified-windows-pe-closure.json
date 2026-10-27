@@ -1,0 +1,1793 @@
+{
+  "files": 22,
+  "rows": [
+    {
+      "path": "bin/vcruntime140_1.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/msvcp140.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/Qt6Core.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "MPR.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/MPR.dll"
+        },
+        {
+          "kind": "import",
+          "name": "USERENV.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/USERENV.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ADVAPI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ADVAPI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "AUTHZ.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/AUTHZ.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "NETAPI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/NETAPI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ntdll.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ntdll.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ole32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ole32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "SHELL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/SHELL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "USER32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/USER32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VERSION.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/VERSION.dll"
+        },
+        {
+          "kind": "import",
+          "name": "WINMM.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/WINMM.dll"
+        },
+        {
+          "kind": "import",
+          "name": "WS2_32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/WS2_32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "icuuc.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/icuuc.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140_1.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "OLEAUT32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/OLEAUT32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/Qt6Gui.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "d3d11.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/d3d11.dll"
+        },
+        {
+          "kind": "import",
+          "name": "dxgi.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/dxgi.dll"
+        },
+        {
+          "kind": "import",
+          "name": "d3d12.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/d3d12.dll"
+        },
+        {
+          "kind": "import",
+          "name": "GDI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/GDI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ole32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ole32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "SHELL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/SHELL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "USER32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/USER32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "UxTheme.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/UxTheme.dll"
+        },
+        {
+          "kind": "import",
+          "name": "DWrite.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/DWrite.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140_1.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140_2.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140_2.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    },
+    {
+      "path": "bin/msvcp140_1.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/msvcp140_2.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/Qt6Widgets.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "dwmapi.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/dwmapi.dll"
+        },
+        {
+          "kind": "import",
+          "name": "UxTheme.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/UxTheme.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "USER32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/USER32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "GDI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/GDI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140_1.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    },
+    {
+      "path": "bin/Qt6Network.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ADVAPI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ADVAPI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "DNSAPI.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/DNSAPI.dll"
+        },
+        {
+          "kind": "import",
+          "name": "IPHLPAPI.DLL",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/IPHLPAPI.DLL"
+        },
+        {
+          "kind": "import",
+          "name": "Secur32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/Secur32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "WINHTTP.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/WINHTTP.dll"
+        },
+        {
+          "kind": "import",
+          "name": "WS2_32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/WS2_32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140_1.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    },
+    {
+      "path": "bin/concrt140.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/msvcp140_atomic_wait.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "ADVAPI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ADVAPI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/msvcp140_codecvt_ids.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/vcruntime140.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "bin/ceseb.exe",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Widgets.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Widgets.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "SHELL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/SHELL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "plugins/imageformats/qgif.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "plugins/imageformats/qjpeg.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "plugins/imageformats/qico.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "plugins/generic/qtuiotouchplugin.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Network.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Network.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "plugins/tls/qcertonlybackend.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "Qt6Network.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Network.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        }
+      ]
+    },
+    {
+      "path": "plugins/tls/qschannelbackend.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "CRYPT32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/CRYPT32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Secur32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/Secur32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "bcrypt.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/bcrypt.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ncrypt.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ncrypt.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Network.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Network.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    },
+    {
+      "path": "plugins/styles/qmodernwindowsstyle.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "dwmapi.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/dwmapi.dll"
+        },
+        {
+          "kind": "import",
+          "name": "GDI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/GDI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "USER32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/USER32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "UxTheme.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/UxTheme.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Widgets.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Widgets.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    },
+    {
+      "path": "plugins/networkinformation/qnetworklistmanager.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "OLEAUT32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/OLEAUT32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Network.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Network.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ole32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ole32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    },
+    {
+      "path": "plugins/platforms/qwindows.dll",
+      "machine": "AMD64",
+      "debug_name": false,
+      "dependencies": [
+        {
+          "kind": "import",
+          "name": "ADVAPI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ADVAPI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "dwmapi.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/dwmapi.dll"
+        },
+        {
+          "kind": "import",
+          "name": "GDI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/GDI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "IMM32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/IMM32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "ole32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/ole32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "OLEAUT32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/OLEAUT32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "SETUPAPI.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/SETUPAPI.dll"
+        },
+        {
+          "kind": "import",
+          "name": "SHELL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/SHELL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "SHLWAPI.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/SHLWAPI.dll"
+        },
+        {
+          "kind": "import",
+          "name": "USER32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/USER32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "WINMM.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/WINMM.dll"
+        },
+        {
+          "kind": "import",
+          "name": "WTSAPI32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/WTSAPI32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-shcore-scaling-l1-1-1.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "COMDLG32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/COMDLG32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "d3d9.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/d3d9.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "mscms.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/mscms.dll"
+        },
+        {
+          "kind": "import",
+          "name": "UIAutomationCore.DLL",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/UIAutomationCore.DLL"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Gui.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Gui.dll"
+        },
+        {
+          "kind": "import",
+          "name": "Qt6Core.dll",
+          "resolution": "package",
+          "path": "bin/Qt6Core.dll"
+        },
+        {
+          "kind": "import",
+          "name": "KERNEL32.dll",
+          "resolution": "windows-system32",
+          "path": "/mnt/c/Windows/System32/KERNEL32.dll"
+        },
+        {
+          "kind": "import",
+          "name": "MSVCP140.dll",
+          "resolution": "package",
+          "path": "bin/msvcp140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140_1.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140_1.dll"
+        },
+        {
+          "kind": "import",
+          "name": "VCRUNTIME140.dll",
+          "resolution": "package",
+          "path": "bin/vcruntime140.dll"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        },
+        {
+          "kind": "import",
+          "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+          "resolution": "windows-api-set",
+          "path": "Windows API contract; loader mapping observed separately"
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "scope": "Import and delay-import names for all package PE files, resolved only within package or Windows System32/API-set contracts; not a clean-machine or dynamic-feature proof."
+}

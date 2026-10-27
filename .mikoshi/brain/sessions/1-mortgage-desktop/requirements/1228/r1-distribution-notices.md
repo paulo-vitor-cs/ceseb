@@ -7,7 +7,7 @@ tags:
 - delivery
 - level-system
 - verification-inspection
-status: fail
+status: pass
 created: '2026-10-26'
 updated: 2026-10-27
 description: Preservar as licenças e os avisos aplicáveis aos arquivos e componentes efetivamente
