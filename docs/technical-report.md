@@ -33,9 +33,9 @@ O livro de Price calcula juros mensais arredondados sobre o saldo anterior;
 a amortização é prestação menos juros, e a última quita saldo e juros. Se o
 saldo se extinguir antes, encerra a série e informa contagem efetiva. A parcela
 ordinária precisa exceder o primeiro juro em centavos, e o capital precisa
-permitir amortização positiva. SAC usa a amortização ordinária arredondada
-`C/n`, limitada ao saldo restante, juros sobre o saldo anterior e quitação no
-último mês. A função SAC isolada não depende da admissibilidade de Price;
+permitir amortização positiva. SAC usa o quociente inteiro `q = C/n` e resto
+`r = C%n`: as primeiras `r` amortizações recebem `q+1` centavos e as demais,
+`q`. Os juros incidem sobre o saldo anterior. A função SAC isolada não depende da admissibilidade de Price;
 `compare` exige ambos os livros válidos e retorna resultado atômico. Somas de
 amortização, pagamentos, juros e saldos são verificadas antes de retornar.
 
@@ -53,7 +53,7 @@ Ajuda, exclusões, taxa equivalente e ajustes finais estão visíveis ao usuári
 O `reviewed_result_commit` final é registrado no relatório separado de execução;
 este documento não inventa o hash do próprio commit.
 
-No WSL Ubuntu 26.04/GCC 15.2.0, CMake 3.28.6 e Ninja1.13.1, a rota core-first
+No WSL Ubuntu 26.04/GCC 15.2.0, CMake 3.28.6 e Ninja 1.13.1, a rota core-first
 com GUI desabilitada foi compilada antes de obter o SDK Qt. Os 20 casos de
 domínio e o inventário de suites passaram (21/21 CTest). Incluem taxa zero,
 nominal/efetiva, raiz racional/irracional, fronteiras de empate, rejeições,
@@ -70,7 +70,7 @@ evidência de ambiente, não falha de comportamento do aplicativo. Resultados
 subsequentes constam do relatório separado e serão incorporados abaixo quando
 observados.
 
-Windows 11/MSVC2022 e Ubuntu24.04/GCC13 desktop não estão disponíveis no host
+Windows 11/MSVC 2022 e Ubuntu 24.04/GCC 13 desktop não estão disponíveis no host
 observado. Não houve build Windows, smoke nativo desses alvos, instalação limpa
 de pacote, CI remoto, push, PR ou release. Nenhuma dessas lacunas é pass.
 

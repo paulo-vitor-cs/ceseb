@@ -1,5 +1,6 @@
 {
   "version": 6,
+  "vendor": {"ceseb.local/metadata/1.0": {"SPDX-License-Identifier": "MIT", "Copyright": "Copyright (c) 2026 paulo-vitor-cs"}},
   "configurePresets": [
     {"name":"core-only","generator":"Ninja","binaryDir":"${sourceDir}/build/core-only","cacheVariables":{"CMAKE_BUILD_TYPE":"Release","CESEB_BUILD_GUI":"OFF","CESEB_BUILD_TESTS":"ON"}},
     {"name":"linux-release","generator":"Ninja","binaryDir":"${sourceDir}/build/linux-release","cacheVariables":{"CMAKE_BUILD_TYPE":"Release","CMAKE_CXX_COMPILER":"g++-13","CESEB_BUILD_GUI":"ON","CESEB_BUILD_TESTS":"ON"}},

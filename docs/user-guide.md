@@ -33,8 +33,8 @@ usa o valor integral e não esses números arredondados da tela.
 Price calcula uma parcela ordinária e ajusta a última prestação para quitar o
 saldo em centavos. Pode haver quitação antes do prazo informado por efeitos
 do arredondamento; o aviso e a contagem de pagamentos mostram isso. SAC divide
-a amortização do principal pelos meses; as prestações normalmente decrescem,
-com acerto de centavos no último pagamento. A comparação apresenta a primeira
+a amortização do principal pelos meses em centavos inteiros; o resto acrescenta
+um centavo às primeiras amortizações. As prestações não aumentam. A comparação apresenta a primeira
 ou ordinária, a última, a contagem efetiva, total pago e juros de cada sistema.
 A diferença de juros é **Price menos SAC**, inclusive quando for negativa.
 
