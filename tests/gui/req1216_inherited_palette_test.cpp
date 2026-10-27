@@ -43,7 +43,9 @@ qsizetype changedPixels(const QImage& a,const QImage& b) {
 }
 void GuiContractTests::req1216_inherited_palette() {
     ApplicationAppearance restore;
-    QVERIFY(QApplication::setStyle(QStyleFactory::create(QStringLiteral("Fusion"))));
+    auto* fusion=QStyleFactory::create(QStringLiteral("Fusion"));
+    QVERIFY2(fusion,"Precondition: Fusion style available");
+    QApplication::setStyle(fusion);
     QStringList failures;
     QString output=qEnvironmentVariable("CESEB_PIXEL_EVIDENCE_DIR");
     if (output.isEmpty()) output=QDir::currentPath()+QStringLiteral("/palette-evidence");
