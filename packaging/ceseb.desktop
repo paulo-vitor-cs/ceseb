@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 paulo-vitor-cs
+[Desktop Entry]
+Type=Application
+Name=CESEB
+Comment=Compare financiamentos Price e SAC
+Exec=/opt/ceseb/bin/ceseb
+Terminal=false
+Categories=Office;Finance;
+StartupNotify=true
