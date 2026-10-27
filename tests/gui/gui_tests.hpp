@@ -23,6 +23,7 @@ private slots:
     void req1212_rate_presentation();
     void req1213_comparison_presentation();
     void req1214_state_recovery();
+    void req1216_inherited_palette();
 };
 namespace gui_fixture {
 using ceseb::ui::MainWindow;

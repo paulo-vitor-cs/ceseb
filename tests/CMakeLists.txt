@@ -73,12 +73,13 @@ if(CESEB_BUILD_GUI)
     gui/req1211_localized_input_test.cpp
     gui/req1212_rate_presentation_test.cpp
     gui/req1213_comparison_presentation_test.cpp
-    gui/req1214_state_recovery_test.cpp)
+    gui/req1214_state_recovery_test.cpp
+    gui/req1216_inherited_palette_test.cpp)
   set_target_properties(ceseb_gui_tests PROPERTIES AUTOMOC ON RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
   target_include_directories(ceseb_gui_tests PRIVATE "${CESEB_SOURCE_ROOT}/src")
   target_link_libraries(ceseb_gui_tests PRIVATE ceseb_ui ceseb_core Qt6::Test Qt6::Widgets)
   target_compile_features(ceseb_gui_tests PRIVATE cxx_std_20)
-  foreach(slot req1211_localized_input req1212_rate_presentation req1213_comparison_presentation req1214_state_recovery)
+  foreach(slot req1211_localized_input req1212_rate_presentation req1213_comparison_presentation req1214_state_recovery req1216_inherited_palette)
     add_test(NAME "${slot}" COMMAND ceseb_gui_tests "${slot}")
     set_tests_properties("${slot}" PROPERTIES LABELS "gui" RUN_SERIAL TRUE)
   endforeach()
@@ -88,7 +89,7 @@ execute_process(COMMAND "@CESEB_TEST_EXECUTABLE@" -functions RESULT_VARIABLE cod
 if(NOT code STREQUAL "0")
   message(FATAL_ERROR "GUI inventory unavailable: ${code}: ${error}")
 endif()
-foreach(slot req1211_localized_input req1212_rate_presentation req1213_comparison_presentation req1214_state_recovery)
+foreach(slot req1211_localized_input req1212_rate_presentation req1213_comparison_presentation req1214_state_recovery req1216_inherited_palette)
   string(FIND "${listed}" "${slot}()" position)
   if(position LESS 0)
     message(FATAL_ERROR "Empty/missing required GUI slot ${slot}: ${listed}")
