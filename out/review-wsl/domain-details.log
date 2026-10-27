@@ -1,0 +1,108 @@
+Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 20 tests from 13 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from Req1101
+[ RUN      ] Req1101.ExplicitKindsHaveDifferentMonthlyMeaning
+[       OK ] Req1101.ExplicitKindsHaveDifferentMonthlyMeaning (0 ms)
+[ RUN      ] Req1101.MissingAndUnknownKindsAreRejected
+[       OK ] Req1101.MissingAndUnknownKindsAreRejected (0 ms)
+[----------] 2 tests from Req1101 (0 ms total)
+
+[----------] 1 test from Req1102
+[ RUN      ] Req1102.ProportionalFractionAndExactOrigin
+[       OK ] Req1102.ProportionalFractionAndExactOrigin (0 ms)
+[----------] 1 test from Req1102 (0 ms total)
+
+[----------] 2 tests from Req1103
+[ RUN      ] Req1103.CompoundRootMatchesIndependentConstants
+[       OK ] Req1103.CompoundRootMatchesIndependentConstants (0 ms)
+[ RUN      ] Req1103.SmallTypedInputPreservesPositiveExactOrigin
+[       OK ] Req1103.SmallTypedInputPreservesPositiveExactOrigin (0 ms)
+[----------] 2 tests from Req1103 (1 ms total)
+
+[----------] 1 test from Req1104
+[ RUN      ] Req1104.AnnualPercentagePointsAndDerivedCeiling
+[       OK ] Req1104.AnnualPercentagePointsAndDerivedCeiling (0 ms)
+[----------] 1 test from Req1104 (0 ms total)
+
+[----------] 1 test from Req1105
+[ RUN      ] Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries
+[       OK ] Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries (0 ms)
+[----------] 1 test from Req1105 (0 ms total)
+
+[----------] 1 test from Req1106
+[ RUN      ] Req1106.PresentationDoesNotReplaceExactDescriptor
+[       OK ] Req1106.PresentationDoesNotReplaceExactDescriptor (0 ms)
+[----------] 1 test from Req1106 (0 ms total)
+
+[----------] 2 tests from Req1201
+[ RUN      ] Req1201.InclusivePrincipalAndTermLimits
+[       OK ] Req1201.InclusivePrincipalAndTermLimits (0 ms)
+[ RUN      ] Req1201.PrincipalThenRateThenTermThenCentAdmissibility
+[       OK ] Req1201.PrincipalThenRateThenTermThenCentAdmissibility (0 ms)
+[----------] 2 tests from Req1201 (0 ms total)
+
+[----------] 3 tests from Req1202
+[ RUN      ] Req1202.NormativePriceRowsAndEarlyPayoff
+[       OK ] Req1202.NormativePriceRowsAndEarlyPayoff (0 ms)
+[ RUN      ] Req1202.EffectiveIrrationalPriceAndRecordedDuration
+[       OK ] Req1202.EffectiveIrrationalPriceAndRecordedDuration (13 ms)
+[ RUN      ] Req1202.NormativeTwelvePeriodPrice
+[       OK ] Req1202.NormativeTwelvePeriodPrice (0 ms)
+[----------] 3 tests from Req1202 (14 ms total)
+
+[----------] 2 tests from Req1203
+[ RUN      ] Req1203.NormativeSacRemainderAndTieNeighbors
+[       OK ] Req1203.NormativeSacRemainderAndTieNeighbors (0 ms)
+[ RUN      ] Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments
+[       OK ] Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments (61 ms)
+[----------] 2 tests from Req1203 (61 ms total)
+
+[----------] 1 test from Req1204
+[ RUN      ] Req1204.NormativeAndBoundaryBooksConserveMoney
+[       OK ] Req1204.NormativeAndBoundaryBooksConserveMoney (205 ms)
+[----------] 1 test from Req1204 (205 ms total)
+
+[----------] 2 tests from Req1205
+[ RUN      ] Req1205.ZeroAndOnePeriodExactHalfUp
+[       OK ] Req1205.ZeroAndOnePeriodExactHalfUp (0 ms)
+[ RUN      ] Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot
+[       OK ] Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot (0 ms)
+[----------] 2 tests from Req1205 (0 ms total)
+
+[----------] 1 test from Req1206
+[ RUN      ] Req1206.BothDistinctCentPrecisionRefusalsAreAtomic
+[       OK ] Req1206.BothDistinctCentPrecisionRefusalsAreAtomic (0 ms)
+[----------] 1 test from Req1206 (0 ms total)
+
+[----------] 1 test from Req1207
+[ RUN      ] Req1207.SameOriginEquivalentRatesAndSignedDifference
+[       OK ] Req1207.SameOriginEquivalentRatesAndSignedDifference (0 ms)
+[----------] 1 test from Req1207 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 13 test suites ran. (285 ms total)
+[  PASSED  ] 20 tests.
+	Command being timed: "build/review-wsl/gui/bin/ceseb_domain_tests --gtest_output=xml:/home/paulo/ceseb/out/review-wsl/domain-details.xml"
+	User time (seconds): 0.28
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 253
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

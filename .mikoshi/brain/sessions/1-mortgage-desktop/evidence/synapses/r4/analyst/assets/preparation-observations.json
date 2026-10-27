@@ -1,0 +1,4 @@
+{
+  "initial_preflight": "Date-valued YAML updated metadata could not be serialized to JSON; failure before status loop and before any target mutation.",
+  "recovery": "Operational evidence serialization adds default=str. Native status predicates and all declarations unchanged."
+}

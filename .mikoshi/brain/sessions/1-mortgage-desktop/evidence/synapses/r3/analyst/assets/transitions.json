@@ -1,0 +1,532 @@
+[
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1217/r1-model-help.md",
+      "id": 1217,
+      "revision": 1
+    },
+    "command": [
+      "mikoshi",
+      "status",
+      "set",
+      "--root",
+      "/home/paulo/ceseb",
+      "--target",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1217/r1-model-help.md",
+      "--to",
+      "pass",
+      "--evidence",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+      "--json"
+    ],
+    "exit": 0,
+    "response": {
+      "command": "status",
+      "result": "ok",
+      "data": {
+        "report": ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+        "artifact": {
+          "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1217/r1-model-help.md",
+          "id": 1217,
+          "revision": 1
+        },
+        "result": "pass",
+        "applicability": "explicit_target",
+        "implementation": {
+          "root": "/home/paulo/ceseb",
+          "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+        },
+        "implementation_scope": [
+          "resources/application.qrc",
+          "resources/model-help.html",
+          "src/ui/main_window.cpp",
+          "src/ui/main_window.hpp"
+        ]
+      },
+      "diagnostics": []
+    },
+    "before": "published",
+    "after": "pass",
+    "body_identical": true,
+    "non_status_updated_metadata_identical": true
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1221/r1-build-contract.md",
+      "id": 1221,
+      "revision": 1
+    },
+    "command": [
+      "mikoshi",
+      "status",
+      "set",
+      "--root",
+      "/home/paulo/ceseb",
+      "--target",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1221/r1-build-contract.md",
+      "--to",
+      "pass",
+      "--evidence",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+      "--json"
+    ],
+    "exit": 0,
+    "response": {
+      "command": "status",
+      "result": "ok",
+      "data": {
+        "report": ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+        "artifact": {
+          "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1221/r1-build-contract.md",
+          "id": 1221,
+          "revision": 1
+        },
+        "result": "pass",
+        "applicability": "explicit_target",
+        "implementation": {
+          "root": "/home/paulo/ceseb",
+          "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+        },
+        "implementation_scope": [
+          ".github/workflows/ci.yml",
+          "CMakeLists.txt",
+          "CMakePresets.json",
+          "cmake/AcquireDependencies.cmake",
+          "cmake/Dependencies.cmake",
+          "cmake/Version.hpp.in",
+          "cmake/dependencies.lock.json",
+          "tests/CMakeLists.txt",
+          "tests/system/check_core_independence.cmake"
+        ]
+      },
+      "diagnostics": []
+    },
+    "before": "published",
+    "after": "pass",
+    "body_identical": true,
+    "non_status_updated_metadata_identical": true
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1225/r1-runtime-packages.md",
+      "id": 1225,
+      "revision": 1
+    },
+    "command": [
+      "mikoshi",
+      "status",
+      "set",
+      "--root",
+      "/home/paulo/ceseb",
+      "--target",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1225/r1-runtime-packages.md",
+      "--to",
+      "fail",
+      "--evidence",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+      "--json"
+    ],
+    "exit": 0,
+    "response": {
+      "command": "status",
+      "result": "ok",
+      "data": {
+        "report": ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+        "artifact": {
+          "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1225/r1-runtime-packages.md",
+          "id": 1225,
+          "revision": 1
+        },
+        "result": "fail",
+        "applicability": "explicit_target",
+        "implementation": {
+          "root": "/home/paulo/ceseb",
+          "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+        },
+        "implementation_scope": [
+          "CMakeLists.txt",
+          "cmake/Packaging.cmake",
+          "cmake/WindowsDeploy.cmake",
+          "docs/user-guide.md",
+          "packaging/ceseb.desktop",
+          "packaging/qt.conf",
+          "tests/system/check_deb_desktop.cmake"
+        ]
+      },
+      "diagnostics": []
+    },
+    "before": "fail",
+    "after": "fail",
+    "body_identical": true,
+    "non_status_updated_metadata_identical": true
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1013/r2-widgets-interface.md",
+      "id": 1013,
+      "revision": 2
+    },
+    "command": [
+      "mikoshi",
+      "status",
+      "set",
+      "--root",
+      "/home/paulo/ceseb",
+      "--target",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1013/r2-widgets-interface.md",
+      "--to",
+      "partial implemented",
+      "--evidence",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+      "--json"
+    ],
+    "exit": 0,
+    "response": {
+      "command": "status",
+      "result": "ok",
+      "data": {
+        "report": ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+        "artifact": {
+          "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1013/r2-widgets-interface.md",
+          "id": 1013,
+          "revision": 2
+        },
+        "result": "partial implemented",
+        "applicability": "explicit_target",
+        "implementation": {
+          "root": "/home/paulo/ceseb",
+          "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+        },
+        "applicability_set": {
+          "mode": "engineering",
+          "declared_by": "dev",
+          "requirements": [
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1211/r1-localized-input.md",
+              "id": 1211,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1212/r1-rate-presentation.md",
+              "id": 1212,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1213/r1-comparison-presentation.md",
+              "id": 1213,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1214/r1-ui-state-recovery.md",
+              "id": 1214,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1215/r1-keyboard-navigation.md",
+              "id": 1215,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1216/r1-resize-access.md",
+              "id": 1216,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1217/r1-model-help.md",
+              "id": 1217,
+              "revision": 1
+            }
+          ]
+        },
+        "results": [
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1211/r1-localized-input.md",
+              "id": 1211,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "test",
+            "evidence": "../r2/dev-review.md#req-1211"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1212/r1-rate-presentation.md",
+              "id": 1212,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "test",
+            "evidence": "../r2/dev-review.md#req-1212"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1213/r1-comparison-presentation.md",
+              "id": 1213,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "test",
+            "evidence": "../r2/dev-review.md#req-1213"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1214/r1-ui-state-recovery.md",
+              "id": 1214,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "test",
+            "evidence": "../r2/dev-review.md#req-1214"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1217/r1-model-help.md",
+              "id": 1217,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "inspection",
+            "evidence": "#req-1217"
+          }
+        ],
+        "unjudged": [
+          {
+            "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1215/r1-keyboard-navigation.md",
+            "id": 1215,
+            "revision": 1
+          },
+          {
+            "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1216/r1-resize-access.md",
+            "id": 1216,
+            "revision": 1
+          }
+        ],
+        "implementation_scope": [
+          "include/ceseb/finance.hpp",
+          "resources/application.qrc",
+          "resources/model-help.html",
+          "src/app/main.cpp",
+          "src/core/exact_math.cpp",
+          "src/core/exact_math.hpp",
+          "src/core/finance.cpp",
+          "src/ui/main_window.cpp",
+          "src/ui/main_window.hpp",
+          "src/ui/money_codec.cpp",
+          "src/ui/money_codec.hpp",
+          "src/ui/simulation_controller.cpp",
+          "src/ui/simulation_controller.hpp",
+          "tests/gui/gui_test_main.cpp",
+          "tests/gui/gui_tests.hpp",
+          "tests/gui/req1211_localized_input_test.cpp",
+          "tests/gui/req1212_rate_presentation_test.cpp",
+          "tests/gui/req1213_comparison_presentation_test.cpp",
+          "tests/gui/req1214_state_recovery_test.cpp"
+        ]
+      },
+      "diagnostics": []
+    },
+    "before": "partial implemented",
+    "after": "partial implemented",
+    "body_identical": true,
+    "non_status_updated_metadata_identical": true
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1014/r3-wsl-validation-delivery.md",
+      "id": 1014,
+      "revision": 3
+    },
+    "command": [
+      "mikoshi",
+      "status",
+      "set",
+      "--root",
+      "/home/paulo/ceseb",
+      "--target",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1014/r3-wsl-validation-delivery.md",
+      "--to",
+      "partial implemented",
+      "--evidence",
+      "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+      "--json"
+    ],
+    "exit": 0,
+    "response": {
+      "command": "status",
+      "result": "ok",
+      "data": {
+        "report": ".mikoshi/brain/sessions/1-mortgage-desktop/evidence/synapses/r3/dev-review.md",
+        "artifact": {
+          "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1014/r3-wsl-validation-delivery.md",
+          "id": 1014,
+          "revision": 3
+        },
+        "result": "partial implemented",
+        "applicability": "explicit_target",
+        "implementation": {
+          "root": "/home/paulo/ceseb",
+          "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+        },
+        "applicability_set": {
+          "mode": "engineering",
+          "declared_by": "dev",
+          "requirements": [
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1221/r1-build-contract.md",
+              "id": 1221,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1225/r1-runtime-packages.md",
+              "id": 1225,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1226/r2-wsl-linux-and-windows-smoke.md",
+              "id": 1226,
+              "revision": 2
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1227/r1-technical-documentation.md",
+              "id": 1227,
+              "revision": 1
+            },
+            {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1228/r1-distribution-notices.md",
+              "id": 1228,
+              "revision": 1
+            }
+          ]
+        },
+        "results": [
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1221/r1-build-contract.md",
+              "id": 1221,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "test",
+            "evidence": "#req-1221"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1225/r1-runtime-packages.md",
+              "id": 1225,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "fail",
+            "method": "inspection",
+            "evidence": "#req-1225"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1227/r1-technical-documentation.md",
+              "id": 1227,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "pass",
+            "method": "inspection",
+            "evidence": "../r2/dev-review.md#req-1227"
+          },
+          {
+            "requirement": {
+              "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1228/r1-distribution-notices.md",
+              "id": 1228,
+              "revision": 1
+            },
+            "implementation": {
+              "root": "/home/paulo/ceseb",
+              "commit": "57ef26901d4381ead16c7347483d588ad9d92efe"
+            },
+            "result": "fail",
+            "method": "inspection",
+            "evidence": "../r2/dev-review.md#req-1228"
+          }
+        ],
+        "unjudged": [
+          {
+            "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1226/r2-wsl-linux-and-windows-smoke.md",
+            "id": 1226,
+            "revision": 2
+          }
+        ],
+        "implementation_scope": [
+          ".github/workflows/ci.yml",
+          "CMakeLists.txt",
+          "CMakePresets.json",
+          "LICENSE",
+          "THIRD_PARTY_NOTICES.md",
+          "cmake/AcquireDependencies.cmake",
+          "cmake/Dependencies.cmake",
+          "cmake/Packaging.cmake",
+          "cmake/ThirdPartyNotices.cmake",
+          "cmake/Version.hpp.in",
+          "cmake/WindowsDeploy.cmake",
+          "cmake/dependencies.lock.json",
+          "docs/README.md",
+          "docs/build-and-test.md",
+          "docs/technical-report.md",
+          "docs/user-guide.md",
+          "include/ceseb/finance.hpp",
+          "packaging/ceseb.desktop",
+          "packaging/qt.conf",
+          "resources/application.qrc",
+          "resources/model-help.html",
+          "src/app/main.cpp",
+          "src/core/exact_math.cpp",
+          "src/core/exact_math.hpp",
+          "src/core/finance.cpp",
+          "src/ui/main_window.cpp",
+          "src/ui/main_window.hpp",
+          "src/ui/money_codec.cpp",
+          "src/ui/money_codec.hpp",
+          "src/ui/simulation_controller.cpp",
+          "src/ui/simulation_controller.hpp",
+          "tests/CMakeLists.txt",
+          "tests/system/check_core_independence.cmake",
+          "tests/system/check_deb_desktop.cmake",
+          "tests/system/check_distribution_links.cmake"
+        ]
+      },
+      "diagnostics": []
+    },
+    "before": "partial implemented",
+    "after": "partial implemented",
+    "body_identical": true,
+    "non_status_updated_metadata_identical": true
+  }
+]

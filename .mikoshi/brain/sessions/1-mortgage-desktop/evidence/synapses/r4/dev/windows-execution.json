@@ -1,0 +1,65 @@
+[
+  {
+    "name": "windows-configure",
+    "command": "cmake -S C:/Users/paulo/AppData/Local/CESEB/r4/review/source -B C:/Users/paulo/AppData/Local/CESEB/r4/review/build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=cl -DCESEB_SOURCE_REVISION=3f4dc69ec84230b4035572fc62af3d13db451d2a -DCESEB_BUILD_GUI=ON -DCESEB_BUILD_TESTS=ON -DCESEB_BOOST_ROOT=C:/Users/paulo/AppData/Local/CESEB/r2/source/build/dependencies/boost_1_86_0 \"-DCMAKE_PREFIX_PATH=C:/Users/paulo/AppData/Local/CESEB/r2/source/build/dependencies/Qt/6.12.0/msvc2022_64;C:/Users/paulo/AppData/Local/CESEB/r2/source/build/dependencies/install\"",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 5.550235748291016
+  },
+  {
+    "name": "windows-build",
+    "command": "cmake --build C:/Users/paulo/AppData/Local/CESEB/r4/review/build --parallel 2",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 89.78071141242981
+  },
+  {
+    "name": "windows-pixels-offscreen-1",
+    "command": "set \"QT_QPA_PLATFORM=offscreen\"\nset \"QT_SCALE_FACTOR=1\"\nset \"CESEB_PIXEL_EVIDENCE_DIR=C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-offscreen-1\"\nC:/Users/paulo/AppData/Local/CESEB/r4/review/build/bin/ceseb_gui_tests.exe req1216_inherited_palette -o C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-offscreen-1.xml,junitxml",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 1.7211294174194336
+  },
+  {
+    "name": "windows-pixels-offscreen-2",
+    "command": "set \"QT_QPA_PLATFORM=offscreen\"\nset \"QT_SCALE_FACTOR=2\"\nset \"CESEB_PIXEL_EVIDENCE_DIR=C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-offscreen-2\"\nC:/Users/paulo/AppData/Local/CESEB/r4/review/build/bin/ceseb_gui_tests.exe req1216_inherited_palette -o C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-offscreen-2.xml,junitxml",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 1.4896819591522217
+  },
+  {
+    "name": "windows-pixels-windows-1",
+    "command": "set \"QT_QPA_PLATFORM=windows\"\nset \"QT_SCALE_FACTOR=1\"\nset \"CESEB_PIXEL_EVIDENCE_DIR=C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-windows-1\"\nC:/Users/paulo/AppData/Local/CESEB/r4/review/build/bin/ceseb_gui_tests.exe req1216_inherited_palette -o C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-windows-1.xml,junitxml",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 2.286128282546997
+  },
+  {
+    "name": "windows-pixels-windows-2",
+    "command": "set \"QT_QPA_PLATFORM=windows\"\nset \"QT_SCALE_FACTOR=2\"\nset \"CESEB_PIXEL_EVIDENCE_DIR=C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-windows-2\"\nC:/Users/paulo/AppData/Local/CESEB/r4/review/build/bin/ceseb_gui_tests.exe req1216_inherited_palette -o C:/Users/paulo/AppData/Local/CESEB/r4/review/pixels-windows-2.xml,junitxml",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 1.8036372661590576
+  },
+  {
+    "name": "windows-ctest-offscreen",
+    "command": "set \"QT_QPA_PLATFORM=offscreen\"\nset \"QT_SCALE_FACTOR=1\"\nctest --test-dir C:/Users/paulo/AppData/Local/CESEB/r4/review/build --output-on-failure --no-tests=error --output-junit C:/Users/paulo/AppData/Local/CESEB/r4/review/ctest-offscreen.xml",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 2.947415351867676
+  },
+  {
+    "name": "windows-ctest-windows",
+    "command": "set \"QT_QPA_PLATFORM=windows\"\nset \"QT_SCALE_FACTOR=1\"\nctest --test-dir C:/Users/paulo/AppData/Local/CESEB/r4/review/build --output-on-failure --no-tests=error --output-junit C:/Users/paulo/AppData/Local/CESEB/r4/review/ctest-windows.xml",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 3.847808837890625
+  },
+  {
+    "name": "windows-core",
+    "command": "cmake -DCESEB_SOURCE_ROOT=C:/Users/paulo/AppData/Local/CESEB/r4/review/source -DCESEB_BINARY_ROOT=C:/Users/paulo/AppData/Local/CESEB/r4/review/core-build -DCESEB_BOOST_ROOT=C:/Users/paulo/AppData/Local/CESEB/r2/source/build/dependencies/boost_1_86_0 -DCESEB_GTEST_PREFIX=C:/Users/paulo/AppData/Local/CESEB/r2/source/build/dependencies/install -DCESEB_CXX_COMPILER=cl -DCESEB_SOURCE_REVISION=3f4dc69ec84230b4035572fc62af3d13db451d2a -P C:/Users/paulo/AppData/Local/CESEB/r4/review/source/tests/system/check_core_independence.cmake",
+    "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "exit": 0,
+    "seconds": 19.20670199394226
+  }
+]

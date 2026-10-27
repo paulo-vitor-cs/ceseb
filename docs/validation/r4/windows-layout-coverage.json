@@ -1,0 +1,1123 @@
+{
+  "1": {
+    "targets": 47,
+    "covered": 47,
+    "working_area": [
+      0,
+      0,
+      1920,
+      1032
+    ],
+    "records": [
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Simule seu financiamento",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.aboutButton",
+        "name": "Sobre e modelo",
+        "value": "",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Compare Price e SAC com as mesmas condições. Cálculo local, em reais.",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.principalInput",
+        "name": "Valor financiado (R$)",
+        "value": "1000",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateInput",
+        "name": "Taxa anual (%)",
+        "value": "0",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.termInput",
+        "name": "Prazo (meses)",
+        "value": "600",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateKindInput",
+        "name": "Tipo de taxa",
+        "value": "Nominal anual — capitalização mensal",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.principalLabel",
+        "name": "Valor financiado (R$)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateLabel",
+        "name": "Taxa anual (%)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateKindLabel",
+        "name": "Tipo de taxa",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.termLabel",
+        "name": "Prazo (meses)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.calculateButton",
+        "name": "Calcular",
+        "value": "",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.clearButton",
+        "name": "Limpar",
+        "value": "",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Efetiva mensal",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.monthlyRateValue",
+        "name": "0,000000%",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Nominal anual equivalente",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.nominalAnnualRateValue",
+        "name": "0,000000%",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Efetiva anual equivalente",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.effectiveAnnualRateValue",
+        "name": "0,000000%",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Prazo informado",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.requestedTermValue",
+        "name": "600 meses",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Price",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Parcela ordinária",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-010-capture.json",
+          "step-011-captureClient.json",
+          "step-013-capture.json",
+          "step-093-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceOrdinaryValue",
+        "name": "R$ 1,67",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Última parcela",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-205-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceLastValue",
+        "name": "R$ 1,34",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Pagamentos efetivos",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.pricePaymentsValue",
+        "name": "599",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Total pago",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceTotalValue",
+        "name": "R$ 1.000,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Juros totais",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceInterestValue",
+        "name": "R$ 0,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceAdjustmentNotice",
+        "name": "Quitado em 599 de 600 meses por ajuste de centavos.",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "SAC",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Primeira parcela",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacFirstValue",
+        "name": "R$ 1,67",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Última parcela",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacLastValue",
+        "name": "R$ 1,66",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Pagamentos efetivos",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacPaymentsValue",
+        "name": "600",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Total pago",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacTotalValue",
+        "name": "R$ 1.000,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Juros totais",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-096-capture.json",
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacInterestValue",
+        "name": "R$ 0,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Diferença de juros (Price − SAC)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.interestDifferenceValue",
+        "name": "R$ 0,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Principal + juros deste modelo. Seguros, tarifas, impostos e indexadores não incluídos. Não é CET.",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-098-capture.json",
+          "step-100-capture.json",
+          "step-102-capture.json",
+          "step-104-capture.json"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "targets": 47,
+    "covered": 47,
+    "working_area": [
+      0,
+      0,
+      1920,
+      1032
+    ],
+    "records": [
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Simule seu financiamento",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.aboutButton",
+        "name": "Sobre e modelo",
+        "value": "",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Compare Price e SAC com as mesmas condições. Cálculo local, em reais.",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.principalInput",
+        "name": "Valor financiado (R$)",
+        "value": "1000",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateInput",
+        "name": "Taxa anual (%)",
+        "value": "0",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.termInput",
+        "name": "Prazo (meses)",
+        "value": "600",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateKindInput",
+        "name": "Tipo de taxa",
+        "value": "Nominal anual — capitalização mensal",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.principalLabel",
+        "name": "Valor financiado (R$)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateLabel",
+        "name": "Taxa anual (%)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.rateKindLabel",
+        "name": "Tipo de taxa",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.termLabel",
+        "name": "Prazo (meses)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.calculateButton",
+        "name": "Calcular",
+        "value": "",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.clearButton",
+        "name": "Limpar",
+        "value": "",
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Efetiva mensal",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.monthlyRateValue",
+        "name": "0,000000%",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Nominal anual equivalente",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.nominalAnnualRateValue",
+        "name": "0,000000%",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Efetiva anual equivalente",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.effectiveAnnualRateValue",
+        "name": "0,000000%",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Prazo informado",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.requestedTermValue",
+        "name": "600 meses",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-133-capture.json",
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Price",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Parcela ordinária",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-135-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceOrdinaryValue",
+        "name": "R$ 1,67",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Última parcela",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-219-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceLastValue",
+        "name": "R$ 1,34",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Pagamentos efetivos",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.pricePaymentsValue",
+        "name": "599",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Total pago",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-152-capture.json",
+          "step-158-capture.json",
+          "step-164-capture.json",
+          "step-170-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceTotalValue",
+        "name": "R$ 1.000,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-152-capture.json",
+          "step-158-capture.json",
+          "step-164-capture.json",
+          "step-170-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Juros totais",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-152-capture.json",
+          "step-158-capture.json",
+          "step-164-capture.json",
+          "step-170-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceInterestValue",
+        "name": "R$ 0,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-152-capture.json",
+          "step-158-capture.json",
+          "step-164-capture.json",
+          "step-170-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.priceAdjustmentNotice",
+        "name": "Quitado em 599 de 600 meses por ajuste de centavos.",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "SAC",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Primeira parcela",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacFirstValue",
+        "name": "R$ 1,67",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Última parcela",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacLastValue",
+        "name": "R$ 1,66",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Pagamentos efetivos",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-140-capture.json",
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacPaymentsValue",
+        "name": "600",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Total pago",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacTotalValue",
+        "name": "R$ 1.000,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.QLabel",
+        "name": "Juros totais",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-142-capture.json",
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QFrame.sacInterestValue",
+        "name": "R$ 0,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-146-capture.json",
+          "step-148-capture.json",
+          "step-152-capture.json",
+          "step-154-capture.json",
+          "step-158-capture.json",
+          "step-160-capture.json",
+          "step-164-capture.json",
+          "step-166-capture.json",
+          "step-170-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Diferença de juros (Price − SAC)",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-148-capture.json",
+          "step-154-capture.json",
+          "step-160-capture.json",
+          "step-166-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.interestDifferenceValue",
+        "name": "R$ 0,00",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-148-capture.json",
+          "step-154-capture.json",
+          "step-160-capture.json",
+          "step-166-capture.json",
+          "step-172-capture.json"
+        ]
+      },
+      {
+        "id": "QApplication.QMainWindow.resultScrollArea.qt_scrollarea_viewport.simulationPage.QLabel",
+        "name": "Principal + juros deste modelo. Seguros, tarifas, impostos e indexadores não incluídos. Não é CET.",
+        "value": null,
+        "evidence_actual_screen_visible_and_scrollviewport": [
+          "step-148-capture.json",
+          "step-154-capture.json",
+          "step-160-capture.json",
+          "step-166-capture.json",
+          "step-172-capture.json"
+        ]
+      }
+    ]
+  }
+}

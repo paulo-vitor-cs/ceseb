@@ -1,0 +1,39 @@
+{
+  "SPDX-License-Identifier": "MIT",
+  "Copyright": "Copyright (c) 2026 paulo-vitor-cs",
+  "schema": 1,
+  "boost": {
+    "version": "1.86.0",
+    "archive": "boost_1_86_0.tar.bz2",
+    "url": "https://archives.boost.io/release/1.86.0/source/boost_1_86_0.tar.bz2",
+    "sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b"
+  },
+  "googletest": {
+    "version": "1.17.0",
+    "repository": "https://github.com/google/googletest.git",
+    "commit": "52eb8108c5bdec04579160ae17225d66034bd723"
+  },
+  "qt": {
+    "version": "6.12.0",
+    "build": "6.12.0-0-202609280346",
+    "linux": [
+      {
+        "archive": "6.12.0-0-202609280346qtbase-Linux-RHEL_9_6-GCC-Linux-RHEL_9_6-X86_64.7z",
+        "url": "https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_6120/qt6_6120/qt.qt6.6120.linux_gcc_64/6.12.0-0-202609280346qtbase-Linux-RHEL_9_6-GCC-Linux-RHEL_9_6-X86_64.7z",
+        "sha256": "943023b929d0c08eafe7341700b5ed7601284410b7afd6093f950be291d1d7cd"
+      },
+      {
+        "archive": "6.12.0-0-202609280346icu-linux-Rhel8.6-x86_64.7z",
+        "url": "https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/qt6_6120/qt6_6120/qt.qt6.6120.linux_gcc_64/6.12.0-0-202609280346icu-linux-Rhel8.6-x86_64.7z",
+        "sha256": "1fdbcd67b1760f3a3f031c64637a9f19992aed2f35aa615e12a468f8c655d4da"
+      }
+    ],
+    "windows": [
+      {
+        "archive": "6.12.0-0-202609280346qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+        "url": "https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_6120/qt6_6120_msvc2022_64/qt.qt6.6120.win64_msvc2022_64/6.12.0-0-202609280346qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+        "sha256": "219d1b86def3be418e31d704572bc4acc91b2ec373c65595c9fb12b42bf098dc"
+      }
+    ]
+  }
+}

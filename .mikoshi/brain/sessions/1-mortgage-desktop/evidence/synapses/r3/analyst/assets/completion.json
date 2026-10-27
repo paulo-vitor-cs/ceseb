@@ -1,0 +1,47 @@
+{
+  "native_status_operations": 5,
+  "literal_state_changes": 2,
+  "approved_bodies_preserved": 47,
+  "source_paths_preserved": 55,
+  "head": "57ef26901d4381ead16c7347483d588ad9d92efe",
+  "current_requirement_inventory": {
+    "pass": 20,
+    "fail": 2,
+    "windows_protocols_interrupted": 3
+  },
+  "target_states": [
+    {
+      "id": 1217,
+      "revision": 1,
+      "before": "published",
+      "after": "pass"
+    },
+    {
+      "id": 1221,
+      "revision": 1,
+      "before": "published",
+      "after": "pass"
+    },
+    {
+      "id": 1225,
+      "revision": 1,
+      "before": "fail",
+      "after": "fail"
+    },
+    {
+      "id": 1013,
+      "revision": 2,
+      "before": "partial implemented",
+      "after": "partial implemented"
+    },
+    {
+      "id": 1014,
+      "revision": 3,
+      "before": "partial implemented",
+      "after": "partial implemented"
+    }
+  ],
+  "next_role": "syncer-publication",
+  "publication_authority": "1040 r1; source branch already pushed and remote verified by root; documentary publication pending syncer",
+  "graph_refresh": "deferred to root final14-corpus refresh; no rebuild in this head"
+}

@@ -1,0 +1,15 @@
+{
+  "first_attempt": "Stopped before git add: guard accidentally rejected prior historical syncer evidence explicitly present in inherited selection.",
+  "state_reconciled": {
+    "HEAD": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "index": []
+  },
+  "invocation_correction": "Exclude only new r4 syncer receipts from first snapshot, retain explicitly selected prior historical syncer evidence. No selection, source or approval changed.",
+  "second_attempt": {
+    "operation": "git add exact216 returned1 for ignored out directory",
+    "staged_partial_count": 56,
+    "all_staged_within_selection": true,
+    "HEAD": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+    "recovery": "Preserve partial index; force only seven explicitly named historical out/review-wsl files, then reverify all216 index/source pairs before commit."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "authority_ref": "documents/1042/r1-f3-f4-concrete-procedure-release.md",
+  "base_report": "evidence/dispatch/r4/tests/base-result.md",
+  "base_report_id": 2411,
+  "base_report_revision": 1,
+  "test_head": "98af104b0f38160aaf04ee2915f4d60e949d13aa",
+  "actual_base_results": {
+    "F4": "four dark controls zero glyphdiff on WSL and Windows offscreen/native at scales1/2; lightcontrolspositive",
+    "F3": "originalZIPc716 actual checkerRED onlyDXC/DXIL, otherrequiredcontentpresent"
+  },
+  "native_test_commit_coverage": "ok4of4;unexpected/dirtyplannedempty",
+  "release_message": "PRODUCT_RELEASE delivered to f3_f4_product_executor after complete2411 read",
+  "product_filemap": [
+    "src/ui/main_window.cpp",
+    "cmake/WindowsDeploy.cmake"
+  ],
+  "product_commit_reported": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+  "pending": "Native final builds/packages/UI; noGREENclaim yet."
+}

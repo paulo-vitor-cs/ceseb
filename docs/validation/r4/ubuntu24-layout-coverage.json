@@ -1,0 +1,1640 @@
+{
+  "1": {
+    "logical_client": [
+      800,
+      600
+    ],
+    "physical_captures": [
+      800,
+      600
+    ],
+    "targets": 47,
+    "covered": 47,
+    "records": [
+      {
+        "tree_index": 5,
+        "role": "label",
+        "name": "Simule seu financiamento",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 6,
+        "role": "push button",
+        "name": "Sobre e modelo",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 7,
+        "role": "label",
+        "name": "Compare Price e SAC com as mesmas condições. Cálculo local, em reais.",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 9,
+        "role": "text",
+        "name": "Valor financiado (R$)",
+        "text": "1.000,00",
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 10,
+        "role": "text",
+        "name": "Taxa anual (%)",
+        "text": "0",
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 11,
+        "role": "text",
+        "name": "Prazo (meses)",
+        "text": "600",
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 12,
+        "role": "combo box",
+        "name": "Efetiva anual",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 16,
+        "role": "label",
+        "name": "Valor financiado (R$)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 17,
+        "role": "label",
+        "name": "Taxa anual (%)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 18,
+        "role": "label",
+        "name": "Tipo de taxa",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 19,
+        "role": "label",
+        "name": "Prazo (meses)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 20,
+        "role": "push button",
+        "name": "Calcular",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 21,
+        "role": "push button",
+        "name": "Limpar",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 24,
+        "role": "label",
+        "name": "Efetiva mensal",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 25,
+        "role": "label",
+        "name": "0,000000%",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 26,
+        "role": "label",
+        "name": "Nominal anual equivalente",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 27,
+        "role": "label",
+        "name": "0,000000%",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 28,
+        "role": "label",
+        "name": "Efetiva anual equivalente",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 29,
+        "role": "label",
+        "name": "0,000000%",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 30,
+        "role": "label",
+        "name": "Prazo informado",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 31,
+        "role": "label",
+        "name": "600 meses",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 33,
+        "role": "label",
+        "name": "Price",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 34,
+        "role": "label",
+        "name": "Parcela ordinária",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 35,
+        "role": "label",
+        "name": "R$ 1,67",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 36,
+        "role": "label",
+        "name": "Última parcela",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 37,
+        "role": "label",
+        "name": "R$ 1,34",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 38,
+        "role": "label",
+        "name": "Pagamentos efetivos",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 39,
+        "role": "label",
+        "name": "599",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 40,
+        "role": "label",
+        "name": "Total pago",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 41,
+        "role": "label",
+        "name": "R$ 1.000,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 42,
+        "role": "label",
+        "name": "Juros totais",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 43,
+        "role": "label",
+        "name": "R$ 0,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 44,
+        "role": "label",
+        "name": "Quitado em 599 de 600 meses por ajuste de centavos.",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 46,
+        "role": "label",
+        "name": "SAC",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 47,
+        "role": "label",
+        "name": "Primeira parcela",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 48,
+        "role": "label",
+        "name": "R$ 1,67",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 49,
+        "role": "label",
+        "name": "Última parcela",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 50,
+        "role": "label",
+        "name": "R$ 1,66",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 51,
+        "role": "label",
+        "name": "Pagamentos efetivos",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 52,
+        "role": "label",
+        "name": "600",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 53,
+        "role": "label",
+        "name": "Total pago",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 54,
+        "role": "label",
+        "name": "R$ 1.000,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 55,
+        "role": "label",
+        "name": "Juros totais",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 56,
+        "role": "label",
+        "name": "R$ 0,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 57,
+        "role": "label",
+        "name": "Diferença de juros (Price − SAC)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 58,
+        "role": "label",
+        "name": "R$ 0,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 59,
+        "role": "label",
+        "name": "Principal + juros deste modelo. Seguros, tarifas, impostos e indexadores não incluídos. Não é CET.",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "logical_client": [
+      800,
+      600
+    ],
+    "physical_captures": [
+      1600,
+      1200
+    ],
+    "targets": 47,
+    "covered": 47,
+    "records": [
+      {
+        "tree_index": 5,
+        "role": "label",
+        "name": "Simule seu financiamento",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 6,
+        "role": "push button",
+        "name": "Sobre e modelo",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 7,
+        "role": "label",
+        "name": "Compare Price e SAC com as mesmas condições. Cálculo local, em reais.",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 9,
+        "role": "text",
+        "name": "Valor financiado (R$)",
+        "text": "1.000,00",
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 10,
+        "role": "text",
+        "name": "Taxa anual (%)",
+        "text": "0",
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 11,
+        "role": "text",
+        "name": "Prazo (meses)",
+        "text": "600",
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 12,
+        "role": "combo box",
+        "name": "Efetiva anual",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 16,
+        "role": "label",
+        "name": "Valor financiado (R$)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 17,
+        "role": "label",
+        "name": "Taxa anual (%)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 18,
+        "role": "label",
+        "name": "Tipo de taxa",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 19,
+        "role": "label",
+        "name": "Prazo (meses)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 20,
+        "role": "push button",
+        "name": "Calcular",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 21,
+        "role": "push button",
+        "name": "Limpar",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 24,
+        "role": "label",
+        "name": "Efetiva mensal",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 25,
+        "role": "label",
+        "name": "0,000000%",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 26,
+        "role": "label",
+        "name": "Nominal anual equivalente",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 27,
+        "role": "label",
+        "name": "0,000000%",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 28,
+        "role": "label",
+        "name": "Efetiva anual equivalente",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 29,
+        "role": "label",
+        "name": "0,000000%",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 30,
+        "role": "label",
+        "name": "Prazo informado",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 31,
+        "role": "label",
+        "name": "600 meses",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 33,
+        "role": "label",
+        "name": "Price",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 34,
+        "role": "label",
+        "name": "Parcela ordinária",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "01-tab-1.json",
+          "01-tab-2.json",
+          "01-tab-3.json",
+          "01-tab-4.json",
+          "01-tab-5.json",
+          "01-tab-6.json",
+          "01-tab-7.json",
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 35,
+        "role": "label",
+        "name": "R$ 1,67",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 36,
+        "role": "label",
+        "name": "Última parcela",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json",
+          "10-layout-focus-3.json",
+          "10-layout-focus-4.json",
+          "10-layout-focus-5.json",
+          "10-layout-focus-6.json",
+          "10-layout-focus-7.json"
+        ]
+      },
+      {
+        "tree_index": 37,
+        "role": "label",
+        "name": "R$ 1,34",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 38,
+        "role": "label",
+        "name": "Pagamentos efetivos",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 39,
+        "role": "label",
+        "name": "599",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 40,
+        "role": "label",
+        "name": "Total pago",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "08-zero600-top.json",
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 41,
+        "role": "label",
+        "name": "R$ 1.000,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 42,
+        "role": "label",
+        "name": "Juros totais",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 43,
+        "role": "label",
+        "name": "R$ 0,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 44,
+        "role": "label",
+        "name": "Quitado em 599 de 600 meses por ajuste de centavos.",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json",
+          "10-layout-focus-1.json",
+          "10-layout-focus-2.json"
+        ]
+      },
+      {
+        "tree_index": 46,
+        "role": "label",
+        "name": "SAC",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 47,
+        "role": "label",
+        "name": "Primeira parcela",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 48,
+        "role": "label",
+        "name": "R$ 1,67",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 49,
+        "role": "label",
+        "name": "Última parcela",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-1.json",
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 50,
+        "role": "label",
+        "name": "R$ 1,66",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 51,
+        "role": "label",
+        "name": "Pagamentos efetivos",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 52,
+        "role": "label",
+        "name": "600",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 53,
+        "role": "label",
+        "name": "Total pago",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 54,
+        "role": "label",
+        "name": "R$ 1.000,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 55,
+        "role": "label",
+        "name": "Juros totais",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 56,
+        "role": "label",
+        "name": "R$ 0,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 57,
+        "role": "label",
+        "name": "Diferença de juros (Price − SAC)",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 58,
+        "role": "label",
+        "name": "R$ 0,00",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-2.json",
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      },
+      {
+        "tree_index": 59,
+        "role": "label",
+        "name": "Principal + juros deste modelo. Seguros, tarifas, impostos e indexadores não incluídos. Não é CET.",
+        "text": null,
+        "fully_contained_in_captured_client": [
+          "09-zero600-scroll-3.json",
+          "09-zero600-scroll-4.json",
+          "09-zero600-scroll-5.json",
+          "09-zero600-scroll-6.json"
+        ]
+      }
+    ]
+  }
+}

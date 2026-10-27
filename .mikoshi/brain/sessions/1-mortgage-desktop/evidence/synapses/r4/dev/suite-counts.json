@@ -1,0 +1,38 @@
+{
+  "linux-core-build-results.xml": {
+    "tests": 21,
+    "failures": 0,
+    "disabled": 0,
+    "skipped": 0
+  },
+  "windows-core-build-results.xml": {
+    "tests": 21,
+    "failures": 0,
+    "disabled": 0,
+    "skipped": 0
+  },
+  "windows-ctest-windows.xml": {
+    "tests": 27,
+    "failures": 0,
+    "disabled": 0,
+    "skipped": 0
+  },
+  "linux-ctest-xcb.xml": {
+    "tests": 27,
+    "failures": 0,
+    "disabled": 0,
+    "skipped": 0
+  },
+  "linux-ctest-offscreen.xml": {
+    "tests": 27,
+    "failures": 0,
+    "disabled": 0,
+    "skipped": 0
+  },
+  "windows-ctest-offscreen.xml": {
+    "tests": 27,
+    "failures": 0,
+    "disabled": 0,
+    "skipped": 0
+  }
+}

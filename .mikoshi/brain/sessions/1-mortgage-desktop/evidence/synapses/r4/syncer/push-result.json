@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "push",
+    "origin",
+    "HEAD:refs/heads/codex/mortgage-desktop"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": "To github.com:paulo-vitor-cs/ceseb.git\n   b5bb61c..183fabe  HEAD -> codex/mortgage-desktop\n"
+}

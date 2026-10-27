@@ -1,0 +1,22 @@
+AUXILIARY Ubuntu26.04/WSL GCC15, not Ubuntu24/GCC13 or Windows qualification
+['cmake', '-S', '.', '-B', 'build/aux-core', '-G', 'Ninja', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_CXX_COMPILER=/usr/bin/g++', '-DCESEB_BUILD_GUI=OFF', '-DCESEB_BUILD_TESTS=ON', '-DCMAKE_DISABLE_FIND_PACKAGE_Qt6=TRUE', '-DCESEB_BOOST_ROOT=/home/paulo/ceseb/build/dependencies/boost_1_86_0', '-DCMAKE_PREFIX_PATH=/home/paulo/ceseb/build/dependencies/install', '-DCESEB_SOURCE_REVISION=1d87900e2d0ced86177e97b832ef1e92311f589c']
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_DISABLE_FIND_PACKAGE_Qt6
+
+
+-- Build files have been written to: /home/paulo/ceseb/build/aux-core
+
+exit_code=0

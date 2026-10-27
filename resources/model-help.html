@@ -1,0 +1,17 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: MIT; Copyright (c) 2026 paulo-vitor-cs -->
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Sobre o modelo</title></head><body>
+<h1>Calculadora de financiamento</h1>
+<p>Compare os sistemas Price e SAC usando o mesmo valor financiado, taxa e prazo. O cálculo é local e os valores monetários são expressos em reais (BRL).</p>
+<h2>Taxas nominal e efetiva</h2>
+<p>A taxa nominal anual com capitalização mensal é dividida por 12 para obter a taxa mensal. A taxa efetiva anual usa a raiz de ordem 12 do fator anual. Os equivalentes mostrados representam o mesmo fator mensal. As seis casas dos rótulos não são reutilizadas para calcular juros.</p>
+<h2>Price e SAC</h2>
+<p>No Price, a prestação ordinária vem da anuidade postecipada. A última prestação quita exatamente o saldo e pode ser ajustada. No SAC, o principal é amortizado em partes iguais em centavos; o resto é distribuído nas primeiras amortizações e as prestações são não crescentes.</p>
+<p>O primeiro pagamento ocorre após um mês. Os pagamentos são mensais postecipados, em períodos iguais, sem calendário específico.</p>
+<h2>Centavos e prazo efetivo</h2>
+<p>Juros mensais e prestações são arredondados half-up: meio centavo sobe para o centavo seguinte. A taxa original é preservada exatamente. O Price pode terminar antes do prazo por ajuste de centavos; a comparação informa os pagamentos efetivos e o prazo solicitado. Uma combinação que não permita amortização positiva em centavos é recusada, para que você ajuste valor, prazo ou taxa.</p>
+<h2>Limites e exclusões</h2>
+<p>Valor de R$ 0,01 a R$ 100.000.000,00; prazo de 1 a 600 meses; entrada anual de 0% a 100%. Equivalentes anuais derivados podem exceder 100%.</p>
+<p>Não estão incluídos seguros, tarifas, impostos, indexadores, carência, entrada ou pagamentos extras. O total é principal mais juros deste modelo; não é CET nem cotação bancária. A diferença de juros mantém o sinal e não recomenda um sistema universalmente melhor.</p>
+<p>Versão, revisão e licenças dos componentes distribuídos são acessíveis nesta janela e nos arquivos locais que acompanham o aplicativo.</p>
+</body></html>

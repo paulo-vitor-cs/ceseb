@@ -1,0 +1,56 @@
+AUXILIARY Ubuntu26.04/WSL GCC15, not Ubuntu24/GCC13 or Windows qualification
+['ctest', '--test-dir', 'build/aux-core', '-C', 'Release', '--output-on-failure', '--no-tests=error', '--output-junit', '/home/paulo/ceseb/out/implementation/aux-core.xml']
+Internal ctest changing into directory: /home/paulo/ceseb/build/aux-core
+Test project /home/paulo/ceseb/build/aux-core
+      Start  1: Req1101.ExplicitKindsHaveDifferentMonthlyMeaning
+ 1/21 Test  #1: Req1101.ExplicitKindsHaveDifferentMonthlyMeaning ..............   Passed    0.00 sec
+      Start  2: Req1101.MissingAndUnknownKindsAreRejected
+ 2/21 Test  #2: Req1101.MissingAndUnknownKindsAreRejected .....................   Passed    0.00 sec
+      Start  3: Req1102.ProportionalFractionAndExactOrigin
+ 3/21 Test  #3: Req1102.ProportionalFractionAndExactOrigin ....................   Passed    0.00 sec
+      Start  4: Req1103.CompoundRootMatchesIndependentConstants
+ 4/21 Test  #4: Req1103.CompoundRootMatchesIndependentConstants ...............   Passed    0.00 sec
+      Start  5: Req1103.SmallTypedInputPreservesPositiveExactOrigin
+ 5/21 Test  #5: Req1103.SmallTypedInputPreservesPositiveExactOrigin ...........   Passed    0.00 sec
+      Start  6: Req1104.AnnualPercentagePointsAndDerivedCeiling
+ 6/21 Test  #6: Req1104.AnnualPercentagePointsAndDerivedCeiling ...............   Passed    0.00 sec
+      Start  7: Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries
+ 7/21 Test  #7: Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries .............   Passed    0.00 sec
+      Start  8: Req1106.PresentationDoesNotReplaceExactDescriptor
+ 8/21 Test  #8: Req1106.PresentationDoesNotReplaceExactDescriptor .............   Passed    0.00 sec
+      Start  9: Req1201.InclusivePrincipalAndTermLimits
+ 9/21 Test  #9: Req1201.InclusivePrincipalAndTermLimits .......................   Passed    0.00 sec
+      Start 10: Req1201.PrincipalThenRateThenTermThenCentAdmissibility
+10/21 Test #10: Req1201.PrincipalThenRateThenTermThenCentAdmissibility ........   Passed    0.00 sec
+      Start 11: Req1202.NormativePriceRowsAndEarlyPayoff
+11/21 Test #11: Req1202.NormativePriceRowsAndEarlyPayoff ......................   Passed    0.00 sec
+      Start 12: Req1202.EffectiveIrrationalPriceAndRecordedDuration
+12/21 Test #12: Req1202.EffectiveIrrationalPriceAndRecordedDuration ...........   Passed    0.02 sec
+      Start 13: Req1202.NormativeTwelvePeriodPrice
+13/21 Test #13: Req1202.NormativeTwelvePeriodPrice ............................   Passed    0.00 sec
+      Start 14: Req1203.NormativeSacRemainderAndTieNeighbors
+14/21 Test #14: Req1203.NormativeSacRemainderAndTieNeighbors ..................   Passed    0.00 sec
+      Start 15: Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments
+15/21 Test #15: Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments ...   Passed    0.07 sec
+      Start 16: Req1204.NormativeAndBoundaryBooksConserveMoney
+16/21 Test #16: Req1204.NormativeAndBoundaryBooksConserveMoney ................   Passed    0.20 sec
+      Start 17: Req1205.ZeroAndOnePeriodExactHalfUp
+17/21 Test #17: Req1205.ZeroAndOnePeriodExactHalfUp ...........................   Passed    0.00 sec
+      Start 18: Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot
+18/21 Test #18: Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot ...   Passed    0.00 sec
+      Start 19: Req1206.BothDistinctCentPrecisionRefusalsAreAtomic
+19/21 Test #19: Req1206.BothDistinctCentPrecisionRefusalsAreAtomic ............   Passed    0.00 sec
+      Start 20: Req1207.SameOriginEquivalentRatesAndSignedDifference
+20/21 Test #20: Req1207.SameOriginEquivalentRatesAndSignedDifference ..........   Passed    0.00 sec
+      Start 21: ceseb_domain_inventory
+21/21 Test #21: ceseb_domain_inventory ........................................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 21
+
+Label Time Summary:
+domain       =   0.33 sec*proc (21 tests)
+inventory    =   0.00 sec*proc (1 test)
+
+Total Test time (real) =   0.34 sec
+
+exit_code=0

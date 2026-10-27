@@ -1,0 +1,39 @@
+{
+  "authority": [
+    "documents/1041/r1-f3-f4-correction-authority.md",
+    "documents/1040/r1-alternative-validation-and-branch-push.md"
+  ],
+  "release_ref": "documents/1042/r1-f3-f4-concrete-procedure-release.md",
+  "plans": [
+    {
+      "path": "plans/2005/r1-f3-f4-regressions.md",
+      "id": 2005,
+      "revision": 1,
+      "body_sha256": "a7d9b90ff03ee4ce8c4b931416da7f6f42119658741812d4a549c63316d2299f",
+      "status": "published"
+    },
+    {
+      "path": "plans/2006/r1-f3-f4-corrections.md",
+      "id": 2006,
+      "revision": 1,
+      "body_sha256": "2648a4d3abe628417d640209e4976e735ad294896f4ed992d0a5c2f52deed4e6",
+      "status": "published"
+    }
+  ],
+  "test_files": [
+    "tests/CMakeLists.txt",
+    "tests/gui/gui_tests.hpp",
+    "tests/gui/req1216_inherited_palette_test.cpp",
+    "tests/system/check_windows_component_notices.cmake"
+  ],
+  "product_files": [
+    "src/ui/main_window.cpp",
+    "cmake/WindowsDeploy.cmake"
+  ],
+  "product_gate": "Actual base regression return and committedTEST_HEAD, then explicit root release.",
+  "models": {
+    "author": "gpt-6-astra",
+    "executor": "gpt-6.1-sol"
+  },
+  "editorial_integration": "Future test report IDs2411/2412; productauthoringreport2402 preserved."
+}

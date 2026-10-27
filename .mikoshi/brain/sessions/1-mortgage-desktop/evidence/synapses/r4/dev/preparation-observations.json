@@ -1,0 +1,4 @@
+{
+  "package_probe_attempt1": "A preliminary observer incorrectly expected127 total license-tree files; actual Windows132. That127 is the producer hash-subset count, not total files. Corrected observer denominator to enumerate all files, without changing any package or criterion. All132 match old bytes.",
+  "status_discovery": "status validate CLI subcommand unavailable; native status.validate Python read-only function selected after actual help/source inspection. No status.run/set mutation."
+}

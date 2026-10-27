@@ -1,0 +1,12 @@
+{
+  "windows": {
+    "path": "/mnt/c/Users/paulo/AppData/Local/CESEB/r4/implementation/packages-final/ceseb-0.1.0-windows-x86_64.zip",
+    "sha256": "f5071e93d3c99afd4b5fae395322897c8d074f928f66952366eb0b05ad762d20",
+    "bytes": 84400666
+  },
+  "linux": {
+    "path": "/home/paulo/ceseb/out/dispatch-r4/implementation/linux/packages-qualified/ceseb_0.1.0_amd64.deb",
+    "sha256": "8dd414362fc06456a7aadaf44acb5a80264514497433d0ba24f240d129628336",
+    "bytes": 97400034
+  }
+}

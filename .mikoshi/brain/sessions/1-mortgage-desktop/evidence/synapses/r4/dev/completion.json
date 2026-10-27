@@ -1,0 +1,15 @@
+{
+  "report_id": 2441,
+  "source_revision": "3f4dc69ec84230b4035572fc62af3d13db451d2a",
+  "requirement_results": {
+    "pass": 25,
+    "fail": 0,
+    "unjudged": 0
+  },
+  "specs_all_pass": 4,
+  "read_only_declarations_valid": 29,
+  "artifact_check": "ok",
+  "memory_revision": 13,
+  "ownership": "released",
+  "external_effects": []
+}

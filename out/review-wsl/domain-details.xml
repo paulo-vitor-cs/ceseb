@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="20" failures="0" disabled="0" errors="0" time="0.285" timestamp="2026-10-26T23:22:03.606" name="AllTests">
+  <testsuite name="Req1101" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.606">
+    <testcase name="ExplicitKindsHaveDifferentMonthlyMeaning" file="/home/paulo/ceseb/tests/domain/req1101_rate_kind_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.606" classname="Req1101" />
+    <testcase name="MissingAndUnknownKindsAreRejected" file="/home/paulo/ceseb/tests/domain/req1101_rate_kind_test.cpp" line="17" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.607" classname="Req1101" />
+  </testsuite>
+  <testsuite name="Req1102" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.607">
+    <testcase name="ProportionalFractionAndExactOrigin" file="/home/paulo/ceseb/tests/domain/req1102_nominal_monthly_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.607" classname="Req1102" />
+  </testsuite>
+  <testsuite name="Req1103" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2026-10-26T23:22:03.607">
+    <testcase name="CompoundRootMatchesIndependentConstants" file="/home/paulo/ceseb/tests/domain/req1103_effective_monthly_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.607" classname="Req1103" />
+    <testcase name="SmallTypedInputPreservesPositiveExactOrigin" file="/home/paulo/ceseb/tests/domain/req1103_effective_monthly_test.cpp" line="19" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.608" classname="Req1103" />
+  </testsuite>
+  <testsuite name="Req1104" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.608">
+    <testcase name="AnnualPercentagePointsAndDerivedCeiling" file="/home/paulo/ceseb/tests/domain/req1104_annual_equivalents_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.608" classname="Req1104" />
+  </testsuite>
+  <testsuite name="Req1105" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.609">
+    <testcase name="NonFiniteOutOfRangeAndInclusiveBoundaries" file="/home/paulo/ceseb/tests/domain/req1105_invalid_rate_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.609" classname="Req1105" />
+  </testsuite>
+  <testsuite name="Req1106" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.609">
+    <testcase name="PresentationDoesNotReplaceExactDescriptor" file="/home/paulo/ceseb/tests/domain/req1106_exact_rate_transport_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.609" classname="Req1106" />
+  </testsuite>
+  <testsuite name="Req1201" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.610">
+    <testcase name="InclusivePrincipalAndTermLimits" file="/home/paulo/ceseb/tests/domain/req1201_loan_domain_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.610" classname="Req1201" />
+    <testcase name="PrincipalThenRateThenTermThenCentAdmissibility" file="/home/paulo/ceseb/tests/domain/req1201_loan_domain_test.cpp" line="16" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.610" classname="Req1201" />
+  </testsuite>
+  <testsuite name="Req1202" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.014" timestamp="2026-10-26T23:22:03.610">
+    <testcase name="NormativePriceRowsAndEarlyPayoff" file="/home/paulo/ceseb/tests/domain/req1202_price_ledger_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.610" classname="Req1202" />
+    <testcase name="EffectiveIrrationalPriceAndRecordedDuration" file="/home/paulo/ceseb/tests/domain/req1202_price_ledger_test.cpp" line="24" status="run" result="completed" time="0.013" timestamp="2026-10-26T23:22:03.610" classname="Req1202">
+      <properties>
+        <property name="effective_price_cases_microseconds" value="13985"/>
+      </properties>
+    </testcase>
+    <testcase name="NormativeTwelvePeriodPrice" file="/home/paulo/ceseb/tests/domain/req1202_price_ledger_test.cpp" line="34" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.624" classname="Req1202" />
+  </testsuite>
+  <testsuite name="Req1203" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.061" timestamp="2026-10-26T23:22:03.624">
+    <testcase name="NormativeSacRemainderAndTieNeighbors" file="/home/paulo/ceseb/tests/domain/req1203_sac_ledger_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.624" classname="Req1203" />
+    <testcase name="SacGradeHasInitialRemainderAndNonIncreasingPayments" file="/home/paulo/ceseb/tests/domain/req1203_sac_ledger_test.cpp" line="23" status="run" result="completed" time="0.061" timestamp="2026-10-26T23:22:03.624" classname="Req1203" />
+  </testsuite>
+  <testsuite name="Req1204" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.205" timestamp="2026-10-26T23:22:03.686">
+    <testcase name="NormativeAndBoundaryBooksConserveMoney" file="/home/paulo/ceseb/tests/domain/req1204_money_invariants_test.cpp" line="9" status="run" result="completed" time="0.205" timestamp="2026-10-26T23:22:03.686" classname="Req1204">
+      <properties>
+        <property name="successful_grade_inputs" value="330"/>
+        <property name="cent_precision_rejections" value="150"/>
+      </properties>
+    </testcase>
+  </testsuite>
+  <testsuite name="Req1205" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.891">
+    <testcase name="ZeroAndOnePeriodExactHalfUp" file="/home/paulo/ceseb/tests/domain/req1205_zero_single_ties_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.891" classname="Req1205" />
+    <testcase name="JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot" file="/home/paulo/ceseb/tests/domain/req1205_zero_single_ties_test.cpp" line="25" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.891" classname="Req1205" />
+  </testsuite>
+  <testsuite name="Req1206" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.892">
+    <testcase name="BothDistinctCentPrecisionRefusalsAreAtomic" file="/home/paulo/ceseb/tests/domain/req1206_cent_admissibility_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.892" classname="Req1206" />
+  </testsuite>
+  <testsuite name="Req1207" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-10-26T23:22:03.892">
+    <testcase name="SameOriginEquivalentRatesAndSignedDifference" file="/home/paulo/ceseb/tests/domain/req1207_comparison_test.cpp" line="9" status="run" result="completed" time="0." timestamp="2026-10-26T23:22:03.892" classname="Req1207" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-27T10:20:06.105413+00:00",
+  "human_reply": "Desbloqueei a sessão",
+  "root_observation": {
+    "api": "WTSQuerySessionInformationW WTSSessionInfoEx",
+    "sessionId": 1,
+    "sessionFlags": 1,
+    "meaning": "UNLOCK",
+    "app_pid": 24464
+  },
+  "continuation": "Resume previously interrupted real Windows UI protocols under1040; keep published2271r1/2281r1/2280r1 bodies unchanged. New reports use sameIDs revisions2.",
+  "product_snapshot": "57ef26901d4381ead16c7347483d588ad9d92efe",
+  "documentary_head_at_resume": "bd56676ff02816205825b4f7209f793e4064acb2"
+}

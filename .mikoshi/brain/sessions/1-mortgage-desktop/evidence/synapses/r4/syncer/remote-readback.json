@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "ls-remote",
+    "--heads",
+    "origin",
+    "refs/heads/codex/mortgage-desktop"
+  ],
+  "exit": 0,
+  "stdout": "183fabed75334f8d51412a72c77914ada02c531b\trefs/heads/codex/mortgage-desktop\n",
+  "stderr": ""
+}

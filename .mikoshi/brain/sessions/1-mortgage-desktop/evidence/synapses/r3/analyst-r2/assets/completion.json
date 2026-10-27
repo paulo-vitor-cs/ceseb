@@ -1,0 +1,42 @@
+{
+  "report_id": 2291,
+  "report_revision": 2,
+  "tested_implementation": "57ef26901d4381ead16c7347483d588ad9d92efe",
+  "documentary_head_observed": "bd56676ff02816205825b4f7209f793e4064acb2",
+  "native_operations": 5,
+  "native_operations_exit0": 5,
+  "literal_status_changes": 3,
+  "reaffirmations": 2,
+  "current_requirement_counts": {
+    "pass": 22,
+    "fail": 3,
+    "interrupted": 0
+  },
+  "fail_ids": [
+    1216,
+    1225,
+    1228
+  ],
+  "original_six": {
+    "pass": [
+      1215,
+      1217,
+      1221,
+      1226
+    ],
+    "fail": [
+      1216,
+      1225
+    ]
+  },
+  "approved_bodies_preserved": 47,
+  "source_paths_preserved": 55,
+  "knowledge_draft": 19,
+  "old_reports_preserved": true,
+  "graph_rebuilt": false,
+  "next_role": "publication-syncer",
+  "publication_authority": "1040 explicit human push; preserve through final syncer",
+  "memory_revision": 5,
+  "report_check": "ok",
+  "report_check_exit": 0
+}

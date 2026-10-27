@@ -1,0 +1,119 @@
+[
+  {
+    "name": "linux-configure",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; cmake -S /work/r4/review/source -B /work/r4/review/build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=/usr/bin/g++-13 -DCESEB_SOURCE_REVISION=3f4dc69ec84230b4035572fc62af3d13db451d2a -DCESEB_BUILD_GUI=ON -DCESEB_BUILD_TESTS=ON -DCESEB_BOOST_ROOT=/boost -DCESEB_NOTICES_ROOT=/work/r4/review/deps/notices -DCESEB_DELIVERY_EVIDENCE_ROOT=/work/r4/review/source \"-DCMAKE_PREFIX_PATH=/work/r4/implementation/deps/qt;/work/gtest-install;/work/r4/implementation/sdk/usr\" -DOPENGL_opengl_LIBRARY=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu/libOpenGL.so -DOPENGL_glx_LIBRARY=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu/libGLX.so -DOPENGL_INCLUDE_DIR=/work/r4/implementation/sdk/usr/include"
+    ],
+    "exit": 0,
+    "seconds": 1.1933128833770752
+  },
+  {
+    "name": "linux-build",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; cmake --build /work/r4/review/build --parallel 2"
+    ],
+    "exit": 0,
+    "seconds": 69.68159246444702
+  },
+  {
+    "name": "linux-domain-inventory",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; /work/r4/review/build/bin/ceseb_domain_tests --gtest_list_tests"
+    ],
+    "exit": 0,
+    "seconds": 0.13124990463256836
+  },
+  {
+    "name": "linux-gui-inventory",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; QT_QPA_PLATFORM=offscreen /work/r4/review/build/bin/ceseb_gui_tests -functions"
+    ],
+    "exit": 0,
+    "seconds": 0.16727566719055176
+  },
+  {
+    "name": "linux-ctest-offscreen",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; QT_QPA_PLATFORM=offscreen ctest --test-dir /work/r4/review/build --output-on-failure --no-tests=error --output-junit /work/r4/review/ctest-offscreen.xml"
+    ],
+    "exit": 0,
+    "seconds": 1.136110782623291
+  },
+  {
+    "name": "linux-ctest-xcb",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; QT_QPA_PLATFORM=xcb xvfb-run -a -s \"-screen 0 1920x1400x24\" ctest --test-dir /work/r4/review/build --output-on-failure --no-tests=error --output-junit /work/r4/review/ctest-xcb.xml"
+    ],
+    "exit": 0,
+    "seconds": 1.6411073207855225
+  },
+  {
+    "name": "linux-pixels-1",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; QT_QPA_PLATFORM=xcb QT_SCALE_FACTOR=1 CESEB_PIXEL_EVIDENCE_DIR=/work/r4/review/pixels-1 xvfb-run -a -s \"-screen 0 1920x1400x24\" /work/r4/review/build/bin/ceseb_gui_tests req1216_inherited_palette -o /work/r4/review/pixels-1.xml,junitxml"
+    ],
+    "exit": 0,
+    "seconds": 0.3689544200897217
+  },
+  {
+    "name": "linux-pixels-2",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; QT_QPA_PLATFORM=xcb QT_SCALE_FACTOR=2 CESEB_PIXEL_EVIDENCE_DIR=/work/r4/review/pixels-2 xvfb-run -a -s \"-screen 0 1920x1400x24\" /work/r4/review/build/bin/ceseb_gui_tests req1216_inherited_palette -o /work/r4/review/pixels-2.xml,junitxml"
+    ],
+    "exit": 0,
+    "seconds": 0.4450039863586426
+  },
+  {
+    "name": "linux-core",
+    "command": [
+      "docker",
+      "exec",
+      "ceseb-validation-r3-ubuntu24",
+      "sh",
+      "-c",
+      "export LD_LIBRARY_PATH=/work/r4/implementation/sdk/usr/lib/x86_64-linux-gnu:/work/r4/implementation/deps/qt/lib; cmake -DCESEB_SOURCE_ROOT=/work/r4/review/source -DCESEB_BINARY_ROOT=/work/r4/review/core-build -DCESEB_BOOST_ROOT=/boost -DCESEB_GTEST_PREFIX=/work/gtest-install -DCESEB_CXX_COMPILER=/usr/bin/g++-13 -DCESEB_SOURCE_REVISION=3f4dc69ec84230b4035572fc62af3d13db451d2a -P /work/r4/review/source/tests/system/check_core_independence.cmake"
+    ],
+    "exit": 0,
+    "seconds": 26.59874963760376
+  }
+]

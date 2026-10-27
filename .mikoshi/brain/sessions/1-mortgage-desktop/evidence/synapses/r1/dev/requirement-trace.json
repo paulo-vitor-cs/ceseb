@@ -1,0 +1,712 @@
+[
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1101/r1-explicit-rate-kind.md",
+    "id": 1101,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Nominal12 mensal0.01 dentro1e-12.",
+      "Efetiva12 mensal0.009488792934582974126355069193493956 dentro1e-12.",
+      "nullopt e enum desconhecido retornam somente InvalidRateKind."
+    ],
+    "test_task": {
+      "task": "T1101",
+      "files": [
+        "tests/domain/req1101_rate_kind_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1101",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1102/r1-nominal-monthly.md",
+    "id": 1102,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Quatro entradas0/4.5/12/100 têm referências0/.00375/.01/1/12.",
+      "Predicado Decimal usa erro absoluto1e-12 sem double.",
+      "Zero numérico exato e crescimento racional1."
+    ],
+    "test_task": {
+      "task": "T1102",
+      "files": [
+        "tests/domain/req1102_nominal_monthly_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1102",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1103/r1-effective-monthly.md",
+    "id": 1103,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Efetiva0 retorna zero exato.",
+      "Efetiva4.5 atende referência e1e-12.",
+      "Efetiva12 atende referência e1e-12; recomposição adicional0/4.5/12 com erros0/1.06245e-47/1.65447e-47."
+    ],
+    "test_task": {
+      "task": "T1103",
+      "files": [
+        "tests/domain/req1103_effective_monthly_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1103",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1104/r1-annual-equivalents.md",
+    "id": 1104,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Nominal12 N12 e E12.682503013196972066120100 dentro1e-9.",
+      "Efetiva12 N11.386551521499568951626083032192747 e E12 dentro1e-9.",
+      "Duas entradas zero retornam N/Ezero exatos.",
+      "Nominal100 E segue100*((13/12)^12-1), acima100 sem cap."
+    ],
+    "test_task": {
+      "task": "T1104",
+      "files": [
+        "tests/domain/req1104_annual_equivalents_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1104",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1105/r1-invalid-rate-input.md",
+    "id": 1105,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "NaN/Infinity/-Infinity ->NonFiniteRate em ambos tipos.",
+      "-0.01/100.01 ->RateOutOfRange em ambos tipos.",
+      "0/100 aceitos com projeções finitas; análise do guard rejeita não finitos."
+    ],
+    "test_task": {
+      "task": "T1105",
+      "files": [
+        "tests/domain/req1105_invalid_rate_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1105",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1106/r1-unrounded-consumer-rate.md",
+    "id": 1106,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Descritor efetivo retém kind,p12,g28/25 e projeção dentro1e-12.",
+      "Textos quatro/seis casas0.9489/0.948879 não alteram resultado.",
+      "compare chama normalize uma vez e passa rate aos dois livros; UI monta LoanInput a partir de MoneyCodec, sem ler labels.",
+      "Nominal100 crescimento13/12; principal6,n1 cobra juro1 em ambos depois da quantização de labels."
+    ],
+    "test_task": {
+      "task": "T1106",
+      "files": [
+        "tests/domain/req1106_exact_rate_transport_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1106",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1201/r1-loan-domain.md",
+    "id": 1201,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "C0 e10000000001 ->PrincipalOutOfRange sem Comparison.",
+      "n0 e601 com C válido ->TermOutOfRange.",
+      "C1,n1 eCmax,n1/600 aceitos a taxa0.",
+      "Erros combinados respeitam principal,taxa/tipo,prazo,centavos."
+    ],
+    "test_task": {
+      "task": "T1201",
+      "files": [
+        "tests/domain/req1201_loan_domain_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1201",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1202/r1-price-ledger.md",
+    "id": 1202,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Price3: pagamentos34002/34002/34003; juros1000/670/337; saldos66998/33666/0.",
+      "Resumo ordinary34002,total102007,interest2007,actual3.",
+      "Zero600: ordinary167,last134,actual599,total100000.",
+      "Código e vetores verificam min(a,B+I) antes de n, quitação B+I em n e parada no saldo0.",
+      "C3,zero,n2: ordinary2 e pagamentos2/1.",
+      "Efetiva12,C100000,n3: ordinary33968, pagamentos33968/33968/33968; fronteiras do intervalo exato coincidem antes de aceitar."
+    ],
+    "test_task": {
+      "task": "T1202",
+      "files": [
+        "tests/domain/req1202_price_ledger_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1202",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1203/r1-sac-ledger.md",
+    "id": 1203,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "SAC3 amort33334/33333/33333; juros1000/667/333; pagamentos34334/34000/33666; saldos66666/33333/0.",
+      "Resumo total102000,interest2000,actual3.",
+      "Grade SAC admissível: n linhas e amortizaçãoq+(k<=r), diferenças<=1.",
+      "Juros calculados com saldo anterior e half-up exato; pagamentos não crescentes na grade.",
+      "C6,100%,n1 ->juro1/pagamento7; vizinhos5.999999/6/6.000001 ->juros0/1/1."
+    ],
+    "test_task": {
+      "task": "T1203",
+      "files": [
+        "tests/domain/req1203_sac_ledger_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1203",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1204/r1-money-invariants.md",
+    "id": 1204,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Identidades de cada linha verificadas por cpp_int na grade e pelo probe de todos os vetores normativos/fronteiras.",
+      "Soma principal=C e saldo final0; sem linha após quitação.",
+      "Total=sum pagamentos=C+sum juros e resumos iguais; probe inclui120000/zero/12.",
+      "Price1..n e SACn em todos os livros produzidos; rejeições separadas."
+    ],
+    "test_task": {
+      "task": "T1204",
+      "files": [
+        "tests/domain/req1204_money_invariants_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1204",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1205/r1-zero-and-single-period.md",
+    "id": 1205,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "120000/zero/12: cada livro12 pagamentos10000, total120000, juros0.",
+      "100/nominal6/n1: juro1 e pagamento101.",
+      "Uma única linha, saldo0, sem segunda cobrança.",
+      "6/nominal100/n1: juro1 e pagamento7 conservando1/12.",
+      "Vizinhos6%: juros0/1/1, pagamentos100/101/101.",
+      "Fixture exata100*((201/200)^12-1), com mais de seis casas; classificada RationalGrowth201/200, juro1/pagamento101."
+    ],
+    "test_task": {
+      "task": "T1205",
+      "files": [
+        "tests/domain/req1205_zero_single_ties_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1205",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1206/r1-cent-precision-errors.md",
+    "id": 1206,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "C1/zero/n600 ->UnsupportedCentPrecision.",
+      "C1200/nominal100/n600 ->UnsupportedCentPrecision; ordinary e primeiro juro100.",
+      "Variante Error não contém Comparison; ambos os erros atômicos."
+    ],
+    "test_task": {
+      "task": "T1206",
+      "files": [
+        "tests/domain/req1206_cent_admissibility_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1206",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1207/r1-comparable-results.md",
+    "id": 1207,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Inspeção própria: uma normalize, mesmos C,n,rate para Price/SAC.",
+      "Nominal12/100000/3 juros2007/2000 e diferença+7.",
+      "Efetiva12.682503013196972066120100 preserva livros literais.",
+      "Quantizar não altera origem; efetiva12 distinta, juros1904/1898,diferença+6."
+    ],
+    "test_task": {
+      "task": "T1207",
+      "files": [
+        "tests/domain/req1207_comparison_test.cpp",
+        "tests/support/financial_fixtures.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1207",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1211/r1-localized-input.md",
+    "id": 1211,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Codec aceita100.000,00/100000,00 ->10000000; recusa quatro formatos normativos.",
+      "Taxas4,5/4,123456 aceitas;4.5/4,1234567 recusadas sem truncar.",
+      "Prazo360 aceito;0/3,5 recusados.",
+      "Ambos tipos preservados; gramáticas ancoradas e trimmed externo; controlador monta objeto tipado."
+    ],
+    "test_task": {
+      "task": "T1211",
+      "files": [
+        "tests/gui/req1211_localized_input_test.cpp",
+        "tests/gui/gui_tests.hpp",
+        "tests/gui/gui_test_main.cpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1211",
+      "files": [
+        "src/ui/money_codec.hpp",
+        "src/ui/money_codec.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1212/r1-rate-presentation.md",
+    "id": 1212,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Nominal12 labels1,000000/12,000000/12,682503%.",
+      "Efetiva12 labels0,948879/11,386552/12,000000%.",
+      "Quantização inteira half-up; captions associam tipo/período a cada label.",
+      "Nominal100 mostra E161,...%; análise de quantize_rates usa fração exata da fórmula sem cap.",
+      "Pipeline0,000005/6/7 mostra mensal0,000000/1/1%.",
+      "Fixture isolada1/2000000 ponto percentual ->inteiro1 e texto0,000001%."
+    ],
+    "test_task": {
+      "task": "T1212",
+      "files": [
+        "tests/gui/req1212_rate_presentation_test.cpp",
+        "tests/gui/gui_tests.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1212",
+      "files": [
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp",
+        "src/ui/money_codec.hpp",
+        "src/ui/money_codec.cpp",
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1213/r1-comparison-presentation.md",
+    "id": 1213,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Nove campos de valores Price/SAC conferidos contra strings literais.",
+      "Ambosactual3; diferença realR$ +0,07 preservada por present; fonte lida além do helper de teste que remove+ para comparar magnitude.",
+      "Zero600: requested600;Priceactual599,last1,34, aviso599 de600;SACactual600,last1,66.",
+      "Texto de ajuste presente; n1 identifica Parcela única, com quitação final."
+    ],
+    "test_task": {
+      "task": "T1213",
+      "files": [
+        "tests/gui/req1213_comparison_presentation_test.cpp",
+        "tests/gui/gui_tests.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1213",
+      "files": [
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp",
+        "src/app/main.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1214/r1-ui-state-recovery.md",
+    "id": 1214,
+    "revision": 1,
+    "result": "pass",
+    "method": "test",
+    "criteria": [
+      "Edição separada de principal/taxa/prazo/tipo limpa16labels imediatamente.",
+      "Erros combinados preservam entradas, limpam resultados e seguem prioridade.",
+      "Focus asserts principais/taxa/tipo/prazo/calcular passaram com janela ativa; switch de show_error confere mapeamento.",
+      "Correção recupera ambos cartões; Limpar esvazia campos, nominal e foco principal.",
+      "Mensagem de centavos orienta ajustar valor/prazo/taxa; mensagens constantes sem traceback/caminho."
+    ],
+    "test_task": {
+      "task": "T1214",
+      "files": [
+        "tests/gui/req1214_state_recovery_test.cpp",
+        "tests/gui/gui_tests.hpp"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1214",
+      "files": [
+        "src/ui/simulation_controller.hpp",
+        "src/ui/simulation_controller.cpp",
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1215/r1-keyboard-navigation.md",
+    "id": 1215,
+    "revision": 1,
+    "result": null,
+    "method": null,
+    "criteria": [
+      "Sem resultado: exige demonstração de teclado nos dois desktops; inspeção de taborder/atalhos/buddies não substitui.",
+      "Sem resultado: exige demonstração de teclado nos dois desktops; inspeção de taborder/atalhos/buddies não substitui.",
+      "Sem resultado: exige demonstração de teclado nos dois desktops; inspeção de taborder/atalhos/buddies não substitui.",
+      "Sem resultado: exige demonstração de teclado nos dois desktops; inspeção de taborder/atalhos/buddies não substitui."
+    ],
+    "test_task": {
+      "task": "T1215",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1215",
+      "files": [
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp",
+        "src/app/main.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1216/r1-resize-access.md",
+    "id": 1216,
+    "revision": 1,
+    "result": null,
+    "method": null,
+    "criteria": [
+      "Sem resultado: quatro combinações Windows11/Ubuntu24 x100/200% em800x600 não executadas.",
+      "Sem resultado: quatro combinações Windows11/Ubuntu24 x100/200% em800x600 não executadas.",
+      "Sem resultado: quatro combinações Windows11/Ubuntu24 x100/200% em800x600 não executadas."
+    ],
+    "test_task": {
+      "task": "T1216",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1216",
+      "files": [
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1217/r1-model-help.md",
+    "id": 1217,
+    "revision": 1,
+    "result": null,
+    "method": null,
+    "criteria": [
+      "Tópicos1..3 presentes em HTML local/qrc; falta abrir ajuda e links no pacote instalado em sessão já offline para completar procedimento.",
+      "Tópicos1..3 presentes em HTML local/qrc; falta abrir ajuda e links no pacote instalado em sessão já offline para completar procedimento.",
+      "Tópicos1..3 presentes em HTML local/qrc; falta abrir ajuda e links no pacote instalado em sessão já offline para completar procedimento.",
+      "Tópicos1..3 presentes em HTML local/qrc; falta abrir ajuda e links no pacote instalado em sessão já offline para completar procedimento."
+    ],
+    "test_task": {
+      "task": "T1217",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1217",
+      "files": [
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp",
+        "resources/application.qrc",
+        "resources/model-help.html"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1221/r1-build-contract.md",
+    "id": 1221,
+    "revision": 1,
+    "result": null,
+    "method": null,
+    "criteria": [
+      "API/core sem Qt e isolamento WSL21/21 observados.",
+      "Qt discovery desabilitado, mas SDK existe; não é prova do ambiente sem instalação Qt.",
+      "Sem resultado: duas plataformas declaradas e mesma fonte sem Qt nelas não foram executadas."
+    ],
+    "test_task": {
+      "task": "T1221",
+      "files": [
+        "tests/CMakeLists.txt",
+        "tests/system/check_core_independence.cmake"
+      ]
+    },
+    "implementation_task": {
+      "task": "I-1221",
+      "files": [
+        "CMakeLists.txt",
+        "CMakePresets.json",
+        "cmake/Dependencies.cmake",
+        "cmake/AcquireDependencies.cmake",
+        "cmake/dependencies.lock.json",
+        "cmake/Version.hpp.in",
+        ".github/workflows/ci.yml"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1225/r1-runtime-packages.md",
+    "id": 1225,
+    "revision": 1,
+    "result": "fail",
+    "method": "test",
+    "criteria": [
+      "ZIP Windows não produzido; ausência permanece lacuna.",
+      "FAIL observado no DEBce5: desktop file sóem/opt/ceseb/share/applications, fora dos diretórios XDG padrão, sem registro adicional.",
+      "Abertura limpa dos dois SOs não executada; closureldd emWSL não substitui.",
+      "DEB identifica versão0.1.0/amd64/ce5; pacoteWindows continua ausente."
+    ],
+    "test_task": {
+      "task": "T1225",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1225",
+      "files": [
+        "cmake/Packaging.cmake",
+        "cmake/WindowsDeploy.cmake",
+        "packaging/ceseb.desktop",
+        "packaging/qt.conf",
+        "CMakeLists.txt"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1226/r1-native-smoke.md",
+    "id": 1226,
+    "revision": 1,
+    "result": null,
+    "method": null,
+    "criteria": [
+      "Sem resultado: demonstração dos pacotes nos dois desktops explicitamente excluiWSL.",
+      "Sem resultado: demonstração dos pacotes nos dois desktops explicitamente excluiWSL.",
+      "Sem resultado: demonstração dos pacotes nos dois desktops explicitamente excluiWSL.",
+      "Sem resultado: demonstração dos pacotes nos dois desktops explicitamente excluiWSL."
+    ],
+    "test_task": {
+      "task": "T1226",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1226",
+      "files": []
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1227/r1-technical-documentation.md",
+    "id": 1227,
+    "revision": 1,
+    "result": "fail",
+    "method": "inspection",
+    "criteria": [
+      "Documentação portuguesa cobre tópicos, mas dois links de licenças emdocs/README.md quebram na árvore instalada.",
+      "Mapa dos25 e distinções históricas presentes; rastreabilidade técnica lida contra reports e commits.",
+      "Resultados positivos/negativos/nãoexecutados atribuídos no relatório; comando nativo não é alegado verificado.",
+      "FAIL observado na documentação instalada: links../LICENSE e../THIRD_PARTY_NOTICES não recuperam os materiais; evidências de execução citadas não acompanham a árvoreDEB."
+    ],
+    "test_task": {
+      "task": "T1227",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1227",
+      "files": [
+        "docs/README.md",
+        "docs/user-guide.md",
+        "docs/build-and-test.md",
+        "docs/technical-report.md"
+      ]
+    }
+  },
+  {
+    "requirement": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1228/r1-distribution-notices.md",
+    "id": 1228,
+    "revision": 1,
+    "result": null,
+    "method": null,
+    "criteria": [
+      "MIT dos originais/copyright presentes; não estendido a terceiros.",
+      "Inventário Linux e127 materiais de notices comhashes válidos; Windows/CRT não qualificados.",
+      "FonteQtBaseexata025bd...incluída, textosGPL/LGPL econfig; possibilidade de substituição indicada sem bloqueio; substituição/reconstrução não executada.",
+      "Sem resultado global: inventário/termosRuntimeWindows e pacotealvo ausentes; inspeçãoLinux não certifica direitojurídico."
+    ],
+    "test_task": {
+      "task": "T1228",
+      "files": []
+    },
+    "implementation_task": {
+      "task": "I-1228",
+      "files": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "cmake/ThirdPartyNotices.cmake",
+        "CMakeLists.txt",
+        "CMakePresets.json",
+        "cmake/Dependencies.cmake",
+        "cmake/AcquireDependencies.cmake",
+        "cmake/dependencies.lock.json",
+        "cmake/Version.hpp.in",
+        ".github/workflows/ci.yml",
+        "include/ceseb/finance.hpp",
+        "src/core/finance.cpp",
+        "src/core/exact_math.hpp",
+        "src/core/exact_math.cpp",
+        "src/ui/money_codec.hpp",
+        "src/ui/money_codec.cpp",
+        "src/ui/main_window.hpp",
+        "src/ui/main_window.cpp",
+        "src/ui/simulation_controller.hpp",
+        "src/ui/simulation_controller.cpp",
+        "src/app/main.cpp",
+        "resources/application.qrc",
+        "resources/model-help.html"
+      ]
+    }
+  }
+]
