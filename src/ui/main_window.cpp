@@ -16,6 +16,7 @@
 #include <QGridLayout>
 #include <QLabel>
 #include <QLineEdit>
+#include <QPalette>
 #include <QPushButton>
 #include <QResizeEvent>
 #include <QScrollArea>
@@ -26,14 +27,34 @@
 static void register_application_resources() { Q_INIT_RESOURCE(application); }
 namespace ceseb::ui {
 MainWindow::MainWindow(CompareFunction compare,QWidget* parent) : QMainWindow(parent) {
+    // Keep every inherited surface readable even when the desktop uses dark colors.
+    QPalette light;
+    for (auto group : {QPalette::Active,QPalette::Inactive,QPalette::Disabled}) {
+        light.setColor(group,QPalette::Window,QColor("#f3f5f8"));
+        light.setColor(group,QPalette::WindowText,QColor("#182738"));
+        light.setColor(group,QPalette::Base,Qt::white);
+        light.setColor(group,QPalette::Text,QColor("#182738"));
+        light.setColor(group,QPalette::AlternateBase,QColor("#edf1f6"));
+        light.setColor(group,QPalette::Button,Qt::white);
+        light.setColor(group,QPalette::ButtonText,QColor("#182738"));
+        light.setColor(group,QPalette::ToolTipBase,Qt::white);
+        light.setColor(group,QPalette::ToolTipText,QColor("#182738"));
+        light.setColor(group,QPalette::Highlight,QColor("#245fcc"));
+        light.setColor(group,QPalette::HighlightedText,Qt::white);
+        light.setColor(group,QPalette::PlaceholderText,QColor("#526579"));
+        light.setColor(group,QPalette::Link,QColor("#245fcc"));
+        light.setColor(group,QPalette::LinkVisited,QColor("#6346a5"));
+    }
+    QApplication::setPalette(light);
     register_application_resources();
     setWindowTitle(QStringLiteral("CESEB · Calculadora de financiamento"));
     setStyleSheet(QStringLiteral(
-        "QMainWindow,QScrollArea{background:#f3f5f8;}"
+        "QMainWindow,QScrollArea,QWidget#simulationPage,QDialog{background:#f3f5f8;}"
         "QLabel{color:#182738;}"
         "QFrame[card=\"true\"]{background:white;border:1px solid #dfe5ed;border-radius:12px;}"
         "QLabel[muted=\"true\"]{color:#526579;}"
-        "QLineEdit,QComboBox{background:white;border:1px solid #bac8d8;border-radius:6px;padding:8px;min-height:22px;}"
+        "QLineEdit,QComboBox{background:white;color:#182738;selection-background-color:#245fcc;selection-color:white;border:1px solid #bac8d8;border-radius:6px;padding:8px;min-height:22px;}"
+        "QComboBox QAbstractItemView,QTextBrowser{background:white;color:#182738;selection-background-color:#245fcc;selection-color:white;}"
         "QLineEdit:focus,QComboBox:focus{border:2px solid #2563c5;padding:7px;}"
         "QPushButton{border:1px solid #bac8d8;border-radius:7px;padding:9px 15px;background:white;color:#182738;}"
         "QPushButton:focus{border:2px solid #2563c5;padding:8px 14px;}"
@@ -45,6 +66,7 @@ MainWindow::MainWindow(CompareFunction compare,QWidget* parent) : QMainWindow(pa
     scroll->setWidgetResizable(true);scroll->setFrameShape(QFrame::NoFrame);
     scroll->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);scroll->setFocusPolicy(Qt::NoFocus);
     auto* content=new QWidget(scroll);
+    content->setObjectName(QStringLiteral("simulationPage"));
     auto* page=new QVBoxLayout(content);page->setContentsMargins(26,24,26,24);page->setSpacing(18);
     auto* top=new QHBoxLayout;
     auto* title=new QLabel(QStringLiteral("Simule seu financiamento"),content);

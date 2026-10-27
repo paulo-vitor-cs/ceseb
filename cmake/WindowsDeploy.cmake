@@ -9,8 +9,9 @@ if(NOT EXISTS "@CESEB_MSVC_REDIST_LICENSE@" OR "@CESEB_MSVC_EDITION@" STREQUAL "
 endif()
 set(_bin "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin")
 set(_plugins "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/plugins")
+# Raster Widgets do not need optional DXC; this is separate from the D3D compiler.
 execute_process(COMMAND "@CESEB_QT_ROOT@/bin/windeployqt.exe" --release --no-translations
-  --no-compiler-runtime --no-system-d3d-compiler --no-opengl-sw
+  --no-compiler-runtime --no-system-d3d-compiler --no-system-dxc-compiler --no-opengl-sw
   --dir "${_bin}" --plugindir "${_plugins}" "${_bin}/ceseb.exe"
   RESULT_VARIABLE _status OUTPUT_VARIABLE _output ERROR_VARIABLE _error)
 if(NOT _status EQUAL 0)
