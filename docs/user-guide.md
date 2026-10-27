@@ -1,14 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 <!-- Copyright (c) 2026 paulo-vitor-cs -->
-# Uso da calculadora
+# Uso da Calculadora Financiamento
 
-No Windows, extraia o ZIP completo em uma pasta de sua escolha e abra
-`bin/ceseb.exe`. Conserve `plugins/`, `licenses/` e as DLLs junto do aplicativo.
-No Ubuntu 24.04, um DEB qualificado é instalado pelo gerenciador padrão e expõe
-o lançador CESEB em `/usr/share/applications/ceseb.desktop`; seu destino é
-`/opt/ceseb/bin/ceseb`. O Qt privado permanece em `/opt/ceseb/lib`. A produção e a
-validação desses dois pacotes ainda dependem dos ambientes declarados. Não
-substitua instalações globais de Qt para executar o aplicativo.
+Baixe o pacote da sua plataforma na [release v0.1.0](https://github.com/paulo-vitor-cs/ceseb/releases/tag/v0.1.0). Não é necessário clonar o repositório nem instalar compiladores ou Qt para usar o aplicativo.
+
+No Windows 11 x64, extraia o ZIP completo e abra `bin/ceseb.exe`. Conserve as DLLs e as pastas `plugins/` e `licenses/` junto do programa.
+
+No Ubuntu 24.04 x64, instale o DEB pelo gerenciador de pacotes ou com `sudo apt install ./calculadora-financiamento_0.1.0_amd64.deb`. Abra o aplicativo no menu ou execute `/opt/ceseb/bin/ceseb`. O runtime Qt acompanha o pacote em sua árvore privada; dependências do sistema são resolvidas pelo gerenciador de pacotes.
 
 Informe valor financiado, taxa anual, tipo de taxa e prazo em meses, e pressione
 **Calcular**. O aplicativo inicia com R$ 250.000,00, 4,5% nominal e 360 meses,
