@@ -7,9 +7,9 @@ tags:
 - desktop-ui
 - level-system
 - verification-demonstration
-status: published
+status: fail
 created: '2026-10-26'
-updated: '2026-10-26'
+updated: 2026-10-27
 description: Manter controles, mensagens e resultados alcançáveis nas dimensões e escalas declaradas.
 use_when:
 - Verificar legibilidade e acesso ao formulário e resultados em 800 por 600 pixels lógicos nas

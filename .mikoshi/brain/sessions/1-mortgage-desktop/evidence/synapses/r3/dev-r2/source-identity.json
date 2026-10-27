@@ -1,0 +1,12 @@
+{
+  "documentary_head": "bd56676ff02816205825b4f7209f793e4064acb2",
+  "tested_implementation": "57ef26901d4381ead16c7347483d588ad9d92efe",
+  "selected_paths": 55,
+  "matched_prior_hashes": 55,
+  "mismatches": [],
+  "prior_published_reports_unchanged": {
+    "evidence/synapses/r3/dev-review.md": true,
+    "evidence/dispatch/r3/windows-validation.md": true
+  },
+  "reuse": "Own previous review and suites in2241 and2281r1 are reused by exact product/test identity; no new full suite execution claimed."
+}

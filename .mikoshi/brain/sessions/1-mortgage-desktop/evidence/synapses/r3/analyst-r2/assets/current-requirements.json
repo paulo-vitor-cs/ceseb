@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1101,
+    "revision": 1,
+    "path": "requirements/1101/r1-explicit-rate-kind.md",
+    "status": "pass"
+  },
+  {
+    "id": 1102,
+    "revision": 1,
+    "path": "requirements/1102/r1-nominal-monthly.md",
+    "status": "pass"
+  },
+  {
+    "id": 1103,
+    "revision": 1,
+    "path": "requirements/1103/r1-effective-monthly.md",
+    "status": "pass"
+  },
+  {
+    "id": 1104,
+    "revision": 1,
+    "path": "requirements/1104/r1-annual-equivalents.md",
+    "status": "pass"
+  },
+  {
+    "id": 1105,
+    "revision": 1,
+    "path": "requirements/1105/r1-invalid-rate-input.md",
+    "status": "pass"
+  },
+  {
+    "id": 1106,
+    "revision": 1,
+    "path": "requirements/1106/r1-unrounded-consumer-rate.md",
+    "status": "pass"
+  },
+  {
+    "id": 1201,
+    "revision": 1,
+    "path": "requirements/1201/r1-loan-domain.md",
+    "status": "pass"
+  },
+  {
+    "id": 1202,
+    "revision": 1,
+    "path": "requirements/1202/r1-price-ledger.md",
+    "status": "pass"
+  },
+  {
+    "id": 1203,
+    "revision": 1,
+    "path": "requirements/1203/r1-sac-ledger.md",
+    "status": "pass"
+  },
+  {
+    "id": 1204,
+    "revision": 1,
+    "path": "requirements/1204/r1-money-invariants.md",
+    "status": "pass"
+  },
+  {
+    "id": 1205,
+    "revision": 1,
+    "path": "requirements/1205/r1-zero-and-single-period.md",
+    "status": "pass"
+  },
+  {
+    "id": 1206,
+    "revision": 1,
+    "path": "requirements/1206/r1-cent-precision-errors.md",
+    "status": "pass"
+  },
+  {
+    "id": 1207,
+    "revision": 1,
+    "path": "requirements/1207/r1-comparable-results.md",
+    "status": "pass"
+  },
+  {
+    "id": 1211,
+    "revision": 1,
+    "path": "requirements/1211/r1-localized-input.md",
+    "status": "pass"
+  },
+  {
+    "id": 1212,
+    "revision": 1,
+    "path": "requirements/1212/r1-rate-presentation.md",
+    "status": "pass"
+  },
+  {
+    "id": 1213,
+    "revision": 1,
+    "path": "requirements/1213/r1-comparison-presentation.md",
+    "status": "pass"
+  },
+  {
+    "id": 1214,
+    "revision": 1,
+    "path": "requirements/1214/r1-ui-state-recovery.md",
+    "status": "pass"
+  },
+  {
+    "id": 1215,
+    "revision": 1,
+    "path": "requirements/1215/r1-keyboard-navigation.md",
+    "status": "pass"
+  },
+  {
+    "id": 1216,
+    "revision": 1,
+    "path": "requirements/1216/r1-resize-access.md",
+    "status": "fail"
+  },
+  {
+    "id": 1217,
+    "revision": 1,
+    "path": "requirements/1217/r1-model-help.md",
+    "status": "pass"
+  },
+  {
+    "id": 1221,
+    "revision": 1,
+    "path": "requirements/1221/r1-build-contract.md",
+    "status": "pass"
+  },
+  {
+    "id": 1225,
+    "revision": 1,
+    "path": "requirements/1225/r1-runtime-packages.md",
+    "status": "fail"
+  },
+  {
+    "id": 1226,
+    "revision": 2,
+    "path": "requirements/1226/r2-wsl-linux-and-windows-smoke.md",
+    "status": "pass"
+  },
+  {
+    "id": 1227,
+    "revision": 1,
+    "path": "requirements/1227/r1-technical-documentation.md",
+    "status": "pass"
+  },
+  {
+    "id": 1228,
+    "revision": 1,
+    "path": "requirements/1228/r1-distribution-notices.md",
+    "status": "fail"
+  }
+]

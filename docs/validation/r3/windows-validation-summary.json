@@ -1,0 +1,169 @@
+{
+  "source_revision": "57ef26901d4381ead16c7347483d588ad9d92efe",
+  "windows_zip_sha256": "c71634da99c2efe7774db55e011883b2c12f001db7a972404093f7c05968da4b",
+  "initial_pid": 24464,
+  "reopened_pid": 7304,
+  "scale200_pid": 28484,
+  "keyboard_order": [
+    [
+      "rateInput"
+    ],
+    [
+      "rateKindInput"
+    ],
+    [
+      "termInput"
+    ],
+    [
+      "calculateButton"
+    ],
+    [
+      "clearButton"
+    ],
+    [
+      "aboutButton"
+    ],
+    [
+      "principalInput"
+    ]
+  ],
+  "keyboard_inverse": [
+    [
+      "aboutButton"
+    ],
+    [
+      "clearButton"
+    ],
+    [
+      "calculateButton"
+    ],
+    [
+      "termInput"
+    ],
+    [
+      "rateKindInput"
+    ],
+    [
+      "rateInput"
+    ],
+    [
+      "principalInput"
+    ]
+  ],
+  "nominal": {
+    "validationMessage": "",
+    "monthlyRateValue": "1,000000%",
+    "nominalAnnualRateValue": "12,000000%",
+    "effectiveAnnualRateValue": "12,682503%",
+    "requestedTermValue": "3 meses",
+    "priceOrdinaryValue": "R$ 340,02",
+    "priceLastValue": "R$ 340,03",
+    "pricePaymentsValue": "3",
+    "priceTotalValue": "R$ 1.020,07",
+    "priceInterestValue": "R$ 20,07",
+    "priceAdjustmentNotice": "Última parcela ajustada para quitação.",
+    "sacFirstValue": "R$ 343,34",
+    "sacLastValue": "R$ 336,66",
+    "sacPaymentsValue": "3",
+    "sacTotalValue": "R$ 1.020,00",
+    "sacInterestValue": "R$ 20,00",
+    "interestDifferenceValue": "R$ +0,07"
+  },
+  "effective": {
+    "validationMessage": "",
+    "monthlyRateValue": "0,948879%",
+    "nominalAnnualRateValue": "11,386552%",
+    "effectiveAnnualRateValue": "12,000000%",
+    "requestedTermValue": "3 meses",
+    "priceOrdinaryValue": "R$ 339,68",
+    "priceLastValue": "R$ 339,68",
+    "pricePaymentsValue": "3",
+    "priceTotalValue": "R$ 1.019,04",
+    "priceInterestValue": "R$ 19,04",
+    "priceAdjustmentNotice": "",
+    "sacFirstValue": "R$ 342,83",
+    "sacLastValue": "R$ 336,49",
+    "sacPaymentsValue": "3",
+    "sacTotalValue": "R$ 1.018,98",
+    "sacInterestValue": "R$ 18,98",
+    "interestDifferenceValue": "R$ +0,06"
+  },
+  "error": "Informe um valor válido entre R$ 0,01 e R$ 100.000.000,00, com até duas casas decimais.",
+  "clear_space_verified": true,
+  "scale100": {
+    "client": [
+      800,
+      600
+    ],
+    "dpi": 96,
+    "factor": 1,
+    "values": {
+      "validationMessage": "",
+      "monthlyRateValue": "0,000000%",
+      "nominalAnnualRateValue": "0,000000%",
+      "effectiveAnnualRateValue": "0,000000%",
+      "requestedTermValue": "600 meses",
+      "priceOrdinaryValue": "R$ 1,67",
+      "priceLastValue": "R$ 1,34",
+      "pricePaymentsValue": "599",
+      "priceTotalValue": "R$ 1.000,00",
+      "priceInterestValue": "R$ 0,00",
+      "priceAdjustmentNotice": "Quitado em 599 de 600 meses por ajuste de centavos.",
+      "sacFirstValue": "R$ 1,67",
+      "sacLastValue": "R$ 1,66",
+      "sacPaymentsValue": "600",
+      "sacTotalValue": "R$ 1.000,00",
+      "sacInterestValue": "R$ 0,00",
+      "interestDifferenceValue": "R$ 0,00"
+    }
+  },
+  "scale200_before_after_capture": {
+    "name": "21-scale200-exact-before-after",
+    "method": "OwnedNativeWindowSetWindowPos0414PrintWindow2",
+    "dpi": 96,
+    "captureClient": [
+      1600,
+      1200
+    ],
+    "printWindow": true,
+    "scale": 2,
+    "logical": [
+      800,
+      600
+    ],
+    "afterClient": [
+      1600,
+      1200
+    ],
+    "timestamp": "2026-10-27T10:31:55.5348425Z"
+  },
+  "scale200_values": {
+    "validationMessage": "",
+    "monthlyRateValue": "0,000000%",
+    "nominalAnnualRateValue": "0,000000%",
+    "effectiveAnnualRateValue": "0,000000%",
+    "requestedTermValue": "600 meses",
+    "priceOrdinaryValue": "R$ 1,67",
+    "priceLastValue": "R$ 1,34",
+    "pricePaymentsValue": "599",
+    "priceTotalValue": "R$ 1.000,00",
+    "priceInterestValue": "R$ 0,00",
+    "priceAdjustmentNotice": "Quitado em 599 de 600 meses por ajuste de centavos.",
+    "sacFirstValue": "R$ 1,67",
+    "sacLastValue": "R$ 1,66",
+    "sacPaymentsValue": "600",
+    "sacTotalValue": "R$ 1.000,00",
+    "sacInterestValue": "R$ 0,00",
+    "interestDifferenceValue": "R$ 0,00"
+  },
+  "findings": [
+    "Inputs contain values viaUIA but their text is invisible on white background in actual Windows dark app theme.",
+    "Requested term/interest difference/footer and help version have low contrast on dark page."
+  ],
+  "processes_closed_via_escape": [
+    24464,
+    7304,
+    28484
+  ],
+  "no_source_patch": true
+}

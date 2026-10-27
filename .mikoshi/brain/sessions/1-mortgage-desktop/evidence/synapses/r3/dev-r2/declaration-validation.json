@@ -1,0 +1,52 @@
+[
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1215/r1-keyboard-navigation.md",
+      "id": 1215,
+      "revision": 1
+    },
+    "to": "pass",
+    "valid": true,
+    "unjudged": null
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1216/r1-resize-access.md",
+      "id": 1216,
+      "revision": 1
+    },
+    "to": "fail",
+    "valid": true,
+    "unjudged": null
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/requirements/1226/r2-wsl-linux-and-windows-smoke.md",
+      "id": 1226,
+      "revision": 2
+    },
+    "to": "pass",
+    "valid": true,
+    "unjudged": null
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1013/r2-widgets-interface.md",
+      "id": 1013,
+      "revision": 2
+    },
+    "to": "partial implemented",
+    "valid": true,
+    "unjudged": []
+  },
+  {
+    "artifact": {
+      "path": "/home/paulo/ceseb/.mikoshi/brain/sessions/1-mortgage-desktop/specs/1014/r3-wsl-validation-delivery.md",
+      "id": 1014,
+      "revision": 3
+    },
+    "to": "partial implemented",
+    "valid": true,
+    "unjudged": []
+  }
+]

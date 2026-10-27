@@ -7,9 +7,9 @@ tags:
 - delivery
 - level-system
 - verification-demonstration
-status: published
+status: pass
 created: '2026-10-27'
-updated: '2026-10-27'
+updated: 2026-10-27
 description: Executar os cenários essenciais no pacote Windows 11 e em Linux com WSL
   aceito explicitamente pelo usuário.
 use_when:
