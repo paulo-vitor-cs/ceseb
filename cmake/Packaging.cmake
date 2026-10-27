@@ -43,14 +43,27 @@ else()
   qt_generate_deploy_app_script(TARGET ceseb OUTPUT_SCRIPT _deploy
     NO_TRANSLATIONS NO_COMPILER_RUNTIME INCLUDE_PLUGINS qxcb
     EXCLUDE_PLUGIN_TYPES ${_excluded_plugin_types}
-    POST_INCLUDE_REGEXES "^${CESEB_QT_ROOT}/lib/"
+    # CMake can retain plugin/../../lib in resolved paths; match the owned kit
+    # prefix, not only its canonical lib spelling.
+    POST_INCLUDE_REGEXES "^${CESEB_QT_ROOT}/"
     POST_EXCLUDE_REGEXES ".*")
   install(SCRIPT "${_deploy}")
+  install(CODE "
+    foreach(_required Core DBus Gui Widgets XcbQpa)
+      if(NOT EXISTS \"\$ENV{DESTDIR}\${CMAKE_INSTALL_PREFIX}/lib/libQt6\${_required}.so.6\")
+        message(FATAL_ERROR \"Private Qt dependency missing: \${_required}\")
+      endif()
+    endforeach()
+  ")
   install(FILES packaging/ceseb.desktop DESTINATION share/applications)
   set(CPACK_GENERATOR DEB)
   set(CPACK_PACKAGE_FILE_NAME "ceseb_${PROJECT_VERSION}_amd64")
   set(CPACK_PACKAGING_INSTALL_PREFIX /opt/ceseb)
   set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE amd64)
+  set(CPACK_DEBIAN_PACKAGE_SECTION utils)
+  # These QPA dependencies may not be installed in a development host using a
+  # private SDK; keep their Ubuntu package identities explicit as well as SHLIBDEPS.
+  set(CPACK_DEBIAN_PACKAGE_DEPENDS "libxcb-cursor0, libxcb-icccm4, libxcb-util1, libxcb-image0, libxcb-keysyms1, libxcb-render-util0")
   set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
   set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS_PRIVATE_DIRS "${CESEB_QT_ROOT}/lib")
 endif()
