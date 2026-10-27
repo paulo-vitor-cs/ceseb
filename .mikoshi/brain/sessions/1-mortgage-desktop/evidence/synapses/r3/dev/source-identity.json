@@ -1,0 +1,10 @@
+{
+  "head": "57ef26901d4381ead16c7347483d588ad9d92efe",
+  "selected_paths": 55,
+  "matched_previous_hashes": 55,
+  "mismatches": [],
+  "selected_dirty": "",
+  "reused_own_review": "evidence/synapses/r2/dev-review.md",
+  "reused_own_suite": "evidence/synapses/r2/dev/package-source-audit.json#junit",
+  "reason": "Same exact committed source snapshot, all selected product/test paths match prior own review and suite identity. No blanket claim of a new suite execution."
+}

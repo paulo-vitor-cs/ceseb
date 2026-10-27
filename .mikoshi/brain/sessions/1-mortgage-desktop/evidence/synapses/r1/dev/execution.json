@@ -1,0 +1,196 @@
+[
+  {
+    "name": "versions",
+    "command": [
+      "cmake",
+      "--version"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 0.01977213101054076,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": null
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/versions.log"
+  },
+  {
+    "name": "configure",
+    "command": [
+      "cmake",
+      "-S",
+      ".",
+      "-B",
+      "build/review-wsl/gui",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_CXX_COMPILER=/usr/bin/g++",
+      "-DCESEB_SOURCE_REVISION=ce5db2e9d7489e0b6258b449358d620a0c390b1e",
+      "-DCESEB_BUILD_GUI=ON",
+      "-DCESEB_BUILD_TESTS=ON",
+      "-DCESEB_BOOST_ROOT=/home/paulo/ceseb/build/dependencies/boost_1_86_0",
+      "-DCMAKE_PREFIX_PATH=/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64;/home/paulo/ceseb/build/dependencies/install;/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr",
+      "-DOPENGL_opengl_LIBRARY=/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+      "-DOPENGL_glx_LIBRARY=/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu/libGLX.so",
+      "-DOPENGL_INCLUDE_DIR=/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/include"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 1.7545028519962216,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": null
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/configure.log"
+  },
+  {
+    "name": "build",
+    "command": [
+      "cmake",
+      "--build",
+      "build/review-wsl/gui",
+      "--parallel",
+      "2"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 63.272160123990034,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": null
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/build.log"
+  },
+  {
+    "name": "domain-inventory",
+    "command": [
+      "build/review-wsl/gui/bin/ceseb_domain_tests",
+      "--gtest_list_tests"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 0.0022591839951928705,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": null
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/domain-inventory.log"
+  },
+  {
+    "name": "gui-inventory",
+    "command": [
+      "build/review-wsl/gui/bin/ceseb_gui_tests",
+      "-functions"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 0.02070742599607911,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": "offscreen"
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/gui-inventory.log"
+  },
+  {
+    "name": "ctest-offscreen",
+    "command": [
+      "ctest",
+      "--test-dir",
+      "build/review-wsl/gui",
+      "-C",
+      "Release",
+      "--output-on-failure",
+      "--no-tests=error",
+      "--output-junit",
+      "/home/paulo/ceseb/out/review-wsl/ctest-offscreen.xml"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 0.871514244005084,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": "offscreen"
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/ctest-offscreen.log"
+  },
+  {
+    "name": "ctest-xcb",
+    "command": [
+      "ctest",
+      "--test-dir",
+      "build/review-wsl/gui",
+      "-C",
+      "Release",
+      "--output-on-failure",
+      "--no-tests=error",
+      "--output-junit",
+      "/home/paulo/ceseb/out/review-wsl/ctest-xcb.xml"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 0.9545600559940794,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": "xcb"
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/ctest-xcb.log"
+  },
+  {
+    "name": "domain-details",
+    "command": [
+      "/usr/bin/time",
+      "-v",
+      "build/review-wsl/gui/bin/ceseb_domain_tests",
+      "--gtest_output=xml:/home/paulo/ceseb/out/review-wsl/domain-details.xml"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 0.28972372598946095,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": null
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/domain-details.log"
+  },
+  {
+    "name": "core-isolation",
+    "command": [
+      "cmake",
+      "-DCESEB_SOURCE_ROOT=/home/paulo/ceseb",
+      "-DCESEB_BINARY_ROOT=/home/paulo/ceseb/build/review-wsl/core-isolation",
+      "-DCESEB_BOOST_ROOT=/home/paulo/ceseb/build/dependencies/boost_1_86_0",
+      "-DCESEB_GTEST_PREFIX=/home/paulo/ceseb/build/dependencies/install",
+      "-DCESEB_CXX_COMPILER=/usr/bin/g++",
+      "-DCESEB_SOURCE_REVISION=ce5db2e9d7489e0b6258b449358d620a0c390b1e",
+      "-P",
+      "tests/system/check_core_independence.cmake"
+    ],
+    "cwd": "/home/paulo/ceseb",
+    "exit_code": 0,
+    "duration_seconds": 93.3396711509995,
+    "environment": {
+      "PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/cmake-3.28.6-linux-x86_64/bin:/home/paulo/ceseb/.mikoshi/cache/toolchains/ninja-1.13.1:/home/paulo/.local/bin:/home/paulo/.local/bin:/mnt/c/Users/paulo/.codex/tmp/arg0-linux/codex-arg0PGCceu:/mnt/c/Users/paulo/.codex/bin/wsl/db6b8f8451ed5c92:/mnt/c/Users/paulo/.codex/bin/wsl/1a4f6f66dd2f3710:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/GitHub CLI/:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/agy/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/paulo/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/paulo/.local/bin:/mnt/c/Users/paulo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paulo/AppData/Local/Python/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/paulo/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/paulo/AppData/Roaming/npm:/mnt/c/Users/paulo/.bun/bin:/mnt/c/Users/paulo/AppData/Local/nvm:/mnt/c/nvm4w/nodejs:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/paulo/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.1-full_build/bin:/snap/bin",
+      "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu:/home/paulo/ceseb/build/dependencies/Qt/6.12.0/gcc_64/lib",
+      "DISPLAY": ":0",
+      "QT_QPA_PLATFORM": null
+    },
+    "log": "/home/paulo/ceseb/out/review-wsl/core-isolation.log"
+  }
+]

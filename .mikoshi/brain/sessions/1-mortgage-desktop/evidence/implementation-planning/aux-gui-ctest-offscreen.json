@@ -1,0 +1,16 @@
+{
+  "command": [
+    "ctest",
+    "--test-dir",
+    "build/aux-gui",
+    "--output-on-failure",
+    "--no-tests=error",
+    "--output-junit",
+    "/home/paulo/ceseb/out/implementation/aux-gui-offscreen.xml"
+  ],
+  "exit_code": 0,
+  "source_revision": "6eb4c28b2f7be47bcacf81fcd88c2551656ce9a8",
+  "duration_seconds": 0.8705298900604248,
+  "QT_QPA_PLATFORM": "offscreen",
+  "environment": "WSL Ubuntu26/GCC15 auxiliary"
+}

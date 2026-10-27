@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="(empty)"
+	tests="26"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname=""
+	time="0"
+	timestamp="2026-10-26T23:22:01"
+	>
+	<testcase name="Req1101.ExplicitKindsHaveDifferentMonthlyMeaning" classname="Req1101.ExplicitKindsHaveDifferentMonthlyMeaning" time="0.00217455" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1101.ExplicitKindsHaveDifferentMonthlyMeaning
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1101
+[ RUN      ] Req1101.ExplicitKindsHaveDifferentMonthlyMeaning
+[       OK ] Req1101.ExplicitKindsHaveDifferentMonthlyMeaning (0 ms)
+[----------] 1 test from Req1101 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1101.MissingAndUnknownKindsAreRejected" classname="Req1101.MissingAndUnknownKindsAreRejected" time="0.00160008" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1101.MissingAndUnknownKindsAreRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1101
+[ RUN      ] Req1101.MissingAndUnknownKindsAreRejected
+[       OK ] Req1101.MissingAndUnknownKindsAreRejected (0 ms)
+[----------] 1 test from Req1101 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1102.ProportionalFractionAndExactOrigin" classname="Req1102.ProportionalFractionAndExactOrigin" time="0.00163809" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1102.ProportionalFractionAndExactOrigin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1102
+[ RUN      ] Req1102.ProportionalFractionAndExactOrigin
+[       OK ] Req1102.ProportionalFractionAndExactOrigin (0 ms)
+[----------] 1 test from Req1102 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1103.CompoundRootMatchesIndependentConstants" classname="Req1103.CompoundRootMatchesIndependentConstants" time="0.00225548" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1103.CompoundRootMatchesIndependentConstants
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1103
+[ RUN      ] Req1103.CompoundRootMatchesIndependentConstants
+[       OK ] Req1103.CompoundRootMatchesIndependentConstants (0 ms)
+[----------] 1 test from Req1103 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1103.SmallTypedInputPreservesPositiveExactOrigin" classname="Req1103.SmallTypedInputPreservesPositiveExactOrigin" time="0.00262051" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1103.SmallTypedInputPreservesPositiveExactOrigin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1103
+[ RUN      ] Req1103.SmallTypedInputPreservesPositiveExactOrigin
+[       OK ] Req1103.SmallTypedInputPreservesPositiveExactOrigin (0 ms)
+[----------] 1 test from Req1103 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1104.AnnualPercentagePointsAndDerivedCeiling" classname="Req1104.AnnualPercentagePointsAndDerivedCeiling" time="0.0021763" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1104.AnnualPercentagePointsAndDerivedCeiling
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1104
+[ RUN      ] Req1104.AnnualPercentagePointsAndDerivedCeiling
+[       OK ] Req1104.AnnualPercentagePointsAndDerivedCeiling (0 ms)
+[----------] 1 test from Req1104 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries" classname="Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries" time="0.00205214" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1105
+[ RUN      ] Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries
+[       OK ] Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries (0 ms)
+[----------] 1 test from Req1105 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1106.PresentationDoesNotReplaceExactDescriptor" classname="Req1106.PresentationDoesNotReplaceExactDescriptor" time="0.00233462" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1106.PresentationDoesNotReplaceExactDescriptor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1106
+[ RUN      ] Req1106.PresentationDoesNotReplaceExactDescriptor
+[       OK ] Req1106.PresentationDoesNotReplaceExactDescriptor (0 ms)
+[----------] 1 test from Req1106 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1201.InclusivePrincipalAndTermLimits" classname="Req1201.InclusivePrincipalAndTermLimits" time="0.00191659" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1201.InclusivePrincipalAndTermLimits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1201
+[ RUN      ] Req1201.InclusivePrincipalAndTermLimits
+[       OK ] Req1201.InclusivePrincipalAndTermLimits (0 ms)
+[----------] 1 test from Req1201 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1201.PrincipalThenRateThenTermThenCentAdmissibility" classname="Req1201.PrincipalThenRateThenTermThenCentAdmissibility" time="0.00155934" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1201.PrincipalThenRateThenTermThenCentAdmissibility
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1201
+[ RUN      ] Req1201.PrincipalThenRateThenTermThenCentAdmissibility
+[       OK ] Req1201.PrincipalThenRateThenTermThenCentAdmissibility (0 ms)
+[----------] 1 test from Req1201 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1202.NormativePriceRowsAndEarlyPayoff" classname="Req1202.NormativePriceRowsAndEarlyPayoff" time="0.00179393" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1202.NormativePriceRowsAndEarlyPayoff
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1202
+[ RUN      ] Req1202.NormativePriceRowsAndEarlyPayoff
+[       OK ] Req1202.NormativePriceRowsAndEarlyPayoff (0 ms)
+[----------] 1 test from Req1202 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1202.EffectiveIrrationalPriceAndRecordedDuration" classname="Req1202.EffectiveIrrationalPriceAndRecordedDuration" time="0.0158635" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1202.EffectiveIrrationalPriceAndRecordedDuration
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1202
+[ RUN      ] Req1202.EffectiveIrrationalPriceAndRecordedDuration
+[       OK ] Req1202.EffectiveIrrationalPriceAndRecordedDuration (14 ms)
+[----------] 1 test from Req1202 (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1202.NormativeTwelvePeriodPrice" classname="Req1202.NormativeTwelvePeriodPrice" time="0.00158461" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1202.NormativeTwelvePeriodPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1202
+[ RUN      ] Req1202.NormativeTwelvePeriodPrice
+[       OK ] Req1202.NormativeTwelvePeriodPrice (0 ms)
+[----------] 1 test from Req1202 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1203.NormativeSacRemainderAndTieNeighbors" classname="Req1203.NormativeSacRemainderAndTieNeighbors" time="0.00179524" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1203.NormativeSacRemainderAndTieNeighbors
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1203
+[ RUN      ] Req1203.NormativeSacRemainderAndTieNeighbors
+[       OK ] Req1203.NormativeSacRemainderAndTieNeighbors (0 ms)
+[----------] 1 test from Req1203 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments" classname="Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments" time="0.0646046" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1203
+[ RUN      ] Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments
+[       OK ] Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments (62 ms)
+[----------] 1 test from Req1203 (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1204.NormativeAndBoundaryBooksConserveMoney" classname="Req1204.NormativeAndBoundaryBooksConserveMoney" time="0.208224" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1204.NormativeAndBoundaryBooksConserveMoney
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1204
+[ RUN      ] Req1204.NormativeAndBoundaryBooksConserveMoney
+[       OK ] Req1204.NormativeAndBoundaryBooksConserveMoney (205 ms)
+[----------] 1 test from Req1204 (205 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (205 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1205.ZeroAndOnePeriodExactHalfUp" classname="Req1205.ZeroAndOnePeriodExactHalfUp" time="0.00183542" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1205.ZeroAndOnePeriodExactHalfUp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1205
+[ RUN      ] Req1205.ZeroAndOnePeriodExactHalfUp
+[       OK ] Req1205.ZeroAndOnePeriodExactHalfUp (0 ms)
+[----------] 1 test from Req1205 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot" classname="Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot" time="0.00156758" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1205
+[ RUN      ] Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot
+[       OK ] Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot (0 ms)
+[----------] 1 test from Req1205 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1206.BothDistinctCentPrecisionRefusalsAreAtomic" classname="Req1206.BothDistinctCentPrecisionRefusalsAreAtomic" time="0.00155428" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1206.BothDistinctCentPrecisionRefusalsAreAtomic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1206
+[ RUN      ] Req1206.BothDistinctCentPrecisionRefusalsAreAtomic
+[       OK ] Req1206.BothDistinctCentPrecisionRefusalsAreAtomic (0 ms)
+[----------] 1 test from Req1206 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="Req1207.SameOriginEquivalentRatesAndSignedDifference" classname="Req1207.SameOriginEquivalentRatesAndSignedDifference" time="0.001635" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain"/>
+		</properties>
+		<system-out>Running main() from /home/paulo/ceseb/build/dependencies/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Req1207.SameOriginEquivalentRatesAndSignedDifference
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Req1207
+[ RUN      ] Req1207.SameOriginEquivalentRatesAndSignedDifference
+[       OK ] Req1207.SameOriginEquivalentRatesAndSignedDifference (0 ms)
+[----------] 1 test from Req1207 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="ceseb_domain_inventory" classname="ceseb_domain_inventory" time="0.00476169" status="run">
+		<properties>
+			<property name="cmake_labels" value="domain;inventory"/>
+		</properties>
+		<system-out>-- All thirteen required domain suites are discoverable
+</system-out>
+	</testcase>
+	<testcase name="req1211_localized_input" classname="req1211_localized_input" time="0.126198" status="run">
+		<properties>
+			<property name="cmake_labels" value="gui"/>
+		</properties>
+		<system-out>********* Start testing of GuiContractTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.5.0 20240719 (Red Hat 11.5.0-5)), ubuntu 26.04
+PASS   : GuiContractTests::initTestCase()
+QWARN  : GuiContractTests::req1211_localized_input() This plugin does not support propagateSizeHints()
+PASS   : GuiContractTests::req1211_localized_input()
+PASS   : GuiContractTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 117ms
+********* Finished testing of GuiContractTests *********
+</system-out>
+	</testcase>
+	<testcase name="req1212_rate_presentation" classname="req1212_rate_presentation" time="0.118621" status="run">
+		<properties>
+			<property name="cmake_labels" value="gui"/>
+		</properties>
+		<system-out>********* Start testing of GuiContractTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.5.0 20240719 (Red Hat 11.5.0-5)), ubuntu 26.04
+PASS   : GuiContractTests::initTestCase()
+QWARN  : GuiContractTests::req1212_rate_presentation() This plugin does not support propagateSizeHints()
+PASS   : GuiContractTests::req1212_rate_presentation()
+PASS   : GuiContractTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 108ms
+********* Finished testing of GuiContractTests *********
+</system-out>
+	</testcase>
+	<testcase name="req1213_comparison_presentation" classname="req1213_comparison_presentation" time="0.0993849" status="run">
+		<properties>
+			<property name="cmake_labels" value="gui"/>
+		</properties>
+		<system-out>********* Start testing of GuiContractTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.5.0 20240719 (Red Hat 11.5.0-5)), ubuntu 26.04
+PASS   : GuiContractTests::initTestCase()
+QWARN  : GuiContractTests::req1213_comparison_presentation() This plugin does not support propagateSizeHints()
+PASS   : GuiContractTests::req1213_comparison_presentation()
+PASS   : GuiContractTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 89ms
+********* Finished testing of GuiContractTests *********
+</system-out>
+	</testcase>
+	<testcase name="req1214_state_recovery" classname="req1214_state_recovery" time="0.152519" status="run">
+		<properties>
+			<property name="cmake_labels" value="gui"/>
+		</properties>
+		<system-out>********* Start testing of GuiContractTests *********
+Config: Using QtTest library 6.12.0, Qt 6.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.5.0 20240719 (Red Hat 11.5.0-5)), ubuntu 26.04
+PASS   : GuiContractTests::initTestCase()
+QWARN  : GuiContractTests::req1214_state_recovery() This plugin does not support propagateSizeHints()
+QWARN  : GuiContractTests::req1214_state_recovery() This plugin does not support propagateSizeHints()
+PASS   : GuiContractTests::req1214_state_recovery()
+PASS   : GuiContractTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 141ms
+********* Finished testing of GuiContractTests *********
+</system-out>
+	</testcase>
+	<testcase name="ceseb_gui_inventory" classname="ceseb_gui_inventory" time="0.0131656" status="run">
+		<properties>
+			<property name="cmake_labels" value="gui;inventory"/>
+		</properties>
+		<system-out></system-out>
+	</testcase>
+</testsuite>

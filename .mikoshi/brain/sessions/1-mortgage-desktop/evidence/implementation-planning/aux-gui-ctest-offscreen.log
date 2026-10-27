@@ -1,0 +1,63 @@
+Internal ctest changing into directory: /home/paulo/ceseb/build/aux-gui
+Test project /home/paulo/ceseb/build/aux-gui
+      Start  1: Req1101.ExplicitKindsHaveDifferentMonthlyMeaning
+ 1/26 Test  #1: Req1101.ExplicitKindsHaveDifferentMonthlyMeaning ..............   Passed    0.00 sec
+      Start  2: Req1101.MissingAndUnknownKindsAreRejected
+ 2/26 Test  #2: Req1101.MissingAndUnknownKindsAreRejected .....................   Passed    0.00 sec
+      Start  3: Req1102.ProportionalFractionAndExactOrigin
+ 3/26 Test  #3: Req1102.ProportionalFractionAndExactOrigin ....................   Passed    0.00 sec
+      Start  4: Req1103.CompoundRootMatchesIndependentConstants
+ 4/26 Test  #4: Req1103.CompoundRootMatchesIndependentConstants ...............   Passed    0.00 sec
+      Start  5: Req1103.SmallTypedInputPreservesPositiveExactOrigin
+ 5/26 Test  #5: Req1103.SmallTypedInputPreservesPositiveExactOrigin ...........   Passed    0.00 sec
+      Start  6: Req1104.AnnualPercentagePointsAndDerivedCeiling
+ 6/26 Test  #6: Req1104.AnnualPercentagePointsAndDerivedCeiling ...............   Passed    0.00 sec
+      Start  7: Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries
+ 7/26 Test  #7: Req1105.NonFiniteOutOfRangeAndInclusiveBoundaries .............   Passed    0.00 sec
+      Start  8: Req1106.PresentationDoesNotReplaceExactDescriptor
+ 8/26 Test  #8: Req1106.PresentationDoesNotReplaceExactDescriptor .............   Passed    0.00 sec
+      Start  9: Req1201.InclusivePrincipalAndTermLimits
+ 9/26 Test  #9: Req1201.InclusivePrincipalAndTermLimits .......................   Passed    0.00 sec
+      Start 10: Req1201.PrincipalThenRateThenTermThenCentAdmissibility
+10/26 Test #10: Req1201.PrincipalThenRateThenTermThenCentAdmissibility ........   Passed    0.00 sec
+      Start 11: Req1202.NormativePriceRowsAndEarlyPayoff
+11/26 Test #11: Req1202.NormativePriceRowsAndEarlyPayoff ......................   Passed    0.00 sec
+      Start 12: Req1202.EffectiveIrrationalPriceAndRecordedDuration
+12/26 Test #12: Req1202.EffectiveIrrationalPriceAndRecordedDuration ...........   Passed    0.02 sec
+      Start 13: Req1202.NormativeTwelvePeriodPrice
+13/26 Test #13: Req1202.NormativeTwelvePeriodPrice ............................   Passed    0.00 sec
+      Start 14: Req1203.NormativeSacRemainderAndTieNeighbors
+14/26 Test #14: Req1203.NormativeSacRemainderAndTieNeighbors ..................   Passed    0.00 sec
+      Start 15: Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments
+15/26 Test #15: Req1203.SacGradeHasInitialRemainderAndNonIncreasingPayments ...   Passed    0.06 sec
+      Start 16: Req1204.NormativeAndBoundaryBooksConserveMoney
+16/26 Test #16: Req1204.NormativeAndBoundaryBooksConserveMoney ................   Passed    0.21 sec
+      Start 17: Req1205.ZeroAndOnePeriodExactHalfUp
+17/26 Test #17: Req1205.ZeroAndOnePeriodExactHalfUp ...........................   Passed    0.00 sec
+      Start 18: Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot
+18/26 Test #18: Req1205.JustBelowAtAndAboveHalfCentAndRationalEffectiveRoot ...   Passed    0.00 sec
+      Start 19: Req1206.BothDistinctCentPrecisionRefusalsAreAtomic
+19/26 Test #19: Req1206.BothDistinctCentPrecisionRefusalsAreAtomic ............   Passed    0.00 sec
+      Start 20: Req1207.SameOriginEquivalentRatesAndSignedDifference
+20/26 Test #20: Req1207.SameOriginEquivalentRatesAndSignedDifference ..........   Passed    0.00 sec
+      Start 21: ceseb_domain_inventory
+21/26 Test #21: ceseb_domain_inventory ........................................   Passed    0.00 sec
+      Start 22: req1211_localized_input
+22/26 Test #22: req1211_localized_input .......................................   Passed    0.12 sec
+      Start 23: req1212_rate_presentation
+23/26 Test #23: req1212_rate_presentation .....................................   Passed    0.11 sec
+      Start 24: req1213_comparison_presentation
+24/26 Test #24: req1213_comparison_presentation ...............................   Passed    0.11 sec
+      Start 25: req1214_state_recovery
+25/26 Test #25: req1214_state_recovery ........................................   Passed    0.16 sec
+      Start 26: ceseb_gui_inventory
+26/26 Test #26: ceseb_gui_inventory ...........................................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 26
+
+Label Time Summary:
+domain       =   0.34 sec*proc (21 tests)
+gui          =   0.52 sec*proc (5 tests)
+inventory    =   0.02 sec*proc (2 tests)
+
+Total Test time (real) =   0.87 sec

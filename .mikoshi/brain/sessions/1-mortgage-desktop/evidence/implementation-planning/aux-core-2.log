@@ -1,0 +1,38 @@
+AUXILIARY Ubuntu26.04/WSL GCC15, not Ubuntu24/GCC13 or Windows qualification
+['cmake', '--build', 'build/aux-core', '--parallel', '2']
+[1/34] Scanning /home/paulo/ceseb/src/core/exact_math.cpp for CXX dependencies
+[2/34] Scanning /home/paulo/ceseb/src/core/finance.cpp for CXX dependencies
+[3/34] Generating CXX dyndep file CMakeFiles/ceseb_core.dir/CXX.dd
+[4/34] Scanning /home/paulo/ceseb/tests/domain/req1102_nominal_monthly_test.cpp for CXX dependencies
+[5/34] Scanning /home/paulo/ceseb/tests/domain/req1101_rate_kind_test.cpp for CXX dependencies
+[6/34] Scanning /home/paulo/ceseb/tests/domain/req1104_annual_equivalents_test.cpp for CXX dependencies
+[7/34] Scanning /home/paulo/ceseb/tests/domain/req1103_effective_monthly_test.cpp for CXX dependencies
+[8/34] Scanning /home/paulo/ceseb/tests/domain/req1105_invalid_rate_test.cpp for CXX dependencies
+[9/34] Scanning /home/paulo/ceseb/tests/domain/req1106_exact_rate_transport_test.cpp for CXX dependencies
+[10/34] Scanning /home/paulo/ceseb/tests/domain/req1201_loan_domain_test.cpp for CXX dependencies
+[11/34] Scanning /home/paulo/ceseb/tests/domain/req1202_price_ledger_test.cpp for CXX dependencies
+[12/34] Scanning /home/paulo/ceseb/tests/domain/req1203_sac_ledger_test.cpp for CXX dependencies
+[13/34] Scanning /home/paulo/ceseb/tests/domain/req1204_money_invariants_test.cpp for CXX dependencies
+[14/34] Scanning /home/paulo/ceseb/tests/domain/req1205_zero_single_ties_test.cpp for CXX dependencies
+[15/34] Scanning /home/paulo/ceseb/tests/domain/req1206_cent_admissibility_test.cpp for CXX dependencies
+[16/34] Scanning /home/paulo/ceseb/tests/domain/req1207_comparison_test.cpp for CXX dependencies
+[17/34] Building CXX object CMakeFiles/ceseb_core.dir/src/core/finance.cpp.o
+[18/34] Generating CXX dyndep file tests/CMakeFiles/ceseb_domain_tests.dir/CXX.dd
+[19/34] Building CXX object CMakeFiles/ceseb_core.dir/src/core/exact_math.cpp.o
+[20/34] Linking CXX static library libceseb_core.a
+[21/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1101_rate_kind_test.cpp.o
+[22/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1102_nominal_monthly_test.cpp.o
+[23/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1103_effective_monthly_test.cpp.o
+[24/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1104_annual_equivalents_test.cpp.o
+[25/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1105_invalid_rate_test.cpp.o
+[26/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1106_exact_rate_transport_test.cpp.o
+[27/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1201_loan_domain_test.cpp.o
+[28/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1202_price_ledger_test.cpp.o
+[29/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1203_sac_ledger_test.cpp.o
+[30/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1204_money_invariants_test.cpp.o
+[31/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1205_zero_single_ties_test.cpp.o
+[32/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1206_cent_admissibility_test.cpp.o
+[33/34] Building CXX object tests/CMakeFiles/ceseb_domain_tests.dir/domain/req1207_comparison_test.cpp.o
+[34/34] Linking CXX executable bin/ceseb_domain_tests
+
+exit_code=0

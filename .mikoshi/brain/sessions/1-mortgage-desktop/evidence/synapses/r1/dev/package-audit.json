@@ -1,0 +1,1215 @@
+{
+  "source_revision": "ce5db2e9d7489e0b6258b449358d620a0c390b1e",
+  "old_package": {
+    "path": "/home/paulo/ceseb/out/packages/aux-wsl-closed/ceseb_0.1.0_amd64.deb",
+    "sha256": "d04f97d5cdc89f886bad6be46159d4d821eaf1e2374775eb1092ba0d643b31a6"
+  },
+  "new_package": {
+    "path": "/home/paulo/ceseb/out/review-wsl/packages/ceseb_0.1.0_amd64.deb",
+    "sha256": "6692adb56379f62e1412ec4b5fe9df5b0d23385c914119f301fbbc08698d2079"
+  },
+  "LD_LIBRARY_PATH": "/home/paulo/ceseb/.mikoshi/cache/toolchains/wsl-dev/sdk/usr/lib/x86_64-linux-gnu",
+  "SDK_Qt_in_LD_LIBRARY_PATH": false,
+  "documentation_links": [
+    {
+      "ref": "user-guide.md",
+      "resolved": "/home/paulo/ceseb/out/review-wsl/deb-ce5/opt/ceseb/docs/user-guide.md",
+      "exists": true
+    },
+    {
+      "ref": "build-and-test.md",
+      "resolved": "/home/paulo/ceseb/out/review-wsl/deb-ce5/opt/ceseb/docs/build-and-test.md",
+      "exists": true
+    },
+    {
+      "ref": "technical-report.md",
+      "resolved": "/home/paulo/ceseb/out/review-wsl/deb-ce5/opt/ceseb/docs/technical-report.md",
+      "exists": true
+    },
+    {
+      "ref": "../LICENSE",
+      "resolved": "/home/paulo/ceseb/out/review-wsl/deb-ce5/opt/ceseb/LICENSE",
+      "exists": false
+    },
+    {
+      "ref": "../THIRD_PARTY_NOTICES.md",
+      "resolved": "/home/paulo/ceseb/out/review-wsl/deb-ce5/opt/ceseb/THIRD_PARTY_NOTICES.md",
+      "exists": false
+    }
+  ],
+  "desktop_files": [
+    "opt/ceseb/share/applications/ceseb.desktop"
+  ],
+  "control_files": [
+    "md5sums",
+    "control"
+  ],
+  "private_libraries": [
+    "lib/libQt6Gui.so.6",
+    "lib/libicudata.so.73",
+    "lib/libicudata.so.73.2",
+    "lib/libicuuc.so.73",
+    "lib/libQt6Widgets.so.6",
+    "lib/libQt6XcbQpa.so.6",
+    "lib/libQt6Gui.so.6.12.0",
+    "lib/libicui18n.so.73",
+    "lib/libQt6DBus.so.6",
+    "lib/libQt6XcbQpa.so.6.12.0",
+    "lib/libicuuc.so.73.2",
+    "lib/libQt6Core.so.6",
+    "lib/libQt6Core.so.6.12.0",
+    "lib/libQt6Widgets.so.6.12.0",
+    "lib/libicui18n.so.73.2",
+    "lib/libQt6DBus.so.6.12.0"
+  ],
+  "plugins": [
+    "plugins/platforms/libqxcb.so"
+  ],
+  "installed-SHA256SUMS.txt": {
+    "count": 154,
+    "unparsed_metadata_lines": [
+      "CESEB 0.1.0",
+      "Source revision: ce5db2e9d7489e0b6258b449358d620a0c390b1e"
+    ],
+    "mismatches": [],
+    "rows": [
+      {
+        "path": "bin/ceseb",
+        "matches": true
+      },
+      {
+        "path": "bin/qt.conf",
+        "matches": true
+      },
+      {
+        "path": "docs/README.md",
+        "matches": true
+      },
+      {
+        "path": "docs/build-and-test.md",
+        "matches": true
+      },
+      {
+        "path": "docs/technical-report.md",
+        "matches": true
+      },
+      {
+        "path": "docs/user-guide.md",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6Core.so.6",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6Core.so.6.12.0",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6DBus.so.6",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6DBus.so.6.12.0",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6Gui.so.6",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6Gui.so.6.12.0",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6Widgets.so.6",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6Widgets.so.6.12.0",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6XcbQpa.so.6",
+        "matches": true
+      },
+      {
+        "path": "lib/libQt6XcbQpa.so.6.12.0",
+        "matches": true
+      },
+      {
+        "path": "lib/libicudata.so.73",
+        "matches": true
+      },
+      {
+        "path": "lib/libicudata.so.73.2",
+        "matches": true
+      },
+      {
+        "path": "lib/libicui18n.so.73",
+        "matches": true
+      },
+      {
+        "path": "lib/libicui18n.so.73.2",
+        "matches": true
+      },
+      {
+        "path": "lib/libicuuc.so.73",
+        "matches": true
+      },
+      {
+        "path": "lib/libicuuc.so.73.2",
+        "matches": true
+      },
+      {
+        "path": "licenses/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/SHA256SUMS.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/THIRD_PARTY_NOTICES.md",
+        "matches": true
+      },
+      {
+        "path": "licenses/boost-LICENSE_1_0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/googletest-LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/icu-LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/AFL-2.1.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Apache-2.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/BSD-2-Clause.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/BSD-3-Clause.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/BSD-4-Clause.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/BSL-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Bitstream-Vera.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/CC0-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/FTL.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/GFDL-1.3-no-invariants-only.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/GPL-2.0-only.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/GPL-2.0-or-later.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/GPL-3.0-only.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/HPND.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/IJG.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/IPL-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Imlib2.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LGPL-2.1-or-later.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LGPL-3.0-only.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Libpng.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LicenseRef-ICC-License.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LicenseRef-Lcs-Telegraphics.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LicenseRef-Qt-Commercial.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/LicenseRef-SHA1-Public-Domain.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Linux-syscall-note.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/MIT-Khronos-old.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/MIT-open-group.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/MIT.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/MPL-2.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Qt-GPL-exception-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/SPL-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Unicode-3.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/X11.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Xerox.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/Zlib.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/blessing.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/LICENSES/libpng-2.0.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/config_qtbase.opt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/config_qtbase.summary",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/sbom/qtbase-6.12.0.cdx.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/sbom/qtbase-6.12.0.source.spdx",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/sbom/qtbase-6.12.0.spdx",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/sbom/qtbase-6.12.0.spdx.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/D3D12MemoryAllocator/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/D3D12MemoryAllocator/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/VulkanMemoryAllocator/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/VulkanMemoryAllocator/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/android/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/android/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/blake2/COPYING",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/blake2/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/double-conversion/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/double-conversion/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/easing/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/easing/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/emoji-segmenter/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/forkfd/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/forkfd/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/freetype/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/freetype/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/gradle/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/gradle/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/harfbuzz-ng/COPYING",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/harfbuzz-ng/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/icc/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/icc/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libjpeg/COPYRIGHT.txt",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libjpeg/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libjpeg/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libpng/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libpng/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libpsl/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/libpsl/src/LICENSE.chromium",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/md4/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/md4c/LICENSE.md",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/md4c/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/md5/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/pcre2/LICENSE-SLJIT",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/pcre2/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/pixman/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/pixman/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/rfc6234/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/rfc6234/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/sha1/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/sha3/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/siphash/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/sqlite/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/tinycbor/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/tinycbor/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wasm/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/appmenu/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/color-management/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/fractional-scale/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/fullscreen-shell/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/linux-dmabuf/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/pointer-gestures/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/pointer-warp/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/presentation-time/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/scaler/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/session-management/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/tablet/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/text-input/v1/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/text-input/v2/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/text-input/v3/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/viewporter/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/wayland/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/wl-eglstream/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/wlr-data-control/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/wp-primary-selection/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-activation/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-decoration/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-dialog/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-foreign/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-output/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-shell/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-system-bell/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wayland/protocols/xdg-toplevel-icon/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/wintab/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/xcb/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/xcb/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/zlib/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "licenses/qtbase/thirdparty/zlib/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "licenses/source/qtbase-025bdad181de241e81bf853c8a2d7bf3d19261a9.tar.gz",
+        "matches": true
+      },
+      {
+        "path": "plugins/platforms/libqxcb.so",
+        "matches": true
+      },
+      {
+        "path": "share/applications/ceseb.desktop",
+        "matches": true
+      }
+    ]
+  },
+  "licenses/SHA256SUMS.txt": {
+    "count": 127,
+    "unparsed_metadata_lines": [
+      "QtBase source: https://code.qt.io/qt/qtbase.git @ 025bdad181de241e81bf853c8a2d7bf3d19261a9",
+      "Framework modifications: none"
+    ],
+    "mismatches": [],
+    "rows": [
+      {
+        "path": "boost-LICENSE_1_0.txt",
+        "matches": true
+      },
+      {
+        "path": "googletest-LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "icu-LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/AFL-2.1.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Apache-2.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/BSD-2-Clause.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/BSD-3-Clause.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/BSD-4-Clause.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/BSL-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Bitstream-Vera.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/CC0-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/FTL.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/GFDL-1.3-no-invariants-only.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/GPL-2.0-only.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/GPL-2.0-or-later.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/GPL-3.0-only.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/HPND.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/IJG.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/IPL-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Imlib2.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LGPL-2.1-or-later.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LGPL-3.0-only.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Libpng.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LicenseRef-ICC-License.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LicenseRef-Lcs-Telegraphics.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LicenseRef-Qt-Commercial.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/LicenseRef-SHA1-Public-Domain.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Linux-syscall-note.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/MIT-Khronos-old.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/MIT-open-group.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/MIT.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/MPL-2.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Qt-GPL-exception-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/SPL-1.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Unicode-3.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/X11.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Xerox.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/Zlib.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/blessing.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/LICENSES/libpng-2.0.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/config_qtbase.opt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/config_qtbase.summary",
+        "matches": true
+      },
+      {
+        "path": "qtbase/sbom/qtbase-6.12.0.cdx.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/sbom/qtbase-6.12.0.source.spdx",
+        "matches": true
+      },
+      {
+        "path": "qtbase/sbom/qtbase-6.12.0.spdx",
+        "matches": true
+      },
+      {
+        "path": "qtbase/sbom/qtbase-6.12.0.spdx.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/D3D12MemoryAllocator/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/D3D12MemoryAllocator/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/VulkanMemoryAllocator/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/VulkanMemoryAllocator/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/android/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/android/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/blake2/COPYING",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/blake2/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/double-conversion/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/double-conversion/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/easing/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/easing/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/emoji-segmenter/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/forkfd/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/forkfd/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/freetype/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/freetype/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/gradle/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/gradle/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/harfbuzz-ng/COPYING",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/harfbuzz-ng/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/icc/LICENSE.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/icc/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libjpeg/COPYRIGHT.txt",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libjpeg/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libjpeg/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libpng/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libpng/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libpsl/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/libpsl/src/LICENSE.chromium",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/md4/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/md4c/LICENSE.md",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/md4c/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/md5/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/pcre2/LICENSE-SLJIT",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/pcre2/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/pixman/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/pixman/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/rfc6234/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/rfc6234/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/sha1/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/sha3/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/siphash/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/sqlite/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/tinycbor/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/tinycbor/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wasm/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/appmenu/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/color-management/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/fractional-scale/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/fullscreen-shell/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/linux-dmabuf/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/pointer-gestures/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/pointer-warp/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/presentation-time/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/scaler/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/session-management/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/tablet/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/text-input/v1/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/text-input/v2/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/text-input/v3/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/viewporter/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/wayland/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/wl-eglstream/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/wlr-data-control/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/wp-primary-selection/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-activation/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-decoration/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-dialog/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-foreign/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-output/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-shell/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-system-bell/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wayland/protocols/xdg-toplevel-icon/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/wintab/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/xcb/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/xcb/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/zlib/LICENSE",
+        "matches": true
+      },
+      {
+        "path": "qtbase/thirdparty/zlib/qt_attribution.json",
+        "matches": true
+      },
+      {
+        "path": "source/qtbase-025bdad181de241e81bf853c8a2d7bf3d19261a9.tar.gz",
+        "matches": true
+      }
+    ]
+  },
+  "binary_revision_found": true,
+  "source_archive_present": true,
+  "source_delta_2b_to_ce5": "M\tdocs/technical-report.md\nM\ttests/gui/gui_tests.hpp\nM\ttests/gui/req1211_localized_input_test.cpp\nM\ttests/gui/req1212_rate_presentation_test.cpp\nM\ttests/gui/req1213_comparison_presentation_test.cpp\nM\ttests/gui/req1214_state_recovery_test.cpp\n"
+}
